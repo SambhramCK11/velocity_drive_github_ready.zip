@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 200" role="img"
+     aria-label="convertible side profile illustration">
+  <defs>
+    <linearGradient id="paintconvertible" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff2c35"/>
+      <stop offset="42%" stop-color="#cf2027"/>
+      <stop offset="100%" stop-color="#671013"/>
+    </linearGradient>
+    <linearGradient id="glassconvertible" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#e8f1fb" stop-opacity="0.92"/>
+      <stop offset="55%" stop-color="#7f93ab" stop-opacity="0.80"/>
+      <stop offset="100%" stop-color="#2b3647" stop-opacity="0.88"/>
+    </linearGradient>
+    <linearGradient id="lampconvertible" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fffbe8"/>
+      <stop offset="100%" stop-color="#ffd27a"/>
+    </linearGradient>
+    <radialGradient id="rimconvertible" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0%" stop-color="#f4f6fa"/>
+      <stop offset="100%" stop-color="#7f8796"/>
+    </radialGradient>
+    <linearGradient id="shineconvertible" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="dropconvertible" x="-20%" y="-25%" width="140%" height="165%">
+      <feDropShadow dx="0" dy="12" stdDeviation="11" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="230" cy="186" rx="196" ry="10" fill="#000" opacity="0.30"/>
+  <g filter="url(#dropconvertible)">
+    <path d="M14,156 L14,134 Q16,120 42,116 L128,108 Q150,106 160,102 L182,64 L200,62 L208,100 L248,98 Q254,82 268,82 Q282,82 288,98 L332,96 Q372,94 400,102 L424,110 Q436,114 436,128 L436,156 L387,156 A41,41 0 0 0 305,156 L151,156 A41,41 0 0 0 69,156 Z" fill="url(#paintconvertible)"/>
+    <path d="M14,156 L14,134 Q16,120 42,116 L128,108 Q150,106 160,102 L182,64 L200,62 L208,100 L248,98 Q254,82 268,82 Q282,82 288,98 L332,96 Q372,94 400,102 L424,110 Q436,114 436,128 L436,156 L387,156 A41,41 0 0 0 305,156 L151,156 A41,41 0 0 0 69,156 Z" fill="none" stroke="#460a0d" stroke-width="2" opacity="0.55"/>
+    <path d="M167,100 L186,66 L197,65 L204,100 Z" fill="url(#glassconvertible)"/>
+    <path d="M34,118 L68,114 L70,124 L34,126 Z" fill="url(#lampconvertible)" opacity="0.95"/><path d="M398,108 L426,114 L424,123 L396,117 Z" fill="url(#lampconvertible)" opacity="0.95"/>
+    <path d="M262,98 L262,142" stroke="#460a0d" stroke-width="1.6" fill="none" opacity="0.45"/>
+    <path d="M54,146 L396,141"
+          stroke="url(#shineconvertible)" stroke-width="3.5" fill="none"/>
+  </g>
+  <g><circle cx="110" cy="150" r="32" fill="#090b11"/><circle cx="110" cy="150" r="28" fill="#171b26"/><circle cx="110" cy="150" r="18" fill="url(#rimconvertible)"/><line x1="110" y1="150" x2="126.6" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="110" y1="150" x2="121.8" y2="161.8" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="110" y1="150" x2="110.0" y2="166.6" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="110" y1="150" x2="98.2" y2="161.8" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="110" y1="150" x2="93.4" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="110" y1="150" x2="98.2" y2="138.2" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="110" y1="150" x2="110.0" y2="133.4" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="110" y1="150" x2="121.8" y2="138.2" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><circle cx="110" cy="150" r="5" fill="#0d1017"/><circle cx="110" cy="150" r="32" fill="none" stroke="#000" stroke-opacity="0.5" stroke-width="1.5"/></g><g><circle cx="346" cy="150" r="32" fill="#090b11"/><circle cx="346" cy="150" r="28" fill="#171b26"/><circle cx="346" cy="150" r="18" fill="url(#rimconvertible)"/><line x1="346" y1="150" x2="362.6" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="346" y1="150" x2="357.8" y2="161.8" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="346" y1="150" x2="346.0" y2="166.6" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="346" y1="150" x2="334.2" y2="161.8" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="346" y1="150" x2="329.4" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="346" y1="150" x2="334.2" y2="138.2" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="346" y1="150" x2="346.0" y2="133.4" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="346" y1="150" x2="357.8" y2="138.2" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><circle cx="346" cy="150" r="5" fill="#0d1017"/><circle cx="346" cy="150" r="32" fill="none" stroke="#000" stroke-opacity="0.5" stroke-width="1.5"/></g>
+</svg>

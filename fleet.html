@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}Fleet — {{ COMPANY }}{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">The fleet</span>
+      <h2>{{ cars|length }} vehicles, ready to go</h2>
+      <p>Filter by class, budget and capacity. Everything updates instantly — the
+         list is rendered client-side from the same JSON the API serves.</p>
+    </div>
+
+    <form class="filters" id="filters" role="search" aria-label="Filter the fleet">
+      <div class="field">
+        <label for="f-category">Class</label>
+        <select class="input" id="f-category" name="category">
+          <option value="all">All classes</option>
+          {% for c in categories %}<option value="{{ c }}">{{ c }}</option>{% endfor %}
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-seats">Minimum seats</label>
+        <select class="input" id="f-seats" name="min_seats">
+          <option value="">Any</option>
+          {% for n in [2, 4, 5, 7, 8] %}<option value="{{ n }}">{{ n }}+</option>{% endfor %}
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-price">Max price — <span class="range-out" id="f-price-out">{{ CURRENCY }} {{ max_rate|money }}</span></label>
+        <input type="range" id="f-price" name="max_price" min="90" max="{{ max_rate|round|int }}" step="10" value="{{ max_rate|round|int }}">
+      </div>
+      <div class="field">
+        <label for="f-sort">Sort by</label>
+        <select class="input" id="f-sort" name="sort">
+          <option value="recommended">Recommended</option>
+          <option value="price_asc">Price: low to high</option>
+          <option value="price_desc">Price: high to low</option>
+          <option value="rating">Rating</option>
+          <option value="power">Power</option>
+          <option value="fastest">0–100 km/h</option>
+          <option value="popular">Most booked</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-q">Search</label>
+        <input class="input" type="search" id="f-q" name="q" placeholder="e.g. Porsche, convertible">
+      </div>
+    </form>
+
+    <p class="muted" id="result-count" aria-live="polite" style="margin-bottom:1.2rem"></p>
+    <div class="grid grid--3" id="fleet-grid"></div>
+    <div class="empty" id="fleet-empty" hidden>
+      <h3>Nothing matches those filters</h3>
+      <p>Try widening the price range or clearing the search box.</p>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  window.VD_CURRENCY = {{ CURRENCY|tojson }};
+  window.VD_INITIAL_CATEGORY = {{ request.args.get('category', 'all')|tojson }};
+</script>
+<script src="{{ url_for('static', filename='js/fleet.js') }}"></script>
+{% endblock %}

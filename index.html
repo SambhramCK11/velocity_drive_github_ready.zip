@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+{% block title %}{{ COMPANY }} — Premium Car Rental in {{ CITY }}{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <div class="hero__bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="hero__inner">
+      <span class="eyebrow">Premium hire · {{ CITY }}</span>
+      <h1>Tell us the occasion.<br>We'll find the <em>car</em>.</h1>
+      <p class="hero__lede">
+        {{ fleet_size }} vehicles from city runabouts to V10 supercars. Describe
+        your trip in plain English and our concierge ranks the fleet against
+        your budget, your passengers and your plans — and shows you why.
+      </p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="{{ url_for('web.concierge') }}">Ask the AI Concierge</a>
+        <a class="btn btn--ghost" href="{{ url_for('web.fleet') }}">Browse the fleet</a>
+      </div>
+      <div class="hero__stats">
+        <div><strong>{{ fleet_size }}</strong><span>Models</span></div>
+        <div><strong>{{ total_units }}</strong><span>Vehicles</span></div>
+        <div><strong>{{ BRANCHES|length }}</strong><span>Branches</span></div>
+        <div><strong>24/7</strong><span>Delivery</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <form class="searchbar" action="{{ url_for('web.fleet') }}" method="get">
+    <div class="field">
+      <label for="q-pickup">Pick-up date</label>
+      <input class="input" type="date" id="q-pickup" name="pickup_date" value="{{ today }}" min="{{ today }}">
+    </div>
+    <div class="field">
+      <label for="q-return">Return date</label>
+      <input class="input" type="date" id="q-return" name="return_date" value="{{ default_return }}" min="{{ today }}">
+    </div>
+    <div class="field">
+      <label for="q-branch">Branch</label>
+      <select class="input" id="q-branch" name="branch">
+        {% for b in BRANCHES %}<option value="{{ b }}">{{ b }}</option>{% endfor %}
+      </select>
+    </div>
+    <div class="field">
+      <label for="q-cat">Class</label>
+      <select class="input" id="q-cat" name="category">
+        <option value="all">Any class</option>
+        {% for c in categories %}<option value="{{ c.category }}">{{ c.category }}</option>{% endfor %}
+      </select>
+    </div>
+    <button class="btn btn--primary" type="submit">Search availability</button>
+  </form>
+</div>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">By class</span>
+      <h2>Pick a lane</h2>
+      <p>Every class is available from any branch, with delivery across {{ CITY }}.</p>
+    </div>
+    <div class="grid grid--4">
+      {% for c in categories %}
+        <a class="cat-card reveal" href="{{ url_for('web.fleet') }}?category={{ c.category }}">
+          <strong>{{ c.category }}</strong>
+          <span>{{ c.count }} model{{ 's' if c.count != 1 }}</span>
+          <div class="from">from {{ CURRENCY }} {{ c.from_rate|money }}/day</div>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Signature</span>
+      <h2>The headline acts</h2>
+      <p>Our highest-rated vehicles, chosen by the people who drove them.</p>
+    </div>
+    <div class="grid grid--3">
+      {% for car in featured %}{% include "_card.html" %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="wrap">
+    <div class="cta-band reveal">
+      <span class="eyebrow">How it works</span>
+      <h2>Describe the trip. Get a ranked shortlist.</h2>
+      <p class="muted" style="max-width:62ch;margin-inline:auto">
+        Our concierge reads your request, pulls out budget, passenger count and
+        occasion, then scores every available car on six signals — semantic fit,
+        budget, capacity, class, features and quality — and tells you exactly
+        which ones fired.
+      </p>
+      <div style="margin-top:1.6rem">
+        <a class="btn btn--teal" href="{{ url_for('web.concierge') }}">Try it now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Most booked</span>
+      <h2>What {{ CITY }} is driving</h2>
+    </div>
+    <div class="grid grid--3">
+      {% for car in popular %}{% include "_card.html" %}{% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

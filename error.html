@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}{{ code }} — {{ COMPANY }}{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="wrap center" style="max-width:600px;padding:4rem 0">
+    <div style="font-size:clamp(4rem,14vw,8rem);font-weight:800;line-height:1;
+                background:linear-gradient(120deg,var(--gold-lt),var(--gold));
+                -webkit-background-clip:text;background-clip:text;
+                -webkit-text-fill-color:transparent;color:transparent">{{ code }}</div>
+    <h2 style="margin-top:1rem">{{ message }}</h2>
+    <p class="muted">Let's get you back on the road.</p>
+    <div style="display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap;margin-top:1.6rem">
+      <a class="btn btn--primary" href="{{ url_for('web.home') }}">Home</a>
+      <a class="btn btn--ghost" href="{{ url_for('web.fleet') }}">Browse the fleet</a>
+    </div>
+  </div>
+</section>
+{% endblock %}

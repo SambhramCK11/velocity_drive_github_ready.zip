@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+{% block title %}{{ car.make }} {{ car.model }} — {{ COMPANY }}{% endblock %}
+{% block description %}Hire the {{ car.year }} {{ car.make }} {{ car.model }} in {{ CITY }} from {{ CURRENCY }} {{ car.daily_rate|money }} per day.{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="wrap">
+    <p class="dim" style="font-size:.88rem;margin-bottom:1.4rem">
+      <a href="{{ url_for('web.fleet') }}">Fleet</a> ›
+      <a href="{{ url_for('web.fleet') }}?category={{ car.category }}">{{ car.category }}</a> ›
+      {{ car.make }} {{ car.model }}
+    </p>
+
+    <div class="detail">
+      <div>
+        <div class="stage">
+          <span class="badge">{{ car.year }} · {{ car.color }}</span>
+          <img src="{{ url_for('static', filename='img/car-' ~ car.slug ~ '.svg') }}"
+               onerror="this.onerror=null;this.src='{{ url_for('static', filename='img/car-' ~ car.art_style ~ '.svg') }}'"
+               alt="{{ car.make }} {{ car.model }}" width="460" height="200">
+        </div>
+
+        <div style="margin-top:2rem">
+          <span class="card__make">{{ car.make }}</span>
+          <h1 style="font-size:clamp(1.9rem,4vw,2.9rem);margin:.2rem 0 .5rem">{{ car.model }}</h1>
+          <p class="muted" style="font-size:1.05rem">{{ car.tagline }}</p>
+        </div>
+
+        <div class="specs">
+          <div class="spec-tile"><strong>{{ car.horsepower }}</strong><span>Horsepower</span></div>
+          <div class="spec-tile"><strong>{{ '%.1f'|format(car.zero_to_hundred) }}s</strong><span>0–100 km/h</span></div>
+          <div class="spec-tile"><strong>{{ car.seats }}</strong><span>Seats</span></div>
+          <div class="spec-tile"><strong>{{ car.luggage }}</strong><span>Bags</span></div>
+          <div class="spec-tile"><strong>{{ car.doors }}</strong><span>Doors</span></div>
+          <div class="spec-tile"><strong>★ {{ '%.1f'|format(car.rating) }}</strong><span>Rating</span></div>
+        </div>
+
+        <h3>About this car</h3>
+        <p class="muted">{{ car.description }}</p>
+
+        <h3 style="margin-top:2rem">Included features</h3>
+        <ul class="feature-list">
+          {% for f in car.features %}<li>{{ f }}</li>{% endfor %}
+        </ul>
+
+        <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin-top:2rem">
+          <div class="spec-tile"><strong>{{ car.transmission }}</strong><span>Gearbox</span></div>
+          <div class="spec-tile"><strong>{{ car.fuel_type }}</strong><span>Fuel</span></div>
+          <div class="spec-tile"><strong>{{ car.body_style }}</strong><span>Body</span></div>
+          <div class="spec-tile"><strong>{{ car.total_units }}</strong><span>In fleet</span></div>
+        </div>
+      </div>
+
+      <aside>
+        <div class="panel panel--sticky">
+          <div class="price" style="margin-bottom:1.2rem">
+            <span class="cur">{{ CURRENCY }}</span>
+            <strong style="font-size:2.4rem">{{ car.daily_rate|money }}</strong>
+            <span>per day · deposit {{ CURRENCY }} {{ car.deposit|money }}</span>
+          </div>
+
+          <form action="{{ url_for('web.book', slug=car.slug) }}" method="get">
+            <div class="field" style="margin-bottom:.9rem">
+              <label for="d-pickup">Pick-up</label>
+              <input class="input" type="date" id="d-pickup" name="pickup_date" value="{{ today }}" min="{{ today }}">
+            </div>
+            <div class="field" style="margin-bottom:1.1rem">
+              <label for="d-return">Return</label>
+              <input class="input" type="date" id="d-return" name="return_date" value="{{ default_return }}" min="{{ today }}">
+            </div>
+            <button class="btn btn--primary btn--block" type="submit">Continue to booking</button>
+          </form>
+
+          <div class="totals">
+            <div class="row"><span>3-day example</span><span>{{ CURRENCY }} {{ sample_quote.base_total|money2 }}</span></div>
+            {% if sample_quote.discount > 0 %}
+              <div class="row row--save"><span>Multi-day saving ({{ sample_quote.discount_pct }}%)</span><span>−{{ CURRENCY }} {{ sample_quote.discount|money2 }}</span></div>
+            {% endif %}
+            <div class="row"><span>VAT (5%)</span><span>{{ CURRENCY }} {{ sample_quote.vat|money2 }}</span></div>
+            <div class="row row--total"><span>Total</span><span>{{ CURRENCY }} {{ sample_quote.total|money2 }}</span></div>
+          </div>
+
+          <p class="hint">
+            Longer hires get better rates — 7+ days save 15%, 30+ days save 25%.
+            The deposit is refunded on return.
+          </p>
+        </div>
+      </aside>
+    </div>
+
+    {% if similar %}
+      <div class="section-head" style="margin-top:4.5rem">
+        <span class="eyebrow">Also consider</span>
+        <h2>Closest alternatives</h2>
+        <p>Ranked by profile similarity against this vehicle, using the same index
+           that powers the concierge.</p>
+      </div>
+      <div class="grid grid--3">
+        {% for car in similar %}{% include "_card.html" %}{% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}

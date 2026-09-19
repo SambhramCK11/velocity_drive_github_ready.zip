@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 200" role="img"
+     aria-label="supercar side profile illustration">
+  <defs>
+    <linearGradient id="paintsupercar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffdf35"/>
+      <stop offset="42%" stop-color="#c9a227"/>
+      <stop offset="100%" stop-color="#645113"/>
+    </linearGradient>
+    <linearGradient id="glasssupercar" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#e8f1fb" stop-opacity="0.92"/>
+      <stop offset="55%" stop-color="#7f93ab" stop-opacity="0.80"/>
+      <stop offset="100%" stop-color="#2b3647" stop-opacity="0.88"/>
+    </linearGradient>
+    <linearGradient id="lampsupercar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fffbe8"/>
+      <stop offset="100%" stop-color="#ffd27a"/>
+    </linearGradient>
+    <radialGradient id="rimsupercar" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0%" stop-color="#f4f6fa"/>
+      <stop offset="100%" stop-color="#7f8796"/>
+    </radialGradient>
+    <linearGradient id="shinesupercar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="dropsupercar" x="-20%" y="-25%" width="140%" height="165%">
+      <feDropShadow dx="0" dy="12" stdDeviation="11" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="230" cy="186" rx="196" ry="10" fill="#000" opacity="0.30"/>
+  <g filter="url(#dropsupercar)">
+    <path d="M10,156 L10,134 Q12,122 34,118 L96,110 Q120,108 140,96 L190,76 L252,74 Q286,76 306,92 L372,116 L424,126 Q440,130 440,142 L440,156 L389,156 A41,41 0 0 0 307,156 L153,156 A41,41 0 0 0 71,156 Z" fill="url(#paintsupercar)"/>
+    <path d="M10,156 L10,134 Q12,122 34,118 L96,110 Q120,108 140,96 L190,76 L252,74 Q286,76 306,92 L372,116 L424,126 Q440,130 440,142 L440,156 L389,156 A41,41 0 0 0 307,156 L153,156 A41,41 0 0 0 71,156 Z" fill="none" stroke="#44370d" stroke-width="2" opacity="0.55"/>
+    <path d="M186,100 L204,80 L248,78 L252,100 Z" fill="url(#glasssupercar)"/>
+    <path d="M30,120 L60,117 L62,127 L30,129 Z" fill="url(#lampsupercar)" opacity="0.95"/><path d="M400,122 L428,128 L426,136 L400,132 Z" fill="url(#lampsupercar)" opacity="0.95"/>
+    <path d="M254,100 L254,140" stroke="#44370d" stroke-width="1.6" fill="none" opacity="0.45"/>
+    <path d="M50,146 L400,141"
+          stroke="url(#shinesupercar)" stroke-width="3.5" fill="none"/>
+  </g>
+  <g><circle cx="112" cy="150" r="32" fill="#090b11"/><circle cx="112" cy="150" r="28" fill="#171b26"/><circle cx="112" cy="150" r="18" fill="url(#rimsupercar)"/><line x1="112" y1="150" x2="128.6" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="112" y1="150" x2="123.8" y2="161.8" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="112" y1="150" x2="112.0" y2="166.6" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="112" y1="150" x2="100.2" y2="161.8" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="112" y1="150" x2="95.4" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="112" y1="150" x2="100.2" y2="138.2" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="112" y1="150" x2="112.0" y2="133.4" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="112" y1="150" x2="123.8" y2="138.2" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><circle cx="112" cy="150" r="5" fill="#0d1017"/><circle cx="112" cy="150" r="32" fill="none" stroke="#000" stroke-opacity="0.5" stroke-width="1.5"/></g><g><circle cx="348" cy="150" r="32" fill="#090b11"/><circle cx="348" cy="150" r="28" fill="#171b26"/><circle cx="348" cy="150" r="18" fill="url(#rimsupercar)"/><line x1="348" y1="150" x2="364.6" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="348" y1="150" x2="359.8" y2="161.8" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="348" y1="150" x2="348.0" y2="166.6" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="348" y1="150" x2="336.2" y2="161.8" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="348" y1="150" x2="331.4" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="348" y1="150" x2="336.2" y2="138.2" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="348" y1="150" x2="348.0" y2="133.4" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="348" y1="150" x2="359.8" y2="138.2" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><circle cx="348" cy="150" r="5" fill="#0d1017"/><circle cx="348" cy="150" r="32" fill="none" stroke="#000" stroke-opacity="0.5" stroke-width="1.5"/></g>
+</svg>

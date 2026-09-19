@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 200" role="img"
+     aria-label="ev sedan side profile illustration">
+  <defs>
+    <linearGradient id="paintevsedan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffdf35"/>
+      <stop offset="42%" stop-color="#c9a227"/>
+      <stop offset="100%" stop-color="#645113"/>
+    </linearGradient>
+    <linearGradient id="glassevsedan" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#e8f1fb" stop-opacity="0.92"/>
+      <stop offset="55%" stop-color="#7f93ab" stop-opacity="0.80"/>
+      <stop offset="100%" stop-color="#2b3647" stop-opacity="0.88"/>
+    </linearGradient>
+    <linearGradient id="lampevsedan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fffbe8"/>
+      <stop offset="100%" stop-color="#ffd27a"/>
+    </linearGradient>
+    <radialGradient id="rimevsedan" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0%" stop-color="#f4f6fa"/>
+      <stop offset="100%" stop-color="#7f8796"/>
+    </radialGradient>
+    <linearGradient id="shineevsedan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="dropevsedan" x="-20%" y="-25%" width="140%" height="165%">
+      <feDropShadow dx="0" dy="12" stdDeviation="11" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="230" cy="186" rx="196" ry="10" fill="#000" opacity="0.30"/>
+  <g filter="url(#dropevsedan)">
+    <path d="M12,156 L12,128 Q14,112 36,106 L104,98 Q140,94 166,78 L214,58 L290,60 Q322,66 344,84 L400,100 L422,108 Q436,112 436,126 L436,156 L386,156 A40,40 0 0 0 306,156 L146,156 A40,40 0 0 0 66,156 Z" fill="url(#paintevsedan)"/>
+    <path d="M12,156 L12,128 Q14,112 36,106 L104,98 Q140,94 166,78 L214,58 L290,60 Q322,66 344,84 L400,100 L422,108 Q436,112 436,126 L436,156 L386,156 A40,40 0 0 0 306,156 L146,156 A40,40 0 0 0 66,156 Z" fill="none" stroke="#44370d" stroke-width="2" opacity="0.55"/>
+    <path d="M164,82 L200,62 L252,58 L254,84 Z" fill="url(#glassevsedan)"/><path d="M262,59 L300,66 L326,86 L264,86 Z" fill="url(#glassevsedan)"/>
+    <path d="M28,108 L60,104 L62,114 L28,116 Z" fill="url(#lampevsedan)" opacity="0.95"/><path d="M404,106 L430,112 L428,121 L402,115 Z" fill="url(#lampevsedan)" opacity="0.95"/>
+    <path d="M258,84 L258,140" stroke="#44370d" stroke-width="1.6" fill="none" opacity="0.45"/>
+    <path d="M52,146 L396,141"
+          stroke="url(#shineevsedan)" stroke-width="3.5" fill="none"/>
+  </g>
+  <g><circle cx="106" cy="150" r="31" fill="#090b11"/><circle cx="106" cy="150" r="27" fill="#171b26"/><circle cx="106" cy="150" r="17" fill="url(#rimevsedan)"/><line x1="106" y1="150" x2="122.1" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="106" y1="150" x2="117.4" y2="161.4" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="106" y1="150" x2="106.0" y2="166.1" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="106" y1="150" x2="94.6" y2="161.4" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="106" y1="150" x2="89.9" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="106" y1="150" x2="94.6" y2="138.6" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="106" y1="150" x2="106.0" y2="133.9" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="106" y1="150" x2="117.4" y2="138.6" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><circle cx="106" cy="150" r="5" fill="#0d1017"/><circle cx="106" cy="150" r="31" fill="none" stroke="#000" stroke-opacity="0.5" stroke-width="1.5"/></g><g><circle cx="346" cy="150" r="31" fill="#090b11"/><circle cx="346" cy="150" r="27" fill="#171b26"/><circle cx="346" cy="150" r="17" fill="url(#rimevsedan)"/><line x1="346" y1="150" x2="362.1" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="346" y1="150" x2="357.4" y2="161.4" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="346" y1="150" x2="346.0" y2="166.1" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="346" y1="150" x2="334.6" y2="161.4" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="346" y1="150" x2="329.9" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="346" y1="150" x2="334.6" y2="138.6" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="346" y1="150" x2="346.0" y2="133.9" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="346" y1="150" x2="357.4" y2="138.6" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><circle cx="346" cy="150" r="5" fill="#0d1017"/><circle cx="346" cy="150" r="31" fill="none" stroke="#000" stroke-opacity="0.5" stroke-width="1.5"/></g>
+</svg>

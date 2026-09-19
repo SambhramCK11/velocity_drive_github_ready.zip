@@ -1,0 +1,51 @@
+{# Reusable vehicle card. `car` is a dict from services.row_to_car(). #}
+<article class="card reveal">
+  <div class="card__media">
+    {% if car.rating >= 4.85 %}<span class="badge">Top rated</span>{% endif %}
+    {% if car.fuel_type in ('Electric', 'Hybrid') %}
+      <span class="badge badge--teal badge--right">{{ car.fuel_type }}</span>
+    {% endif %}
+    <img src="{{ url_for('static', filename='img/car-' ~ car.slug ~ '.svg') }}"
+         onerror="this.onerror=null;this.src='{{ url_for('static', filename='img/car-' ~ car.art_style ~ '.svg') }}'"
+         alt="{{ car.make }} {{ car.model }}" loading="lazy" width="460" height="200">
+  </div>
+  <div class="card__body">
+    <span class="card__make">{{ car.make }}</span>
+    <div class="card__title">
+      <h3>{{ car.model }}</h3>
+      <span class="rating">★ {{ '%.1f'|format(car.rating) }}</span>
+    </div>
+    <p class="card__tagline">{{ car.tagline }}</p>
+
+    <div class="spec-row">
+      <span class="spec">{{ car.seats }} seats</span>
+      <span class="spec">{{ car.transmission }}</span>
+      <span class="spec">{{ car.horsepower }} hp</span>
+      <span class="spec">{{ car.category }}</span>
+    </div>
+
+    {% if car.match is defined %}
+      <div class="match">
+        <div class="match__head">
+          <span class="match__label">Match score</span>
+          <span class="match__score">{{ car.match.percent }}%</span>
+        </div>
+        <div class="match__bar"><i style="width: {{ car.match.percent }}%"></i></div>
+        <ul class="match__reasons">
+          {% for reason in car.match.reasons %}<li>{{ reason }}</li>{% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+
+    <div class="card__foot">
+      <div class="price">
+        <span class="cur">{{ CURRENCY }}</span>
+        <strong>{{ car.daily_rate|money }}</strong>
+        <span>per day</span>
+      </div>
+      <a class="btn btn--primary btn--sm" href="{{ url_for('web.car_detail', slug=car.slug) }}">
+        View
+      </a>
+    </div>
+  </div>
+</article>

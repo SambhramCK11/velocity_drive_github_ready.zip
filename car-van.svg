@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 200" role="img"
+     aria-label="van side profile illustration">
+  <defs>
+    <linearGradient id="paintvan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffdf35"/>
+      <stop offset="42%" stop-color="#c9a227"/>
+      <stop offset="100%" stop-color="#645113"/>
+    </linearGradient>
+    <linearGradient id="glassvan" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#e8f1fb" stop-opacity="0.92"/>
+      <stop offset="55%" stop-color="#7f93ab" stop-opacity="0.80"/>
+      <stop offset="100%" stop-color="#2b3647" stop-opacity="0.88"/>
+    </linearGradient>
+    <linearGradient id="lampvan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fffbe8"/>
+      <stop offset="100%" stop-color="#ffd27a"/>
+    </linearGradient>
+    <radialGradient id="rimvan" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0%" stop-color="#f4f6fa"/>
+      <stop offset="100%" stop-color="#7f8796"/>
+    </radialGradient>
+    <linearGradient id="shinevan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="dropvan" x="-20%" y="-25%" width="140%" height="165%">
+      <feDropShadow dx="0" dy="12" stdDeviation="11" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="230" cy="186" rx="196" ry="10" fill="#000" opacity="0.30"/>
+  <g filter="url(#dropvan)">
+    <path d="M14,156 L14,110 Q16,80 34,64 L78,34 Q88,26 106,26 L346,26 Q362,26 366,42 L374,90 L396,96 Q420,100 420,116 L420,156 L386,156 A42,42 0 0 0 302,156 L142,156 A42,42 0 0 0 58,156 Z" fill="url(#paintvan)"/>
+    <path d="M14,156 L14,110 Q16,80 34,64 L78,34 Q88,26 106,26 L346,26 Q362,26 366,42 L374,90 L396,96 Q420,100 420,116 L420,156 L386,156 A42,42 0 0 0 302,156 L142,156 A42,42 0 0 0 58,156 Z" fill="none" stroke="#44370d" stroke-width="2" opacity="0.55"/>
+    <path d="M44,64 L84,36 L118,34 L118,68 Z" fill="url(#glassvan)"/><path d="M128,34 L212,34 L212,68 L128,68 Z" fill="url(#glassvan)"/><path d="M222,34 L320,34 L320,68 L222,68 Z" fill="url(#glassvan)"/>
+    <path d="M24,86 L58,82 L60,94 L24,96 Z" fill="url(#lampvan)" opacity="0.95"/><path d="M398,98 L416,103 L414,116 L396,111 Z" fill="url(#lampvan)" opacity="0.95"/>
+    <path d="M217,68 L217,140" stroke="#44370d" stroke-width="1.6" fill="none" opacity="0.45"/>
+    <path d="M54,146 L380,141"
+          stroke="url(#shinevan)" stroke-width="3.5" fill="none"/>
+  </g>
+  <g><circle cx="100" cy="150" r="33" fill="#090b11"/><circle cx="100" cy="150" r="29" fill="#171b26"/><circle cx="100" cy="150" r="18" fill="url(#rimvan)"/><line x1="100" y1="150" x2="117.2" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="100" y1="150" x2="112.1" y2="162.1" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="100" y1="150" x2="100.0" y2="167.2" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="100" y1="150" x2="87.9" y2="162.1" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="100" y1="150" x2="82.8" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="100" y1="150" x2="87.9" y2="137.9" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="100" y1="150" x2="100.0" y2="132.8" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="100" y1="150" x2="112.1" y2="137.9" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><circle cx="100" cy="150" r="6" fill="#0d1017"/><circle cx="100" cy="150" r="33" fill="none" stroke="#000" stroke-opacity="0.5" stroke-width="1.5"/></g><g><circle cx="344" cy="150" r="33" fill="#090b11"/><circle cx="344" cy="150" r="29" fill="#171b26"/><circle cx="344" cy="150" r="18" fill="url(#rimvan)"/><line x1="344" y1="150" x2="361.2" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="344" y1="150" x2="356.1" y2="162.1" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="344" y1="150" x2="344.0" y2="167.2" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="344" y1="150" x2="331.9" y2="162.1" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="344" y1="150" x2="326.8" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="344" y1="150" x2="331.9" y2="137.9" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="344" y1="150" x2="344.0" y2="132.8" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="344" y1="150" x2="356.1" y2="137.9" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><circle cx="344" cy="150" r="6" fill="#0d1017"/><circle cx="344" cy="150" r="33" fill="none" stroke="#000" stroke-opacity="0.5" stroke-width="1.5"/></g>
+</svg>

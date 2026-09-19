@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200"
+     preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+  <defs>
+    <radialGradient id="b0" cx="0.5" cy="0.5" r="0.5"><stop offset="0%" stop-color="#c9a227" stop-opacity="0.34"/><stop offset="100%" stop-color="#c9a227" stop-opacity="0"/></radialGradient><radialGradient id="b1" cx="0.5" cy="0.5" r="0.5"><stop offset="0%" stop-color="#ff8a3d" stop-opacity="0.26"/><stop offset="100%" stop-color="#ff8a3d" stop-opacity="0"/></radialGradient><radialGradient id="b2" cx="0.5" cy="0.5" r="0.5"><stop offset="0%" stop-color="#7c5cff" stop-opacity="0.3"/><stop offset="100%" stop-color="#7c5cff" stop-opacity="0"/></radialGradient><radialGradient id="b3" cx="0.5" cy="0.5" r="0.5"><stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.2"/><stop offset="100%" stop-color="#2dd4bf" stop-opacity="0"/></radialGradient><radialGradient id="b4" cx="0.5" cy="0.5" r="0.5"><stop offset="0%" stop-color="#ff4d6d" stop-opacity="0.14"/><stop offset="100%" stop-color="#ff4d6d" stop-opacity="0"/></radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="50"/></filter>
+  </defs>
+  <rect width="1200" height="1200" fill="#05070d"/>
+  <g filter="url(#blur)"><circle cx="216" cy="264" r="560" fill="url(#b0)"/><circle cx="984" cy="192" r="520" fill="url(#b1)"/><circle cx="840" cy="888" r="620" fill="url(#b2)"/><circle cx="312" cy="984" r="500" fill="url(#b3)"/><circle cx="600" cy="576" r="460" fill="url(#b4)"/></g>
+</svg>

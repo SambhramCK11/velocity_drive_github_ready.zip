@@ -1,0 +1,8 @@
+# Runtime — the application needs nothing beyond Flask.
+# The recommendation engine (TF-IDF + cosine similarity) is implemented in
+# app/nlp.py using only the standard library, so there is no NumPy, pandas or
+# scikit-learn dependency to install or pin.
+Flask==3.1.3
+
+# Development / testing only
+pytest==8.3.4

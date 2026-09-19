@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 200" role="img"
+     aria-label="luxury sedan side profile illustration">
+  <defs>
+    <linearGradient id="paintluxurysedan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="42%" stop-color="#d8d3c4"/>
+      <stop offset="100%" stop-color="#6c6962"/>
+    </linearGradient>
+    <linearGradient id="glassluxurysedan" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#e8f1fb" stop-opacity="0.92"/>
+      <stop offset="55%" stop-color="#7f93ab" stop-opacity="0.80"/>
+      <stop offset="100%" stop-color="#2b3647" stop-opacity="0.88"/>
+    </linearGradient>
+    <linearGradient id="lampluxurysedan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fffbe8"/>
+      <stop offset="100%" stop-color="#ffd27a"/>
+    </linearGradient>
+    <radialGradient id="rimluxurysedan" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0%" stop-color="#f4f6fa"/>
+      <stop offset="100%" stop-color="#7f8796"/>
+    </radialGradient>
+    <linearGradient id="shineluxurysedan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="dropluxurysedan" x="-20%" y="-25%" width="140%" height="165%">
+      <feDropShadow dx="0" dy="12" stdDeviation="11" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="230" cy="186" rx="196" ry="10" fill="#000" opacity="0.30"/>
+  <g filter="url(#dropluxurysedan)">
+    <path d="M8,156 L8,126 Q10,110 34,106 L128,100 L160,98 Q170,96 180,82 L206,58 L306,56 Q322,56 332,72 L354,98 L420,96 Q440,96 442,110 L442,134 L442,156 L393,156 A41,41 0 0 0 311,156 L145,156 A41,41 0 0 0 63,156 Z" fill="url(#paintluxurysedan)"/>
+    <path d="M8,156 L8,126 Q10,110 34,106 L128,100 L160,98 Q170,96 180,82 L206,58 L306,56 Q322,56 332,72 L354,98 L420,96 Q440,96 442,110 L442,134 L442,156 L393,156 A41,41 0 0 0 311,156 L145,156 A41,41 0 0 0 63,156 Z" fill="none" stroke="#494742" stroke-width="2" opacity="0.55"/>
+    <path d="M202,84 L222,62 L266,61 L267,84 Z" fill="url(#glassluxurysedan)"/><path d="M275,61 L304,61 L322,84 L276,84 Z" fill="url(#glassluxurysedan)"/>
+    <path d="M26,108 L62,104 L64,114 L26,116 Z" fill="url(#lampluxurysedan)" opacity="0.95"/><path d="M406,98 L434,103 L432,112 L404,107 Z" fill="url(#lampluxurysedan)" opacity="0.95"/>
+    <path d="M271,84 L271,142" stroke="#494742" stroke-width="1.6" fill="none" opacity="0.45"/>
+    <path d="M48,146 L402,141"
+          stroke="url(#shineluxurysedan)" stroke-width="3.5" fill="none"/>
+  </g>
+  <g><circle cx="104" cy="150" r="32" fill="#090b11"/><circle cx="104" cy="150" r="28" fill="#171b26"/><circle cx="104" cy="150" r="18" fill="url(#rimluxurysedan)"/><line x1="104" y1="150" x2="120.6" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="104" y1="150" x2="115.8" y2="161.8" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="104" y1="150" x2="104.0" y2="166.6" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="104" y1="150" x2="92.2" y2="161.8" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="104" y1="150" x2="87.4" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="104" y1="150" x2="92.2" y2="138.2" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="104" y1="150" x2="104.0" y2="133.4" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="104" y1="150" x2="115.8" y2="138.2" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><circle cx="104" cy="150" r="5" fill="#0d1017"/><circle cx="104" cy="150" r="32" fill="none" stroke="#000" stroke-opacity="0.5" stroke-width="1.5"/></g><g><circle cx="352" cy="150" r="32" fill="#090b11"/><circle cx="352" cy="150" r="28" fill="#171b26"/><circle cx="352" cy="150" r="18" fill="url(#rimluxurysedan)"/><line x1="352" y1="150" x2="368.6" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="352" y1="150" x2="363.8" y2="161.8" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="352" y1="150" x2="352.0" y2="166.6" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="352" y1="150" x2="340.2" y2="161.8" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="352" y1="150" x2="335.4" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="352" y1="150" x2="340.2" y2="138.2" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="352" y1="150" x2="352.0" y2="133.4" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="352" y1="150" x2="363.8" y2="138.2" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><circle cx="352" cy="150" r="5" fill="#0d1017"/><circle cx="352" cy="150" r="32" fill="none" stroke="#000" stroke-opacity="0.5" stroke-width="1.5"/></g>
+</svg>

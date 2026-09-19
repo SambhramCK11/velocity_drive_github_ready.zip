@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 200" role="img"
+     aria-label="hatchback side profile illustration">
+  <defs>
+    <linearGradient id="painthatchback" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff4b56"/>
+      <stop offset="42%" stop-color="#d6373f"/>
+      <stop offset="100%" stop-color="#6b1b1f"/>
+    </linearGradient>
+    <linearGradient id="glasshatchback" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#e8f1fb" stop-opacity="0.92"/>
+      <stop offset="55%" stop-color="#7f93ab" stop-opacity="0.80"/>
+      <stop offset="100%" stop-color="#2b3647" stop-opacity="0.88"/>
+    </linearGradient>
+    <linearGradient id="lamphatchback" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fffbe8"/>
+      <stop offset="100%" stop-color="#ffd27a"/>
+    </linearGradient>
+    <radialGradient id="rimhatchback" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0%" stop-color="#f4f6fa"/>
+      <stop offset="100%" stop-color="#7f8796"/>
+    </radialGradient>
+    <linearGradient id="shinehatchback" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="drophatchback" x="-20%" y="-25%" width="140%" height="165%">
+      <feDropShadow dx="0" dy="12" stdDeviation="11" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="230" cy="186" rx="196" ry="10" fill="#000" opacity="0.30"/>
+  <g filter="url(#drophatchback)">
+    <path d="M18,156 L18,128 Q20,112 42,108 L110,102 Q124,100 134,86 L158,62 Q164,58 176,58 L262,58 Q278,58 288,72 L316,104 L346,104 Q370,106 372,120 L372,156 L349,156 A39,39 0 0 0 271,156 L139,156 A39,39 0 0 0 61,156 Z" fill="url(#painthatchback)"/>
+    <path d="M18,156 L18,128 Q20,112 42,108 L110,102 Q124,100 134,86 L158,62 Q164,58 176,58 L262,58 Q278,58 288,72 L316,104 L346,104 Q370,106 372,120 L372,156 L349,156 A39,39 0 0 0 271,156 L139,156 A39,39 0 0 0 61,156 Z" fill="none" stroke="#481215" stroke-width="2" opacity="0.55"/>
+    <path d="M156,84 L172,60 L218,59 L219,84 Z" fill="url(#glasshatchback)"/><path d="M227,59 L268,59 L292,84 L228,84 Z" fill="url(#glasshatchback)"/>
+    <path d="M32,110 L64,106 L66,116 L32,118 Z" fill="url(#lamphatchback)" opacity="0.95"/><path d="M346,106 L366,111 L364,121 L344,116 Z" fill="url(#lamphatchback)" opacity="0.95"/>
+    <path d="M223,84 L223,140" stroke="#481215" stroke-width="1.6" fill="none" opacity="0.45"/>
+    <path d="M58,146 L332,141"
+          stroke="url(#shinehatchback)" stroke-width="3.5" fill="none"/>
+  </g>
+  <g><circle cx="100" cy="150" r="30" fill="#090b11"/><circle cx="100" cy="150" r="26" fill="#171b26"/><circle cx="100" cy="150" r="17" fill="url(#rimhatchback)"/><line x1="100" y1="150" x2="115.6" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="100" y1="150" x2="111.0" y2="161.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="100" y1="150" x2="100.0" y2="165.6" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="100" y1="150" x2="89.0" y2="161.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="100" y1="150" x2="84.4" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="100" y1="150" x2="89.0" y2="139.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="100" y1="150" x2="100.0" y2="134.4" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="100" y1="150" x2="111.0" y2="139.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><circle cx="100" cy="150" r="5" fill="#0d1017"/><circle cx="100" cy="150" r="30" fill="none" stroke="#000" stroke-opacity="0.5" stroke-width="1.5"/></g><g><circle cx="310" cy="150" r="30" fill="#090b11"/><circle cx="310" cy="150" r="26" fill="#171b26"/><circle cx="310" cy="150" r="17" fill="url(#rimhatchback)"/><line x1="310" y1="150" x2="325.6" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="310" y1="150" x2="321.0" y2="161.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="310" y1="150" x2="310.0" y2="165.6" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="310" y1="150" x2="299.0" y2="161.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="310" y1="150" x2="294.4" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="310" y1="150" x2="299.0" y2="139.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="310" y1="150" x2="310.0" y2="134.4" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="310" y1="150" x2="321.0" y2="139.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><circle cx="310" cy="150" r="5" fill="#0d1017"/><circle cx="310" cy="150" r="30" fill="none" stroke="#000" stroke-opacity="0.5" stroke-width="1.5"/></g>
+</svg>

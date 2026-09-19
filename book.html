@@ -1,0 +1,128 @@
+{% extends "base.html" %}
+{% block title %}Book the {{ car.make }} {{ car.model }} — {{ COMPANY }}{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Step 2 of 2</span>
+      <h2>Confirm your booking</h2>
+    </div>
+
+    {% if error %}
+      <div class="alert alert--err" role="alert">{{ error }}</div>
+    {% endif %}
+
+    <form method="post" id="booking-form" novalidate>
+      <div class="detail">
+        <div>
+          <div class="panel">
+            <h3>Rental period</h3>
+            <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(160px,1fr))">
+              <div class="field">
+                <label for="b-pickup">Pick-up date</label>
+                <input class="input" type="date" id="b-pickup" name="pickup_date" required
+                       min="{{ today }}" value="{{ form.pickup_date or today }}"
+                       {% if field == 'pickup_date' %}aria-invalid="true"{% endif %}>
+              </div>
+              <div class="field">
+                <label for="b-return">Return date</label>
+                <input class="input" type="date" id="b-return" name="return_date" required
+                       min="{{ today }}" value="{{ form.return_date or default_return }}"
+                       {% if field == 'return_date' %}aria-invalid="true"{% endif %}>
+              </div>
+              <div class="field">
+                <label for="b-branch">Pick-up branch</label>
+                <select class="input" id="b-branch" name="pickup_branch">
+                  {% for b in BRANCHES %}
+                    <option value="{{ b }}" {% if form.pickup_branch == b %}selected{% endif %}>{{ b }}</option>
+                  {% endfor %}
+                </select>
+              </div>
+            </div>
+
+            <h3 style="margin-top:2rem">Your details</h3>
+            <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr))">
+              <div class="field">
+                <label for="b-name">Full name</label>
+                <input class="input" type="text" id="b-name" name="full_name" required
+                       autocomplete="name" value="{{ form.full_name or '' }}"
+                       {% if field == 'full_name' %}aria-invalid="true"{% endif %}>
+              </div>
+              <div class="field">
+                <label for="b-email">Email</label>
+                <input class="input" type="email" id="b-email" name="email" required
+                       autocomplete="email" value="{{ form.email or '' }}"
+                       {% if field == 'email' %}aria-invalid="true"{% endif %}>
+              </div>
+              <div class="field">
+                <label for="b-phone">Phone</label>
+                <input class="input" type="tel" id="b-phone" name="phone" required
+                       autocomplete="tel" value="{{ form.phone or '' }}"
+                       {% if field == 'phone' %}aria-invalid="true"{% endif %}>
+              </div>
+              <div class="field">
+                <label for="b-licence">Driving licence no. <span class="dim">(optional)</span></label>
+                <input class="input" type="text" id="b-licence" name="licence_no" value="{{ form.licence_no or '' }}">
+              </div>
+            </div>
+
+            <h3 style="margin-top:2rem">Add-ons</h3>
+            <div class="checks">
+              {% for key, spec in extras.items() %}
+                <label class="check">
+                  <input type="checkbox" name="extras" value="{{ key }}" data-extra="{{ key }}">
+                  <span class="check__label">{{ spec.label }}</span>
+                  <span class="check__price">
+                    {% if spec.per_day %}{{ CURRENCY }} {{ spec.per_day|money }}/day{% else %}{{ CURRENCY }} {{ spec.flat|money }}{% endif %}
+                  </span>
+                </label>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+
+        <aside>
+          <div class="panel panel--sticky">
+            <div style="display:flex;gap:1rem;align-items:center;margin-bottom:1.2rem">
+              <img src="{{ url_for('static', filename='img/car-' ~ car.slug ~ '.svg') }}"
+                   onerror="this.onerror=null;this.src='{{ url_for('static', filename='img/car-' ~ car.art_style ~ '.svg') }}'"
+                   alt="" width="130" height="57" style="flex:none">
+              <div>
+                <span class="card__make">{{ car.make }}</span>
+                <h3 style="margin:.1rem 0 0;font-size:1.12rem">{{ car.model }}</h3>
+                <span class="dim" style="font-size:.84rem">{{ car.category }} · {{ car.seats }} seats</span>
+              </div>
+            </div>
+
+            <div class="totals" id="quote-box" data-slug="{{ car.slug }}">
+              <div class="row"><span>Daily rate</span><span>{{ CURRENCY }} {{ car.daily_rate|money2 }}</span></div>
+              <div class="row"><span id="q-days-label">Duration</span><span id="q-days">—</span></div>
+              <div class="row"><span>Subtotal</span><span id="q-base">—</span></div>
+              <div class="row row--save" id="q-discount-row" hidden><span id="q-discount-label">Multi-day saving</span><span id="q-discount">—</span></div>
+              <div class="row" id="q-extras-row" hidden><span>Add-ons</span><span id="q-extras">—</span></div>
+              <div class="row"><span>VAT (5%)</span><span id="q-vat">—</span></div>
+              <div class="row row--total"><span>Total</span><span id="q-total">—</span></div>
+            </div>
+
+            <p class="hint" style="margin-bottom:1rem">
+              Refundable deposit of {{ CURRENCY }} {{ car.deposit|money }} is held
+              separately and released on return.
+            </p>
+
+            <button class="btn btn--primary btn--block" type="submit">Confirm booking</button>
+            <p class="hint center" style="margin-top:.8rem">
+              Demonstration project — no payment is taken.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>window.VD_CURRENCY = {{ CURRENCY|tojson }};</script>
+<script src="{{ url_for('static', filename='js/booking.js') }}"></script>
+{% endblock %}

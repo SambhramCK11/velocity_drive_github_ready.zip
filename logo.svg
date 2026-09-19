@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48"
+     role="img" aria-label="Velocity Drive logo">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0d27a"/>
+      <stop offset="100%" stop-color="#c9a227"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="13" fill="#0b1020"/>
+  <rect width="48" height="48" rx="13" fill="none" stroke="url(#lg)" stroke-width="1.5" opacity="0.6"/>
+  <path d="M12 15 L20.5 33 L24 24 L27.5 33 L36 15" fill="none" stroke="url(#lg)"
+        stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="24" cy="38" r="2.2" fill="#2dd4bf"/>
+</svg>

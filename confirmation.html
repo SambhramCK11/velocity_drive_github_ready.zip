@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block title %}Booking {{ b.reference }} — {{ COMPANY }}{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="wrap" style="max-width:820px">
+    <div class="alert alert--ok" role="status">
+      Booking confirmed. A copy has been sent to {{ b.email }}.
+    </div>
+
+    <div class="ticket">
+      <div class="ticket__head">
+        <span class="eyebrow" style="margin-bottom:.4rem">Booking reference</span>
+        <div class="ticket__ref">{{ b.reference }}</div>
+        <p class="muted" style="margin:.6rem 0 0">
+          {{ b.year }} {{ b.make }} {{ b.model }} · {{ b.days }} day{{ 's' if b.days != 1 }} ·
+          {{ b.pickup_branch }}
+        </p>
+      </div>
+
+      <div style="padding:1.4rem 1.8rem 0">
+        <img src="{{ url_for('static', filename='img/car-' ~ b.slug ~ '.svg') }}"
+             onerror="this.onerror=null;this.src='{{ url_for('static', filename='img/car-' ~ b.art_style ~ '.svg') }}'"
+             alt="{{ b.make }} {{ b.model }}" width="460" height="200"
+             style="margin-inline:auto;max-width:360px">
+      </div>
+
+      <div class="ticket__grid">
+        <div><span>Driver</span><strong>{{ b.full_name }}</strong></div>
+        <div><span>Phone</span><strong>{{ b.phone }}</strong></div>
+        <div><span>Pick-up</span><strong>{{ b.pickup_date }}</strong></div>
+        <div><span>Return</span><strong>{{ b.return_date }}</strong></div>
+        <div><span>Branch</span><strong>{{ b.pickup_branch }}</strong></div>
+        <div><span>Status</span><strong style="color:var(--ok);text-transform:capitalize">{{ b.status }}</strong></div>
+      </div>
+
+      <div style="padding:0 1.8rem 1.8rem">
+        {% if b.extras %}
+          <h3 style="font-size:1rem">Add-ons</h3>
+          <ul class="feature-list" style="margin-bottom:1.4rem">
+            {% for e in b.extras %}<li>{{ e.label }}</li>{% endfor %}
+          </ul>
+        {% endif %}
+
+        <div class="totals">
+          <div class="row"><span>{{ b.days }} day{{ 's' if b.days != 1 }} × {{ CURRENCY }} {{ b.daily_rate|money2 }}</span><span>{{ CURRENCY }} {{ b.base_total|money2 }}</span></div>
+          {% if b.discount and b.discount > 0 %}
+            <div class="row row--save"><span>Multi-day saving</span><span>−{{ CURRENCY }} {{ b.discount|money2 }}</span></div>
+          {% endif %}
+          {% if b.extras_total and b.extras_total > 0 %}
+            <div class="row"><span>Add-ons</span><span>{{ CURRENCY }} {{ b.extras_total|money2 }}</span></div>
+          {% endif %}
+          <div class="row"><span>VAT (5%)</span><span>{{ CURRENCY }} {{ b.vat|money2 }}</span></div>
+          <div class="row row--total"><span>Total paid</span><span>{{ CURRENCY }} {{ b.total|money2 }}</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:flex;gap:.8rem;flex-wrap:wrap;margin-top:1.8rem">
+      <a class="btn btn--ghost" href="{{ url_for('web.fleet') }}">Book another</a>
+      <button class="btn btn--ghost" onclick="window.print()">Print</button>
+      <a class="btn btn--ghost" href="{{ url_for('web.lookup') }}?reference={{ b.reference }}">Manage booking</a>
+    </div>
+  </div>
+</section>
+{% endblock %}

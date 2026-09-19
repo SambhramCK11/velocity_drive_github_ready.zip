@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 200" role="img"
+     aria-label="suv side profile illustration">
+  <defs>
+    <linearGradient id="paintsuv" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#286dc8"/>
+      <stop offset="42%" stop-color="#1d4f91"/>
+      <stop offset="100%" stop-color="#0e2748"/>
+    </linearGradient>
+    <linearGradient id="glasssuv" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#e8f1fb" stop-opacity="0.92"/>
+      <stop offset="55%" stop-color="#7f93ab" stop-opacity="0.80"/>
+      <stop offset="100%" stop-color="#2b3647" stop-opacity="0.88"/>
+    </linearGradient>
+    <linearGradient id="lampsuv" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fffbe8"/>
+      <stop offset="100%" stop-color="#ffd27a"/>
+    </linearGradient>
+    <radialGradient id="rimsuv" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0%" stop-color="#f4f6fa"/>
+      <stop offset="100%" stop-color="#7f8796"/>
+    </radialGradient>
+    <linearGradient id="shinesuv" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="dropsuv" x="-20%" y="-25%" width="140%" height="165%">
+      <feDropShadow dx="0" dy="12" stdDeviation="11" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="230" cy="186" rx="196" ry="10" fill="#000" opacity="0.30"/>
+  <g filter="url(#dropsuv)">
+    <path d="M16,156 L16,116 Q18,96 40,90 L118,84 Q130,82 138,68 L154,44 Q158,40 172,40 L342,40 Q356,40 360,54 L370,96 L388,100 Q398,104 398,118 L398,156 L375,156 A45,45 0 0 0 285,156 L149,156 A45,45 0 0 0 59,156 Z" fill="url(#paintsuv)"/>
+    <path d="M16,156 L16,116 Q18,96 40,90 L118,84 Q130,82 138,68 L154,44 Q158,40 172,40 L342,40 Q356,40 360,54 L370,96 L388,100 Q398,104 398,118 L398,156 L375,156 A45,45 0 0 0 285,156 L149,156 A45,45 0 0 0 59,156 Z" fill="none" stroke="#091a31" stroke-width="2" opacity="0.55"/>
+    <path d="M152,74 L166,46 L228,44 L229,74 Z" fill="url(#glasssuv)"/><path d="M237,44 L330,44 L344,74 L238,74 Z" fill="url(#glasssuv)"/>
+    <path d="M30,92 L66,88 L68,98 L30,100 Z" fill="url(#lampsuv)" opacity="0.95"/><path d="M374,100 L394,105 L392,116 L372,111 Z" fill="url(#lampsuv)" opacity="0.95"/>
+    <path d="M233,74 L233,140" stroke="#091a31" stroke-width="1.6" fill="none" opacity="0.45"/>
+    <path d="M56,146 L358,141"
+          stroke="url(#shinesuv)" stroke-width="3.5" fill="none"/>
+  </g>
+  <g><circle cx="104" cy="150" r="36" fill="#090b11"/><circle cx="104" cy="150" r="32" fill="#171b26"/><circle cx="104" cy="150" r="20" fill="url(#rimsuv)"/><line x1="104" y1="150" x2="122.7" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="104" y1="150" x2="117.2" y2="163.2" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="104" y1="150" x2="104.0" y2="168.7" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="104" y1="150" x2="90.8" y2="163.2" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="104" y1="150" x2="85.3" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="104" y1="150" x2="90.8" y2="136.8" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="104" y1="150" x2="104.0" y2="131.3" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="104" y1="150" x2="117.2" y2="136.8" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><circle cx="104" cy="150" r="6" fill="#0d1017"/><circle cx="104" cy="150" r="36" fill="none" stroke="#000" stroke-opacity="0.5" stroke-width="1.5"/></g><g><circle cx="330" cy="150" r="36" fill="#090b11"/><circle cx="330" cy="150" r="32" fill="#171b26"/><circle cx="330" cy="150" r="20" fill="url(#rimsuv)"/><line x1="330" y1="150" x2="348.7" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="330" y1="150" x2="343.2" y2="163.2" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="330" y1="150" x2="330.0" y2="168.7" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="330" y1="150" x2="316.8" y2="163.2" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="330" y1="150" x2="311.3" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="330" y1="150" x2="316.8" y2="136.8" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="330" y1="150" x2="330.0" y2="131.3" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="330" y1="150" x2="343.2" y2="136.8" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><circle cx="330" cy="150" r="6" fill="#0d1017"/><circle cx="330" cy="150" r="36" fill="none" stroke="#000" stroke-opacity="0.5" stroke-width="1.5"/></g>
+</svg>

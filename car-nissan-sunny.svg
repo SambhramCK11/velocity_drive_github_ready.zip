@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 200" role="img"
+     aria-label="sedan side profile illustration">
+  <defs>
+    <linearGradient id="paintsedan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e5eef8"/>
+      <stop offset="42%" stop-color="#a6adb4"/>
+      <stop offset="100%" stop-color="#53565a"/>
+    </linearGradient>
+    <linearGradient id="glasssedan" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#e8f1fb" stop-opacity="0.92"/>
+      <stop offset="55%" stop-color="#7f93ab" stop-opacity="0.80"/>
+      <stop offset="100%" stop-color="#2b3647" stop-opacity="0.88"/>
+    </linearGradient>
+    <linearGradient id="lampsedan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fffbe8"/>
+      <stop offset="100%" stop-color="#ffd27a"/>
+    </linearGradient>
+    <radialGradient id="rimsedan" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0%" stop-color="#f4f6fa"/>
+      <stop offset="100%" stop-color="#7f8796"/>
+    </radialGradient>
+    <linearGradient id="shinesedan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="dropsedan" x="-20%" y="-25%" width="140%" height="165%">
+      <feDropShadow dx="0" dy="12" stdDeviation="11" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="230" cy="186" rx="196" ry="10" fill="#000" opacity="0.30"/>
+  <g filter="url(#dropsedan)">
+    <path d="M18,156 L18,130 Q20,116 42,112 L122,108 L152,106 Q162,104 172,90 L198,70 L286,68 Q302,68 314,84 L338,104 L404,102 Q424,102 428,114 L430,138 L430,156 L381,156 A39,39 0 0 0 303,156 L147,156 A39,39 0 0 0 69,156 Z" fill="url(#paintsedan)"/>
+    <path d="M18,156 L18,130 Q20,116 42,112 L122,108 L152,106 Q162,104 172,90 L198,70 L286,68 Q302,68 314,84 L338,104 L404,102 Q424,102 428,114 L430,138 L430,156 L381,156 A39,39 0 0 0 303,156 L147,156 A39,39 0 0 0 69,156 Z" fill="none" stroke="#383a3d" stroke-width="2" opacity="0.55"/>
+    <path d="M194,90 L212,72 L254,70 L255,90 Z" fill="url(#glasssedan)"/><path d="M263,70 L288,70 L308,90 L264,90 Z" fill="url(#glasssedan)"/>
+    <path d="M34,114 L66,110 L68,120 L34,122 Z" fill="url(#lampsedan)" opacity="0.95"/><path d="M396,104 L422,109 L420,118 L394,113 Z" fill="url(#lampsedan)" opacity="0.95"/>
+    <path d="M259,90 L259,140" stroke="#383a3d" stroke-width="1.6" fill="none" opacity="0.45"/>
+    <path d="M58,146 L390,141"
+          stroke="url(#shinesedan)" stroke-width="3.5" fill="none"/>
+  </g>
+  <g><circle cx="108" cy="150" r="30" fill="#090b11"/><circle cx="108" cy="150" r="26" fill="#171b26"/><circle cx="108" cy="150" r="17" fill="url(#rimsedan)"/><line x1="108" y1="150" x2="123.6" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="108" y1="150" x2="119.0" y2="161.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="108" y1="150" x2="108.0" y2="165.6" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="108" y1="150" x2="97.0" y2="161.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="108" y1="150" x2="92.4" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="108" y1="150" x2="97.0" y2="139.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="108" y1="150" x2="108.0" y2="134.4" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="108" y1="150" x2="119.0" y2="139.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><circle cx="108" cy="150" r="5" fill="#0d1017"/><circle cx="108" cy="150" r="30" fill="none" stroke="#000" stroke-opacity="0.5" stroke-width="1.5"/></g><g><circle cx="342" cy="150" r="30" fill="#090b11"/><circle cx="342" cy="150" r="26" fill="#171b26"/><circle cx="342" cy="150" r="17" fill="url(#rimsedan)"/><line x1="342" y1="150" x2="357.6" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="342" y1="150" x2="353.0" y2="161.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="342" y1="150" x2="342.0" y2="165.6" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="342" y1="150" x2="331.0" y2="161.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="342" y1="150" x2="326.4" y2="150.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="342" y1="150" x2="331.0" y2="139.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="342" y1="150" x2="342.0" y2="134.4" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><line x1="342" y1="150" x2="353.0" y2="139.0" stroke="#0d1017" stroke-width="3.4" stroke-linecap="round"/><circle cx="342" cy="150" r="5" fill="#0d1017"/><circle cx="342" cy="150" r="30" fill="none" stroke="#000" stroke-opacity="0.5" stroke-width="1.5"/></g>
+</svg>

@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% block title %}Manage booking — {{ COMPANY }}{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="wrap" style="max-width:720px">
+    <div class="section-head">
+      <span class="eyebrow">Manage</span>
+      <h2>Find your booking</h2>
+      <p>Enter the reference from your confirmation, for example <span class="mono">VD-1A2B3C</span>.</p>
+    </div>
+
+    <form class="searchbar" method="get" style="margin-top:0">
+      <div class="field" style="grid-column:span 2">
+        <label for="l-ref">Booking reference</label>
+        <input class="input mono" type="text" id="l-ref" name="reference"
+               value="{{ reference }}" placeholder="VD-XXXXXX" required>
+      </div>
+      <button class="btn btn--primary" type="submit">Find booking</button>
+    </form>
+
+    {% if searched and not booking %}
+      <div class="alert alert--err" style="margin-top:1.8rem" role="alert">
+        No booking found for “{{ reference }}”. Check the reference and try again.
+      </div>
+    {% endif %}
+
+    {% if booking %}
+      <div class="ticket" style="margin-top:2rem">
+        <div class="ticket__head">
+          <span class="eyebrow" style="margin-bottom:.4rem">Booking reference</span>
+          <div class="ticket__ref">{{ booking.reference }}</div>
+          <p class="muted" style="margin:.6rem 0 0">
+            {{ booking.make }} {{ booking.model }} · {{ booking.days }} day{{ 's' if booking.days != 1 }}
+          </p>
+        </div>
+        <div class="ticket__grid">
+          <div><span>Driver</span><strong>{{ booking.full_name }}</strong></div>
+          <div><span>Pick-up</span><strong>{{ booking.pickup_date }}</strong></div>
+          <div><span>Return</span><strong>{{ booking.return_date }}</strong></div>
+          <div><span>Branch</span><strong>{{ booking.pickup_branch }}</strong></div>
+          <div><span>Total</span><strong>{{ CURRENCY }} {{ booking.total|money2 }}</strong></div>
+          <div>
+            <span>Status</span>
+            <strong style="text-transform:capitalize;color:{{ 'var(--err)' if booking.status == 'cancelled' else 'var(--ok)' }}">
+              {{ booking.status }}
+            </strong>
+          </div>
+        </div>
+        {% if booking.status != 'cancelled' %}
+          <div style="padding:0 1.8rem 1.8rem">
+            <button class="btn btn--ghost btn--sm" id="cancel-btn"
+                    data-reference="{{ booking.reference }}">Cancel this booking</button>
+            <p class="hint" style="margin-top:.6rem">Cancellation is free up to 24 hours before pick-up.</p>
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  document.getElementById('cancel-btn')?.addEventListener('click', async (e) => {
+    const btn = e.currentTarget;
+    if (!confirm('Cancel this booking? This cannot be undone.')) return;
+    btn.disabled = true;
+    btn.textContent = 'Cancelling…';
+    try {
+      const res = await fetch(`/api/v1/bookings/${btn.dataset.reference}/cancel`, { method: 'POST' });
+      if (!res.ok) throw new Error('Cancellation failed');
+      location.reload();
+    } catch (err) {
+      btn.disabled = false;
+      btn.textContent = 'Cancel this booking';
+      alert(err.message);
+    }
+  });
+</script>
+{% endblock %}

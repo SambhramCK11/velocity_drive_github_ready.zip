@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block title %}AI Concierge — {{ COMPANY }}{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">AI concierge</span>
+      <h2>Describe the trip in your own words</h2>
+      <p>
+        We parse your request into structured constraints, score every available
+        vehicle on six weighted signals, and show the reasoning behind each
+        result — no black box.
+      </p>
+    </div>
+
+    <div class="concierge">
+      <form id="concierge-form">
+        <div class="field">
+          <label for="c-query">What do you need the car for?</label>
+          <textarea class="input" id="c-query" name="query" rows="3"
+            placeholder="Something fast and flashy for my birthday, around 3000 a day, just two of us"></textarea>
+        </div>
+
+        <div class="chips" role="group" aria-label="Example requests">
+          {% for ex in examples %}
+            <button type="button" class="chip" data-example="{{ ex }}">{{ ex }}</button>
+          {% endfor %}
+        </div>
+
+        <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin-top:1.4rem">
+          <div class="field">
+            <label for="c-budget">Max per day ({{ CURRENCY }})</label>
+            <input class="input" type="number" id="c-budget" name="budget_max" min="50" step="50" placeholder="Any">
+          </div>
+          <div class="field">
+            <label for="c-passengers">Passengers</label>
+            <input class="input" type="number" id="c-passengers" name="passengers" min="1" max="12" placeholder="Any">
+          </div>
+          <div class="field">
+            <label for="c-pickup">Pick-up</label>
+            <input class="input" type="date" id="c-pickup" name="pickup_date" value="{{ today }}" min="{{ today }}">
+          </div>
+          <div class="field">
+            <label for="c-return">Return</label>
+            <input class="input" type="date" id="c-return" name="return_date" value="{{ default_return }}" min="{{ today }}">
+          </div>
+        </div>
+
+        <div style="margin-top:1.4rem;display:flex;gap:.8rem;flex-wrap:wrap;align-items:center">
+          <button class="btn btn--teal" type="submit" id="c-submit">Find my car</button>
+          <button class="btn btn--ghost btn--sm" type="reset" id="c-reset">Clear</button>
+          <label class="hint" style="display:flex;align-items:center;gap:.45rem;cursor:pointer">
+            <input type="checkbox" id="c-explain" style="accent-color:var(--gold)"> Show signal breakdown
+          </label>
+        </div>
+      </form>
+
+      <div id="c-intent" hidden style="margin-top:1.6rem">
+        <span class="match__label">What we understood</span>
+        <div class="intent-tags" id="c-intent-tags"></div>
+      </div>
+    </div>
+
+    <div id="c-status" class="muted" style="margin:1.8rem 0 1rem" aria-live="polite"></div>
+    <div class="grid grid--3" id="c-results"></div>
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>window.VD_CURRENCY = {{ CURRENCY|tojson }};</script>
+<script src="{{ url_for('static', filename='js/concierge.js') }}"></script>
+{% endblock %}

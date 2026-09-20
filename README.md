@@ -29,8 +29,8 @@ The database is created and seeded with 18 vehicles on first run. No other
 setup, no migrations, no API keys.
 
 ```bash
-pytest -q                          # 70 tests
-python tools/generate_assets.py    # regenerate all artwork
+pip install -r requirements-dev.txt && pytest -q   # 70 tests
+python tools/generate_assets.py                    # regenerate all artwork
 ```
 
 ---
@@ -221,6 +221,39 @@ velocity/
 ├── tools/generate_assets.py
 └── tests/test_app.py
 ```
+
+---
+
+## Deploying to Vercel
+
+`pyproject.toml` names the entrypoint, which is all Vercel needs:
+
+```toml
+[tool.vercel]
+entrypoint = "run:app"
+```
+
+Without it the build fails with *"No Flask entrypoint found in default
+locations"* — Vercel looks for `app.py`, `index.py`, `server.py` or `main.py`
+at the root, and this project exposes its instance from `run.py` instead.
+
+Import the repository at [vercel.com/new](https://vercel.com/new) and deploy;
+there is nothing to configure and no build command to set. `requirements.txt`
+is runtime-only (just Flask), so the build does not install pytest.
+
+Two things follow from running on a serverless platform, both handled in
+`config.py`:
+
+- **The filesystem is read-only apart from `/tmp`.** `DATABASE_PATH` defaults
+  there when `VERCEL` is set, so SQLite can open the database for writing.
+- **Instances are ephemeral.** The schema is created and the 18-vehicle fleet
+  re-seeded on each cold start, so the catalogue, search and pricing are always
+  correct — but bookings live only as long as the instance that took them. That
+  is fine for a demonstration; a real deployment would point `DATABASE_PATH` at
+  managed Postgres and swap the `sqlite3` calls in `app/database.py`.
+
+Set `SECRET_KEY` in the project's environment variables. `FLASK_ENV` defaults
+to `production` on Vercel, so `DEBUG` is never on in a deployment.
 
 ---
 

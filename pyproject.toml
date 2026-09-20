@@ -1,0 +1,6 @@
+# Vercel looks for a Flask instance in a handful of default filenames
+# (app.py, index.py, server.py, main.py). This project keeps its factory in the
+# `app` package and exposes the instance from run.py, so point Vercel at it
+# explicitly — "<module>:<variable>".
+[tool.vercel]
+entrypoint = "run:app"

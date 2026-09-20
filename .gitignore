@@ -1,0 +1,12 @@
+# Local SQLite databases — created and seeded on first run.
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+venv/
+.venv/
+
+# Vercel
+.vercel

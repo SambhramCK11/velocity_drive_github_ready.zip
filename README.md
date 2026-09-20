@@ -119,6 +119,50 @@ worth being able to inspect and tune.
 
 ---
 
+## Running it
+
+Two implementations over one fleet definition and one set of templates:
+
+- **`worker/`** — a Cloudflare Worker on Neon Postgres, which is what deploys.
+  See **[DEPLOY.md](DEPLOY.md)**.
+- **`app/`** — the original Flask app on SQLite, still runnable locally.
+
+```bash
+# The Worker
+npm install && cp .dev.vars.example .dev.vars   # add your Neon connection string
+npm run db:migrate && npm run db:seed
+npm run dev                                      # http://localhost:8787
+
+# The Flask app
+pip install -r requirements.txt
+python run.py                                    # http://127.0.0.1:5000
+```
+
+```
+app/                  the Flask application
+  __init__.py         create_app  (reconstructed — see DEPLOY.md)
+  api.py              the /api/v1 blueprint  (reconstructed — see DEPLOY.md)
+  routes.py           the seven server-rendered pages
+  services.py         dates, availability, pricing, bookings
+  recommender.py      intent parsing and the six-signal ranking
+  nlp.py              TF-IDF with cosine similarity
+  seed.py             FLEET — the single definition of the fleet
+  templates/          10 Jinja templates, rendered by BOTH runtimes
+worker/               the Cloudflare Worker: ports of the above
+public/static/        css, js and the car SVGs, served by both
+db/
+  schema.sql          Postgres schema for Neon
+  seed.sql            GENERATED from app/seed.py by scripts/export-fleet.py
+scripts/              fixture generators, migrate, seed, autocommit
+tests/test_app.py     70 pytest tests
+test/                 82 JS tests, most of them differential against the Python
+```
+
+The ported modules are not trusted on inspection: the ranking, the pricing and
+the template output are each compared against the Python they came from, over
+fixtures generated from it. [DEPLOY.md](DEPLOY.md) has the table and the three
+real mismatches that process caught.
+
 ## API
 
 Base URL `/api/v1`. All responses are JSON; validation failures return `400`

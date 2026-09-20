@@ -204,7 +204,9 @@ identity regenerates.
 
 ```
 velocity/
-├── run.py                  entry point
+├── run.py                  local entry point
+├── api/index.py            Vercel serverless entry point
+├── vercel.json             routing and function config
 ├── config.py               environments, business rules, ranking weights
 ├── requirements.txt
 ├── app/
@@ -226,20 +228,26 @@ velocity/
 
 ## Deploying to Vercel
 
-`pyproject.toml` names the entrypoint, which is all Vercel needs:
+`api/index.py` exposes the WSGI app as a serverless function and `vercel.json`
+rewrites every request to it, so Flask keeps doing its own routing — pages,
+the JSON API and `/static` alike:
 
-```toml
-[tool.vercel]
-entrypoint = "run:app"
+```json
+{
+  "framework": null,
+  "rewrites": [{ "source": "/(.*)", "destination": "/api/index" }],
+  "functions": { "api/index.py": { "includeFiles": "{app/**,config.py}" } }
+}
 ```
 
-Without it the build fails with *"No Flask entrypoint found in default
-locations"* — Vercel looks for `app.py`, `index.py`, `server.py` or `main.py`
-at the root, and this project exposes its instance from `run.py` instead.
+Framework auto-detection is switched off on purpose. Vercel's Flask preset
+probes a fixed list of root filenames — `app.py`, `index.py`, `server.py`,
+`main.py` — none of which this project uses, and `includeFiles` is needed
+regardless so the templates and generated SVGs are bundled with the function.
 
-Import the repository at [vercel.com/new](https://vercel.com/new) and deploy;
-there is nothing to configure and no build command to set. `requirements.txt`
-is runtime-only (just Flask), so the build does not install pytest.
+Import the repository at [vercel.com/new](https://vercel.com/new) and deploy.
+There is no build command to set. `requirements.txt` is runtime-only (just
+Flask), so the build does not install pytest.
 
 Two things follow from running on a serverless platform, both handled in
 `config.py`:

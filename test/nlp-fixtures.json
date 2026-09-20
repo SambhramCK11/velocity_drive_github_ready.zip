@@ -1,0 +1,885 @@
+{
+ "tokenize": {
+  "": [],
+  "car": [
+   "car"
+  ],
+  "Something fast and flashy for my birthday, budget around 3000 a day": [
+   "fast",
+   "supercar",
+   "birthday",
+   "budget",
+   "around",
+   "3000",
+   "day",
+   "fast_supercar",
+   "supercar_birthday",
+   "birthday_budget",
+   "budget_around",
+   "around_3000",
+   "3000_day"
+  ],
+  "Family of six going to the desert for a week": [
+   "family",
+   "six",
+   "going",
+   "offroad",
+   "week",
+   "family_six",
+   "six_going",
+   "going_offroad",
+   "offroad_week"
+  ],
+  "Executive car for airport transfers and client meetings": [
+   "corporate",
+   "car",
+   "transf",
+   "transf",
+   "corporate",
+   "meeting",
+   "corporate_car",
+   "car_transf",
+   "transf_transf",
+   "transf_corporate",
+   "corporate_meeting"
+  ],
+  "Cheapest automatic I can rent for a month": [
+   "cheapest",
+   "automatic",
+   "rent",
+   "month",
+   "cheapest_automatic",
+   "automatic_rent",
+   "rent_month"
+  ],
+  "Open top convertible for a weekend along the coast": [
+   "open",
+   "top",
+   "convertible",
+   "weekend",
+   "along",
+   "coast",
+   "open_top",
+   "top_convertible",
+   "convertible_weekend",
+   "weekend_along",
+   "along_coast"
+  ],
+  "Electric car, low running cost, 5 seats": [
+   "electric",
+   "car",
+   "budget",
+   "runn",
+   "cost",
+   "5",
+   "seat",
+   "electric_car",
+   "car_budget",
+   "budget_runn",
+   "runn_cost",
+   "cost_5",
+   "5_seat"
+  ],
+  "cheap affordable inexpensive economical": [
+   "budget",
+   "budget",
+   "budget",
+   "budget",
+   "budget_budget",
+   "budget_budget",
+   "budget_budget"
+  ],
+  "SUVs crossover jeep 4x4 offroad": [
+   "suv",
+   "suv",
+   "suv",
+   "suv",
+   "suv",
+   "suv_suv",
+   "suv_suv",
+   "suv_suv",
+   "suv_suv"
+  ],
+  "running runner runs ran": [
+   "runn",
+   "runn",
+   "runs",
+   "ran",
+   "runn_runn",
+   "runn_runs",
+   "runs_ran"
+  ],
+  "travelling travellers travelled": [
+   "trip",
+   "travell",
+   "travell",
+   "trip_travell",
+   "travell_travell"
+  ],
+  "SEVEN seater for KIDS and suitcases!!": [
+   "seven",
+   "seat",
+   "family",
+   "luggage",
+   "seven_seat",
+   "seat_family",
+   "family_luggage"
+  ],
+  "wedding bride marriage limousine": [
+   "wedd",
+   "wedd",
+   "wedd",
+   "limousine",
+   "wedd_wedd",
+   "wedd_wedd",
+   "wedd_limousine"
+  ],
+  "a an the and or but": [],
+  "3k budget under 2,500 aed per day": [
+   "3k",
+   "budget",
+   "2",
+   "500",
+   "aed",
+   "per",
+   "day",
+   "3k_budget",
+   "budget_2",
+   "2_500",
+   "500_aed",
+   "aed_per",
+   "per_day"
+  ],
+  "ev evs battery hybrid hybrids": [
+   "electric",
+   "electric",
+   "electric",
+   "hybrid",
+   "hybrid",
+   "electric_electric",
+   "electric_electric",
+   "electric_hybrid",
+   "hybrid_hybrid"
+  ],
+  "quick rapid speedy quickest fastest powerful performance": [
+   "fast",
+   "fast",
+   "fast",
+   "fast",
+   "fast",
+   "fast",
+   "fast",
+   "fast_fast",
+   "fast_fast",
+   "fast_fast",
+   "fast_fast",
+   "fast_fast",
+   "fast_fast"
+  ]
+ },
+ "tokenize_no_bigrams": {
+  "": [],
+  "car": [
+   "car"
+  ],
+  "Something fast and flashy for my birthday, budget around 3000 a day": [
+   "fast",
+   "supercar",
+   "birthday",
+   "budget",
+   "around",
+   "3000",
+   "day"
+  ],
+  "Family of six going to the desert for a week": [
+   "family",
+   "six",
+   "going",
+   "offroad",
+   "week"
+  ],
+  "Executive car for airport transfers and client meetings": [
+   "corporate",
+   "car",
+   "transf",
+   "transf",
+   "corporate",
+   "meeting"
+  ],
+  "Cheapest automatic I can rent for a month": [
+   "cheapest",
+   "automatic",
+   "rent",
+   "month"
+  ],
+  "Open top convertible for a weekend along the coast": [
+   "open",
+   "top",
+   "convertible",
+   "weekend",
+   "along",
+   "coast"
+  ],
+  "Electric car, low running cost, 5 seats": [
+   "electric",
+   "car",
+   "budget",
+   "runn",
+   "cost",
+   "5",
+   "seat"
+  ],
+  "cheap affordable inexpensive economical": [
+   "budget",
+   "budget",
+   "budget",
+   "budget"
+  ],
+  "SUVs crossover jeep 4x4 offroad": [
+   "suv",
+   "suv",
+   "suv",
+   "suv",
+   "suv"
+  ],
+  "running runner runs ran": [
+   "runn",
+   "runn",
+   "runs",
+   "ran"
+  ],
+  "travelling travellers travelled": [
+   "trip",
+   "travell",
+   "travell"
+  ],
+  "SEVEN seater for KIDS and suitcases!!": [
+   "seven",
+   "seat",
+   "family",
+   "luggage"
+  ],
+  "wedding bride marriage limousine": [
+   "wedd",
+   "wedd",
+   "wedd",
+   "limousine"
+  ],
+  "a an the and or but": [],
+  "3k budget under 2,500 aed per day": [
+   "3k",
+   "budget",
+   "2",
+   "500",
+   "aed",
+   "per",
+   "day"
+  ],
+  "ev evs battery hybrid hybrids": [
+   "electric",
+   "electric",
+   "electric",
+   "hybrid",
+   "hybrid"
+  ],
+  "quick rapid speedy quickest fastest powerful performance": [
+   "fast",
+   "fast",
+   "fast",
+   "fast",
+   "fast",
+   "fast",
+   "fast"
+  ]
+ },
+ "surface_forms": {
+  "": {},
+  "car": {
+   "car": "car"
+  },
+  "Something fast and flashy for my birthday, budget around 3000 a day": {
+   "fast": "fast",
+   "supercar": "flashy",
+   "birthday": "birthday",
+   "budget": "budget",
+   "around": "around",
+   "3000": "3000",
+   "day": "day"
+  },
+  "Family of six going to the desert for a week": {
+   "family": "family",
+   "six": "six",
+   "going": "going",
+   "offroad": "desert",
+   "week": "week"
+  },
+  "Executive car for airport transfers and client meetings": {
+   "corporate": "executive",
+   "car": "car",
+   "transf": "airport",
+   "meeting": "meetings"
+  },
+  "Cheapest automatic I can rent for a month": {
+   "cheapest": "cheapest",
+   "automatic": "automatic",
+   "rent": "rent",
+   "month": "month"
+  },
+  "Open top convertible for a weekend along the coast": {
+   "open": "open",
+   "top": "top",
+   "convertible": "convertible",
+   "weekend": "weekend",
+   "along": "along",
+   "coast": "coast"
+  },
+  "Electric car, low running cost, 5 seats": {
+   "electric": "electric",
+   "car": "car",
+   "budget": "low",
+   "runn": "running",
+   "cost": "cost",
+   "5": "5",
+   "seat": "seats"
+  },
+  "cheap affordable inexpensive economical": {
+   "budget": "cheap"
+  },
+  "SUVs crossover jeep 4x4 offroad": {
+   "suv": "suvs"
+  },
+  "running runner runs ran": {
+   "runn": "running",
+   "runs": "runs",
+   "ran": "ran"
+  },
+  "travelling travellers travelled": {
+   "trip": "travelling",
+   "travell": "travellers"
+  },
+  "SEVEN seater for KIDS and suitcases!!": {
+   "seven": "seven",
+   "seat": "seater",
+   "family": "kids",
+   "luggage": "suitcases"
+  },
+  "wedding bride marriage limousine": {
+   "wedd": "wedding",
+   "limousine": "limousine"
+  },
+  "a an the and or but": {},
+  "3k budget under 2,500 aed per day": {
+   "3k": "3k",
+   "budget": "budget",
+   "2": "2",
+   "500": "500",
+   "aed": "aed",
+   "per": "per",
+   "day": "day"
+  },
+  "ev evs battery hybrid hybrids": {
+   "electric": "ev",
+   "hybrid": "hybrid"
+  },
+  "quick rapid speedy quickest fastest powerful performance": {
+   "fast": "quick"
+  }
+ },
+ "corpus": {
+  "lamborghini-huracan-evo": "Lamborghini Huracan EVO Supercar Coupe Petrol Automatic Arancio Borealis The loudest way to arrive anywhere. A naturally aspirated V10 supercar built for weekend drives down Jumeirah Beach Road and photo stops at the Burj Al Arab. Extreme performance, exotic styling, razor sharp handling and a soundtrack that turns heads. Ideal for special occasions, birthdays, luxury photoshoots, content creation and anyone who wants a fast flashy exotic sports car experience rather than practical transport. Launch Control Carbon Ceramic Brakes Apple CarPlay Sport Exhaust Lifting System Alcantara Interior 2 seats 2 doors 1 luggage",
+  "ferrari-portofino-m": "Ferrari Portofino M Supercar Convertible Petrol Automatic Rosso Corsa Drop the roof, keep the drama. A convertible grand tourer that folds its hardtop in fourteen seconds. Fast and glamorous but far more usable than a hard core supercar, with two small rear seats and real luggage space. Perfect for open top coastal cruising, romantic evenings, anniversaries and couples who want an exotic car they can actually drive comfortably for a few hours. Retractable Hardtop Magnaride Suspension Bluetooth Heated Seats Reversing Camera Carbon Fibre Trim 4 seats 2 doors 2 luggage",
+  "rolls-royce-ghost": "Rolls-Royce Ghost Luxury Sedan Petrol Automatic English White Silence, engineered. The definitive chauffeur driven limousine. Whisper quiet cabin, starlight headliner and rear seats that recline. This is the car for weddings, executive airport transfers, corporate VIP guests, red carpet arrivals and formal business events where arriving with understated prestige and total comfort matters more than outright speed. Starlight Headliner Rear Executive Seats Massage Seats Chauffeur Partition Bespoke Audio Champagne Cooler 5 seats 4 doors 3 luggage",
+  "mercedes-s500": "Mercedes-Benz S 500 L Luxury Sedan Petrol Automatic Obsidian Black The executive standard. The benchmark executive saloon for business travel. Long wheelbase rear legroom, massaging seats and an air suspension that erases road noise on the Sheikh Zayed Road. The sensible professional choice for corporate clients, consultants, airport pickups and multi day business trips where comfort, discretion and a quiet cabin for calls matter most. Burmester 3D Audio Rear Entertainment Massage Seats Ambient Lighting Adaptive Cruise Wireless CarPlay 5 seats 4 doors 3 luggage",
+  "bmw-m4-competition": "BMW M4 Competition Sports Coupe Petrol Automatic Isle of Man Green Track focus, street legal. A twin turbo straight six coupe that bridges daily usability and genuine performance. Quick, aggressive and engaging to drive, but with a usable boot and rear seats. A strong pick for driving enthusiasts, track day spectators and younger renters who want something fast and sporty without full supercar running costs. M Sport Exhaust Carbon Bucket Seats Head Up Display Drift Analyser Harman Kardon Audio Apple CarPlay 4 seats 2 doors 2 luggage",
+  "porsche-911-carrera": "Porsche 911 Carrera S Sports Coupe Petrol Automatic GT Silver The everyday exotic. The sports car you can genuinely use every day. Precise steering, rear engine balance and build quality that shrugs off long distance driving. Suits renters who want serious performance and prestige but also comfort, reliability and enough practicality for a weekend away or a long desert highway road trip. Sport Chrono PASM Suspension Bose Audio Lane Keep Assist Wireless CarPlay Sport Seats Plus 4 seats 2 doors 2 luggage",
+  "range-rover-vogue": "Land Rover Range Rover Vogue SUV SUV Petrol Automatic Santorini Black Command every surface. Commanding luxury SUV with genuine off road ability and a cabin that isolates you from everything outside. Handles desert tracks, school runs and hotel valets with equal confidence. A favourite for families, desert safari trips, golf weekends and anyone who wants a high driving position with premium comfort and space. Air Suspension Terrain Response Meridian Audio Panoramic Roof Heated Rear Seats 360 Camera 5 seats 5 doors 4 luggage",
+  "toyota-land-cruiser": "Toyota Land Cruiser 300 SUV SUV Petrol Automatic Pearl White Goes anywhere, carries everyone. The workhorse of the region. Seven seats, proper four wheel drive and legendary reliability in heat and sand. The default choice for large families, group trips, dune bashing, camping in Hatta and long intercity drives to Abu Dhabi or Oman where space, durability and running cost matter more than styling. 7 Seats 4WD Low Range Roof Rails Cooled Seats Apple CarPlay Cruise Control 7 seats 5 doors 4 luggage",
+  "nissan-patrol-platinum": "Nissan Patrol Platinum SUV SUV Petrol Automatic Gun Metallic The desert's favourite. A big comfortable V8 family SUV built for the Gulf. Cools fast in summer, seats seven adults and tows easily. Popular for extended family holidays, group airport runs, weekend desert camping and anyone needing maximum passenger and luggage capacity at a reasonable mid range daily price. 7 Seats 4WD Around View Monitor Bose Audio Rear Climate Control Tow Package 7 seats 5 doors 4 luggage",
+  "tesla-model-3-lr": "Tesla Model 3 Long Range Electric Sedan Electric Automatic Deep Blue Metallic Zero fuel stops, zero fuss. Quick, quiet and cheap to run with no petrol costs at all. Excellent for cost conscious renters, tech enthusiasts, environmentally minded travellers and long monthly rentals where fuel savings compound. Instant torque makes it feel fast in city traffic while Autopilot eases motorway commuting. Autopilot 629km Range Glass Roof Supercharging Premium Audio Sentry Mode 5 seats 4 doors 3 luggage",
+  "tesla-model-y": "Tesla Model Y Electric SUV Electric Automatic Pearl White Electric space, family sized. A practical electric crossover with a cavernous boot and a high seating position. Combines low running costs with family friendly space, making it a smart pick for small families, longer stays, airport trips with lots of luggage and renters who want an electric car but need more room than a saloon. Autopilot Huge Boot Glass Roof Supercharging Heat Pump Wireless Charging 5 seats 5 doors 4 luggage",
+  "mercedes-v-class": "Mercedes-Benz V-Class Avantgarde Van MPV Diesel Automatic Cavansite Blue Move the whole team. An eight seat luxury people mover with conference style seating and a huge luggage bay. Built for corporate group transfers, conference delegations, large family arrivals, wedding party transport and tour groups who need everyone plus all the suitcases in one comfortable air conditioned vehicle. 8 Seats Conference Seating Rear Climate Electric Sliding Doors Large Luggage Bay USB-C Ports 8 seats 5 doors 6 luggage",
+  "bentley-continental-gt": "Bentley Continental GT Luxury Coupe Petrol Automatic Glacier White Grand touring, perfected. A grand tourer that crosses continents in hand stitched comfort. Enormous effortless torque paired with a cabin of quilted leather and machined metal. Chosen for milestone celebrations, luxury road trips, elegant wedding cars and clients who want prestige and craftsmanship rather than aggressive supercar styling. Rotating Display Naim Audio Diamond Quilted Leather All Wheel Drive Massage Seats Night Vision 4 seats 2 doors 2 luggage",
+  "audi-q8-quattro": "Audi Q8 55 TFSI SUV SUV Petrol Automatic Navarra Blue Sharp suit, big boots. A coupe styled premium SUV that mixes sporty road manners with family practicality. Quattro all wheel drive, a sharp digital cockpit and a modern understated design. Good for business travellers with luggage, small families wanting something stylish, and renters after a premium SUV that is less imposing than a full size off roader. Quattro AWD Virtual Cockpit Bang & Olufsen Audio Adaptive Air Suspension Matrix LED 360 Camera 5 seats 5 doors 4 luggage",
+  "ford-mustang-gt": "Ford Mustang GT Sports Convertible Petrol Automatic Race Red Affordable American muscle. A V8 convertible that delivers genuine noise and drama for a fraction of supercar money. Roof down cruising along the beach, loud exhaust and classic muscle car styling. The value option for renters who want a fun exciting weekend car, a memorable birthday drive or an open top experience on a moderate budget. V8 Engine Soft Top Convertible Track Apps B&O Audio Launch Control Apple CarPlay 4 seats 2 doors 2 luggage",
+  "toyota-corolla-hybrid": "Toyota Corolla Hybrid Economy Sedan Hybrid Automatic Silver Metallic Cheap to run, easy to park. The sensible budget choice. Hybrid fuel economy, low daily rate and effortless city driving. Ideal for students, long stay visitors, daily commuting, ride hailing work and anyone who wants the cheapest reliable automatic car for getting around Dubai without worrying about fuel bills or parking size. Hybrid Economy Apple CarPlay Lane Assist Reversing Camera Cruise Control Bluetooth 5 seats 4 doors 2 luggage",
+  "nissan-sunny": "Nissan Sunny Economy Sedan Petrol Automatic Brilliant Silver The lowest daily rate we offer. Our most affordable car. Simple, economical and perfectly adequate for getting from A to B. The best value for tight budgets, short errands, first time renters, students and long monthly hires where the priority is the cheapest possible price rather than performance, badge or luxury features. Bluetooth Reversing Camera USB Charging Air Conditioning Cruise Control Automatic 5 seats 4 doors 2 luggage",
+  "mini-cooper-s": "MINI Cooper S Compact Hatchback Petrol Automatic Chili Red Small car, big personality. A fun compact hatchback with sharp go kart handling and retro styling. Easy to park in tight mall garages but genuinely entertaining on a back road. Suits couples, solo travellers, city driving and renters who want character and a bit of fun without paying sports car prices or dealing with a large vehicle. Go Kart Handling Harman Kardon Audio Panoramic Roof Apple CarPlay Sport Mode Ambient Lighting 4 seats 3 doors 1 luggage"
+ },
+ "idf_sample": {
+  "1": 2.8458266904983307,
+  "1_luggage": 2.8458266904983307,
+  "2": 1.7472144018302211,
+  "2_door": 1.9985288301111273,
+  "2_luggage": 1.8649974374866045,
+  "2_seat": 3.2512917986064953,
+  "3": 2.3350010667323398,
+  "300": 3.2512917986064953,
+  "300_suv": 3.2512917986064953,
+  "360": 2.8458266904983307,
+  "360_camera": 2.8458266904983307,
+  "3_door": 3.2512917986064953,
+  "3_long": 3.2512917986064953,
+  "3_luggage": 2.55814461804655,
+  "3d": 3.2512917986064953,
+  "3d_audio": 3.2512917986064953,
+  "4": 1.1112256351102243,
+  "4_door": 2.1526795099383853,
+  "4_luggage": 2.1526795099383853,
+  "4_seat": 1.9985288301111273,
+  "4wd": 2.8458266904983307,
+  "4wd_around": 3.2512917986064953,
+  "4wd_budget": 3.2512917986064953,
+  "5": 1.4595323293784401,
+  "500": 3.2512917986064953,
+  "500_l": 3.2512917986064953,
+  "55": 3.2512917986064953,
+  "55_tfsi": 3.2512917986064953,
+  "5_door": 1.9985288301111273,
+  "5_seat": 1.7472144018302211,
+  "6": 3.2512917986064953,
+  "629km": 3.2512917986064953,
+  "629km_range": 3.2512917986064953,
+  "6_luggage": 3.2512917986064953,
+  "7": 2.8458266904983307,
+  "7_seat": 2.8458266904983307,
+  "8": 3.2512917986064953,
+  "8_seat": 3.2512917986064953,
+  "911": 3.2512917986064953,
+  "911_carrera": 3.2512917986064953
+ },
+ "search": {
+  "": [
+   [
+    "lamborghini-huracan-evo",
+    0.0
+   ],
+   [
+    "ferrari-portofino-m",
+    0.0
+   ],
+   [
+    "rolls-royce-ghost",
+    0.0
+   ],
+   [
+    "mercedes-s500",
+    0.0
+   ],
+   [
+    "bmw-m4-competition",
+    0.0
+   ]
+  ],
+  "car": [
+   [
+    "ford-mustang-gt",
+    0.08375248052336567
+   ],
+   [
+    "mini-cooper-s",
+    0.07942932436272718
+   ],
+   [
+    "nissan-sunny",
+    0.05396357865039537
+   ],
+   [
+    "tesla-model-y",
+    0.052927042195952186
+   ],
+   [
+    "porsche-911-carrera",
+    0.05063242434717784
+   ]
+  ],
+  "Something fast and flashy for my birthday, budget around 3000 a day": [
+   [
+    "lamborghini-huracan-evo",
+    0.1767538177360481
+   ],
+   [
+    "ford-mustang-gt",
+    0.09218379152151468
+   ],
+   [
+    "bmw-m4-competition",
+    0.08031368357497262
+   ],
+   [
+    "toyota-corolla-hybrid",
+    0.07489806068869147
+   ],
+   [
+    "porsche-911-carrera",
+    0.06459443045459953
+   ]
+  ],
+  "Family of six going to the desert for a week": [
+   [
+    "nissan-patrol-platinum",
+    0.1340206705375164
+   ],
+   [
+    "toyota-land-cruiser",
+    0.12437426169857224
+   ],
+   [
+    "range-rover-vogue",
+    0.10713068193606873
+   ],
+   [
+    "bmw-m4-competition",
+    0.07118663795113296
+   ],
+   [
+    "tesla-model-y",
+    0.06039402919654124
+   ]
+  ],
+  "Executive car for airport transfers and client meetings": [
+   [
+    "rolls-royce-ghost",
+    0.2593677861852488
+   ],
+   [
+    "mercedes-s500",
+    0.11884795563353073
+   ],
+   [
+    "mercedes-v-class",
+    0.062651246910003
+   ],
+   [
+    "tesla-model-y",
+    0.04786444105181025
+   ],
+   [
+    "toyota-corolla-hybrid",
+    0.045154188193284664
+   ]
+  ],
+  "Cheapest automatic I can rent for a month": [
+   [
+    "nissan-sunny",
+    0.12110812361893863
+   ],
+   [
+    "toyota-corolla-hybrid",
+    0.08542389654580278
+   ],
+   [
+    "tesla-model-y",
+    0.037478230894007716
+   ],
+   [
+    "porsche-911-carrera",
+    0.03585338631585267
+   ],
+   [
+    "bmw-m4-competition",
+    0.03502875565596017
+   ]
+  ],
+  "Open top convertible for a weekend along the coast": [
+   [
+    "ford-mustang-gt",
+    0.26343321156526284
+   ],
+   [
+    "ferrari-portofino-m",
+    0.1272166564132432
+   ],
+   [
+    "range-rover-vogue",
+    0.034421915229993306
+   ],
+   [
+    "porsche-911-carrera",
+    0.01952865358077055
+   ],
+   [
+    "nissan-patrol-platinum",
+    0.019153842161212273
+   ]
+  ],
+  "Electric car, low running cost, 5 seats": [
+   [
+    "tesla-model-y",
+    0.30108153141695726
+   ],
+   [
+    "tesla-model-3-lr",
+    0.11576229142136787
+   ],
+   [
+    "toyota-land-cruiser",
+    0.10755786801147894
+   ],
+   [
+    "bmw-m4-competition",
+    0.08088870758671021
+   ],
+   [
+    "nissan-sunny",
+    0.07870913774323891
+   ]
+  ],
+  "cheap affordable inexpensive economical": [
+   [
+    "nissan-sunny",
+    0.15674751700518724
+   ],
+   [
+    "toyota-corolla-hybrid",
+    0.127547160691878
+   ],
+   [
+    "ford-mustang-gt",
+    0.12636042872834571
+   ],
+   [
+    "tesla-model-y",
+    0.06442486789595604
+   ],
+   [
+    "toyota-land-cruiser",
+    0.06108836201847484
+   ]
+  ],
+  "SUVs crossover jeep 4x4 offroad": [
+   [
+    "audi-q8-quattro",
+    0.16285902239067043
+   ],
+   [
+    "range-rover-vogue",
+    0.1506515261826565
+   ],
+   [
+    "nissan-patrol-platinum",
+    0.1467495193667011
+   ],
+   [
+    "toyota-land-cruiser",
+    0.12936038315996626
+   ],
+   [
+    "tesla-model-y",
+    0.08341664530718339
+   ]
+  ],
+  "running runner runs ran": [
+   [
+    "tesla-model-y",
+    0.06891962677098029
+   ],
+   [
+    "toyota-land-cruiser",
+    0.06535034138002613
+   ],
+   [
+    "bmw-m4-competition",
+    0.06441522741263206
+   ],
+   [
+    "range-rover-vogue",
+    0.04852286834759056
+   ],
+   [
+    "nissan-patrol-platinum",
+    0.047266083449225546
+   ]
+  ],
+  "travelling travellers travelled": [
+   [
+    "tesla-model-3-lr",
+    0.06780025192897607
+   ],
+   [
+    "audi-q8-quattro",
+    0.06716232549303892
+   ],
+   [
+    "mini-cooper-s",
+    0.06636876823565914
+   ],
+   [
+    "mercedes-s500",
+    0.04224014504421942
+   ],
+   [
+    "tesla-model-y",
+    0.026991757506273428
+   ]
+  ],
+  "SEVEN seater for KIDS and suitcases!!": [
+   [
+    "nissan-patrol-platinum",
+    0.1840114487467122
+   ],
+   [
+    "toyota-land-cruiser",
+    0.17095230942279838
+   ],
+   [
+    "tesla-model-y",
+    0.08527484732489363
+   ],
+   [
+    "mercedes-v-class",
+    0.07184975690214139
+   ],
+   [
+    "audi-q8-quattro",
+    0.0580385712867615
+   ]
+  ],
+  "wedding bride marriage limousine": [
+   [
+    "bentley-continental-gt",
+    0.07522624150146326
+   ],
+   [
+    "mercedes-v-class",
+    0.07084914420360089
+   ],
+   [
+    "rolls-royce-ghost",
+    0.04671135888304749
+   ],
+   [
+    "lamborghini-huracan-evo",
+    0.0
+   ],
+   [
+    "ferrari-portofino-m",
+    0.0
+   ]
+  ],
+  "a an the and or but": [
+   [
+    "lamborghini-huracan-evo",
+    0.0
+   ],
+   [
+    "ferrari-portofino-m",
+    0.0
+   ],
+   [
+    "rolls-royce-ghost",
+    0.0
+   ],
+   [
+    "mercedes-s500",
+    0.0
+   ],
+   [
+    "bmw-m4-competition",
+    0.0
+   ]
+  ],
+  "3k budget under 2,500 aed per day": [
+   [
+    "mercedes-s500",
+    0.10374191545524754
+   ],
+   [
+    "nissan-sunny",
+    0.08414263166405338
+   ],
+   [
+    "ford-mustang-gt",
+    0.08305588138462641
+   ],
+   [
+    "porsche-911-carrera",
+    0.07348391740580296
+   ],
+   [
+    "bmw-m4-competition",
+    0.07179378161868373
+   ]
+  ],
+  "ev evs battery hybrid hybrids": [
+   [
+    "toyota-corolla-hybrid",
+    0.1689162797296199
+   ],
+   [
+    "tesla-model-y",
+    0.15023987086293458
+   ],
+   [
+    "tesla-model-3-lr",
+    0.08826916694692413
+   ],
+   [
+    "mercedes-v-class",
+    0.05062736713013195
+   ],
+   [
+    "lamborghini-huracan-evo",
+    0.0
+   ]
+  ],
+  "quick rapid speedy quickest fastest powerful performance": [
+   [
+    "bmw-m4-competition",
+    0.1448659411346624
+   ],
+   [
+    "tesla-model-3-lr",
+    0.047727727271562166
+   ],
+   [
+    "lamborghini-huracan-evo",
+    0.0457120869965337
+   ],
+   [
+    "nissan-sunny",
+    0.03174118077200708
+   ],
+   [
+    "porsche-911-carrera",
+    0.029781807921609543
+   ]
+  ]
+ },
+ "top_terms": {
+  "": [],
+  "car": [],
+  "Something fast and flashy for my birthday, budget around 3000 a day": [
+   "flashy",
+   "birthday",
+   "fast"
+  ],
+  "Family of six going to the desert for a week": [],
+  "Executive car for airport transfers and client meetings": [],
+  "Cheapest automatic I can rent for a month": [
+   "automatic"
+  ],
+  "Open top convertible for a weekend along the coast": [
+   "weekend"
+  ],
+  "Electric car, low running cost, 5 seats": [
+   "seats"
+  ],
+  "cheap affordable inexpensive economical": [],
+  "SUVs crossover jeep 4x4 offroad": [],
+  "running runner runs ran": [],
+  "travelling travellers travelled": [],
+  "SEVEN seater for KIDS and suitcases!!": [
+   "seater",
+   "suitcases"
+  ],
+  "wedding bride marriage limousine": [],
+  "a an the and or but": [],
+  "3k budget under 2,500 aed per day": [
+   "2"
+  ],
+  "ev evs battery hybrid hybrids": [],
+  "quick rapid speedy quickest fastest powerful performance": [
+   "quick"
+  ]
+ }
+}

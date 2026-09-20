@@ -59,7 +59,14 @@ def register_error_handlers(app: Flask) -> None:
 
 def create_app(config_name: str | None = None) -> Flask:
     """Build and configure the application."""
-    app = Flask(__name__)
+    # static/ sits at the repository root, in public/, because the Cloudflare
+    # Worker serves the same files through its assets binding and that binding's
+    # directory root becomes the URL root. Keeping it out of app/ means the
+    # Worker can expose public/ without also publishing the templates.
+    app = Flask(
+        __name__,
+        static_folder=os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "public", "static"),
+    )
     app.config.from_object(get_config(config_name))
 
     # SECRET_KEY has a development fallback in config.py so the app runs out of

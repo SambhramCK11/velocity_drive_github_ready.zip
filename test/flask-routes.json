@@ -1,0 +1,117 @@
+[
+ {
+  "rule": "/",
+  "methods": [
+   "GET"
+  ]
+ },
+ {
+  "rule": "/api/v1/availability",
+  "methods": [
+   "GET"
+  ]
+ },
+ {
+  "rule": "/api/v1/bookings",
+  "methods": [
+   "POST"
+  ]
+ },
+ {
+  "rule": "/api/v1/bookings/<reference>",
+  "methods": [
+   "GET"
+  ]
+ },
+ {
+  "rule": "/api/v1/bookings/<reference>/cancel",
+  "methods": [
+   "POST"
+  ]
+ },
+ {
+  "rule": "/api/v1/cars",
+  "methods": [
+   "GET"
+  ]
+ },
+ {
+  "rule": "/api/v1/cars/<slug>",
+  "methods": [
+   "GET"
+  ]
+ },
+ {
+  "rule": "/api/v1/categories",
+  "methods": [
+   "GET"
+  ]
+ },
+ {
+  "rule": "/api/v1/extras",
+  "methods": [
+   "GET"
+  ]
+ },
+ {
+  "rule": "/api/v1/health",
+  "methods": [
+   "GET"
+  ]
+ },
+ {
+  "rule": "/api/v1/quote",
+  "methods": [
+   "POST"
+  ]
+ },
+ {
+  "rule": "/api/v1/recommend",
+  "methods": [
+   "POST"
+  ]
+ },
+ {
+  "rule": "/api/v1/stats",
+  "methods": [
+   "GET"
+  ]
+ },
+ {
+  "rule": "/book/<slug>",
+  "methods": [
+   "GET",
+   "POST"
+  ]
+ },
+ {
+  "rule": "/booking/<reference>",
+  "methods": [
+   "GET"
+  ]
+ },
+ {
+  "rule": "/cars/<slug>",
+  "methods": [
+   "GET"
+  ]
+ },
+ {
+  "rule": "/concierge",
+  "methods": [
+   "GET"
+  ]
+ },
+ {
+  "rule": "/fleet",
+  "methods": [
+   "GET"
+  ]
+ },
+ {
+  "rule": "/lookup",
+  "methods": [
+   "GET"
+  ]
+ }
+]

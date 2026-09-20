@@ -1,0 +1,29 @@
+# Cloudflare Worker — Velocity Drive on Neon Postgres.
+#
+# Free tiers, no card required on either:
+#   Workers   100,000 requests/day, 10 ms CPU per request
+#   Assets    unmetered, not billed, not counted against the request limit
+#   Neon      0.5 GB storage, compute suspends when idle
+#
+# Setup:
+#   npx wrangler login
+#   npx wrangler secret put DATABASE_URL     # Neon pooled connection string
+#   npm run db:migrate && npm run db:seed
+#   npm run deploy
+
+name = "velocity-drive"
+main = "worker/index.mjs"
+compatibility_date = "2026-09-20"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+# public/ holds static/, so the stylesheet, scripts and SVGs keep the /static/…
+# URLs the templates generate. The templates themselves stay outside it.
+directory = "./public"
+binding = "ASSETS"
+
+# worker/views.mjs imports the Jinja templates from app/templates as text
+# modules. Wrangler's default module rules already treat **/*.html as Text.
+
+[observability]
+enabled = true

@@ -9,7 +9,7 @@
     "tail": "wrangler tail",
     "db:migrate": "node scripts/migrate.mjs",
     "db:seed": "node scripts/seed.mjs",
-    "test": "node --test test/*.test.mjs",
+    "test": "node --import ./test/register-hooks.mjs --test test/*.test.mjs",
     "test:python": "python -m pytest tests/ -q"
   },
   "dependencies": {

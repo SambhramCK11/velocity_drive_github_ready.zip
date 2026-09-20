@@ -1,0 +1,3297 @@
+{
+ "weights": {
+  "semantic": 0.34,
+  "budget": 0.24,
+  "capacity": 0.16,
+  "category": 0.14,
+  "features": 0.07,
+  "quality": 0.05
+ },
+ "cars": [
+  {
+   "slug": "rolls-royce-ghost",
+   "make": "Rolls-Royce",
+   "model": "Ghost",
+   "year": 2024,
+   "category": "Luxury",
+   "body_style": "Sedan",
+   "transmission": "Automatic",
+   "fuel_type": "Petrol",
+   "seats": 5,
+   "doors": 4,
+   "luggage": 3,
+   "horsepower": 563,
+   "zero_to_hundred": 4.8,
+   "daily_rate": 4100,
+   "deposit": 7500,
+   "rating": 5.0,
+   "rental_count": 96,
+   "total_units": 1,
+   "color": "English White",
+   "accent_hex": "#d8d3c4",
+   "art_style": "luxury-sedan",
+   "features": [
+    "Starlight Headliner",
+    "Rear Executive Seats",
+    "Massage Seats",
+    "Chauffeur Partition",
+    "Bespoke Audio",
+    "Champagne Cooler"
+   ],
+   "tagline": "Silence, engineered.",
+   "description": "The definitive chauffeur driven limousine. Whisper quiet cabin, starlight headliner and rear seats that recline. This is the car for weddings, executive airport transfers, corporate VIP guests, red carpet arrivals and formal business events where arriving with understated prestige and total comfort matters more than outright speed."
+  },
+  {
+   "slug": "lamborghini-huracan-evo",
+   "make": "Lamborghini",
+   "model": "Huracan EVO",
+   "year": 2024,
+   "category": "Supercar",
+   "body_style": "Coupe",
+   "transmission": "Automatic",
+   "fuel_type": "Petrol",
+   "seats": 2,
+   "doors": 2,
+   "luggage": 1,
+   "horsepower": 640,
+   "zero_to_hundred": 2.9,
+   "daily_rate": 3200,
+   "deposit": 5000,
+   "rating": 4.9,
+   "rental_count": 184,
+   "total_units": 2,
+   "color": "Arancio Borealis",
+   "accent_hex": "#ff7a18",
+   "art_style": "supercar",
+   "features": [
+    "Launch Control",
+    "Carbon Ceramic Brakes",
+    "Apple CarPlay",
+    "Sport Exhaust",
+    "Lifting System",
+    "Alcantara Interior"
+   ],
+   "tagline": "The loudest way to arrive anywhere.",
+   "description": "A naturally aspirated V10 supercar built for weekend drives down Jumeirah Beach Road and photo stops at the Burj Al Arab. Extreme performance, exotic styling, razor sharp handling and a soundtrack that turns heads. Ideal for special occasions, birthdays, luxury photoshoots, content creation and anyone who wants a fast flashy exotic sports car experience rather than practical transport."
+  },
+  {
+   "slug": "ferrari-portofino-m",
+   "make": "Ferrari",
+   "model": "Portofino M",
+   "year": 2023,
+   "category": "Supercar",
+   "body_style": "Convertible",
+   "transmission": "Automatic",
+   "fuel_type": "Petrol",
+   "seats": 4,
+   "doors": 2,
+   "luggage": 2,
+   "horsepower": 620,
+   "zero_to_hundred": 3.45,
+   "daily_rate": 2950,
+   "deposit": 5000,
+   "rating": 4.8,
+   "rental_count": 141,
+   "total_units": 1,
+   "color": "Rosso Corsa",
+   "accent_hex": "#e01e2b",
+   "art_style": "convertible",
+   "features": [
+    "Retractable Hardtop",
+    "Magnaride Suspension",
+    "Bluetooth",
+    "Heated Seats",
+    "Reversing Camera",
+    "Carbon Fibre Trim"
+   ],
+   "tagline": "Drop the roof, keep the drama.",
+   "description": "A convertible grand tourer that folds its hardtop in fourteen seconds. Fast and glamorous but far more usable than a hard core supercar, with two small rear seats and real luggage space. Perfect for open top coastal cruising, romantic evenings, anniversaries and couples who want an exotic car they can actually drive comfortably for a few hours."
+  },
+  {
+   "slug": "bentley-continental-gt",
+   "make": "Bentley",
+   "model": "Continental GT",
+   "year": 2024,
+   "category": "Luxury",
+   "body_style": "Coupe",
+   "transmission": "Automatic",
+   "fuel_type": "Petrol",
+   "seats": 4,
+   "doors": 2,
+   "luggage": 2,
+   "horsepower": 550,
+   "zero_to_hundred": 4.0,
+   "daily_rate": 2400,
+   "deposit": 5000,
+   "rating": 4.9,
+   "rental_count": 112,
+   "total_units": 1,
+   "color": "Glacier White",
+   "accent_hex": "#e6e2d6",
+   "art_style": "luxury-coupe",
+   "features": [
+    "Rotating Display",
+    "Naim Audio",
+    "Diamond Quilted Leather",
+    "All Wheel Drive",
+    "Massage Seats",
+    "Night Vision"
+   ],
+   "tagline": "Grand touring, perfected.",
+   "description": "A grand tourer that crosses continents in hand stitched comfort. Enormous effortless torque paired with a cabin of quilted leather and machined metal. Chosen for milestone celebrations, luxury road trips, elegant wedding cars and clients who want prestige and craftsmanship rather than aggressive supercar styling."
+  },
+  {
+   "slug": "porsche-911-carrera",
+   "make": "Porsche",
+   "model": "911 Carrera S",
+   "year": 2024,
+   "category": "Sports",
+   "body_style": "Coupe",
+   "transmission": "Automatic",
+   "fuel_type": "Petrol",
+   "seats": 4,
+   "doors": 2,
+   "luggage": 2,
+   "horsepower": 443,
+   "zero_to_hundred": 3.5,
+   "daily_rate": 1650,
+   "deposit": 4000,
+   "rating": 4.9,
+   "rental_count": 203,
+   "total_units": 2,
+   "color": "GT Silver",
+   "accent_hex": "#b9bdc2",
+   "art_style": "sports-coupe",
+   "features": [
+    "Sport Chrono",
+    "PASM Suspension",
+    "Bose Audio",
+    "Lane Keep Assist",
+    "Wireless CarPlay",
+    "Sport Seats Plus"
+   ],
+   "tagline": "The everyday exotic.",
+   "description": "The sports car you can genuinely use every day. Precise steering, rear engine balance and build quality that shrugs off long distance driving. Suits renters who want serious performance and prestige but also comfort, reliability and enough practicality for a weekend away or a long desert highway road trip."
+  },
+  {
+   "slug": "range-rover-vogue",
+   "make": "Land Rover",
+   "model": "Range Rover Vogue",
+   "year": 2024,
+   "category": "SUV",
+   "body_style": "SUV",
+   "transmission": "Automatic",
+   "fuel_type": "Petrol",
+   "seats": 5,
+   "doors": 5,
+   "luggage": 4,
+   "horsepower": 395,
+   "zero_to_hundred": 6.0,
+   "daily_rate": 1450,
+   "deposit": 3500,
+   "rating": 4.8,
+   "rental_count": 287,
+   "total_units": 4,
+   "color": "Santorini Black",
+   "accent_hex": "#3c4a5a",
+   "art_style": "suv",
+   "features": [
+    "Air Suspension",
+    "Terrain Response",
+    "Meridian Audio",
+    "Panoramic Roof",
+    "Heated Rear Seats",
+    "360 Camera"
+   ],
+   "tagline": "Command every surface.",
+   "description": "Commanding luxury SUV with genuine off road ability and a cabin that isolates you from everything outside. Handles desert tracks, school runs and hotel valets with equal confidence. A favourite for families, desert safari trips, golf weekends and anyone who wants a high driving position with premium comfort and space."
+  },
+  {
+   "slug": "mercedes-s500",
+   "make": "Mercedes-Benz",
+   "model": "S 500 L",
+   "year": 2024,
+   "category": "Luxury",
+   "body_style": "Sedan",
+   "transmission": "Automatic",
+   "fuel_type": "Petrol",
+   "seats": 5,
+   "doors": 4,
+   "luggage": 3,
+   "horsepower": 429,
+   "zero_to_hundred": 4.9,
+   "daily_rate": 1250,
+   "deposit": 3000,
+   "rating": 4.8,
+   "rental_count": 312,
+   "total_units": 4,
+   "color": "Obsidian Black",
+   "accent_hex": "#9aa7b4",
+   "art_style": "luxury-sedan",
+   "features": [
+    "Burmester 3D Audio",
+    "Rear Entertainment",
+    "Massage Seats",
+    "Ambient Lighting",
+    "Adaptive Cruise",
+    "Wireless CarPlay"
+   ],
+   "tagline": "The executive standard.",
+   "description": "The benchmark executive saloon for business travel. Long wheelbase rear legroom, massaging seats and an air suspension that erases road noise on the Sheikh Zayed Road. The sensible professional choice for corporate clients, consultants, airport pickups and multi day business trips where comfort, discretion and a quiet cabin for calls matter most."
+  },
+  {
+   "slug": "bmw-m4-competition",
+   "make": "BMW",
+   "model": "M4 Competition",
+   "year": 2024,
+   "category": "Sports",
+   "body_style": "Coupe",
+   "transmission": "Automatic",
+   "fuel_type": "Petrol",
+   "seats": 4,
+   "doors": 2,
+   "luggage": 2,
+   "horsepower": 503,
+   "zero_to_hundred": 3.5,
+   "daily_rate": 1150,
+   "deposit": 3000,
+   "rating": 4.7,
+   "rental_count": 268,
+   "total_units": 3,
+   "color": "Isle of Man Green",
+   "accent_hex": "#1f7a4d",
+   "art_style": "sports-coupe",
+   "features": [
+    "M Sport Exhaust",
+    "Carbon Bucket Seats",
+    "Head Up Display",
+    "Drift Analyser",
+    "Harman Kardon Audio",
+    "Apple CarPlay"
+   ],
+   "tagline": "Track focus, street legal.",
+   "description": "A twin turbo straight six coupe that bridges daily usability and genuine performance. Quick, aggressive and engaging to drive, but with a usable boot and rear seats. A strong pick for driving enthusiasts, track day spectators and younger renters who want something fast and sporty without full supercar running costs."
+  },
+  {
+   "slug": "audi-q8-quattro",
+   "make": "Audi",
+   "model": "Q8 55 TFSI",
+   "year": 2024,
+   "category": "SUV",
+   "body_style": "SUV",
+   "transmission": "Automatic",
+   "fuel_type": "Petrol",
+   "seats": 5,
+   "doors": 5,
+   "luggage": 4,
+   "horsepower": 335,
+   "zero_to_hundred": 5.9,
+   "daily_rate": 980,
+   "deposit": 2500,
+   "rating": 4.7,
+   "rental_count": 234,
+   "total_units": 3,
+   "color": "Navarra Blue",
+   "accent_hex": "#1d4f91",
+   "art_style": "suv",
+   "features": [
+    "Quattro AWD",
+    "Virtual Cockpit",
+    "Bang & Olufsen Audio",
+    "Adaptive Air Suspension",
+    "Matrix LED",
+    "360 Camera"
+   ],
+   "tagline": "Sharp suit, big boots.",
+   "description": "A coupe styled premium SUV that mixes sporty road manners with family practicality. Quattro all wheel drive, a sharp digital cockpit and a modern understated design. Good for business travellers with luggage, small families wanting something stylish, and renters after a premium SUV that is less imposing than a full size off roader."
+  },
+  {
+   "slug": "mercedes-v-class",
+   "make": "Mercedes-Benz",
+   "model": "V-Class Avantgarde",
+   "year": 2023,
+   "category": "Van",
+   "body_style": "MPV",
+   "transmission": "Automatic",
+   "fuel_type": "Diesel",
+   "seats": 8,
+   "doors": 5,
+   "luggage": 6,
+   "horsepower": 237,
+   "zero_to_hundred": 8.1,
+   "daily_rate": 890,
+   "deposit": 2500,
+   "rating": 4.6,
+   "rental_count": 156,
+   "total_units": 3,
+   "color": "Cavansite Blue",
+   "accent_hex": "#274b8a",
+   "art_style": "van",
+   "features": [
+    "8 Seats",
+    "Conference Seating",
+    "Rear Climate",
+    "Electric Sliding Doors",
+    "Large Luggage Bay",
+    "USB-C Ports"
+   ],
+   "tagline": "Move the whole team.",
+   "description": "An eight seat luxury people mover with conference style seating and a huge luggage bay. Built for corporate group transfers, conference delegations, large family arrivals, wedding party transport and tour groups who need everyone plus all the suitcases in one comfortable air conditioned vehicle."
+  },
+  {
+   "slug": "toyota-land-cruiser",
+   "make": "Toyota",
+   "model": "Land Cruiser 300",
+   "year": 2024,
+   "category": "SUV",
+   "body_style": "SUV",
+   "transmission": "Automatic",
+   "fuel_type": "Petrol",
+   "seats": 7,
+   "doors": 5,
+   "luggage": 4,
+   "horsepower": 409,
+   "zero_to_hundred": 6.7,
+   "daily_rate": 720,
+   "deposit": 2000,
+   "rating": 4.7,
+   "rental_count": 421,
+   "total_units": 6,
+   "color": "Pearl White",
+   "accent_hex": "#c8ccd0",
+   "art_style": "suv",
+   "features": [
+    "7 Seats",
+    "4WD Low Range",
+    "Roof Rails",
+    "Cooled Seats",
+    "Apple CarPlay",
+    "Cruise Control"
+   ],
+   "tagline": "Goes anywhere, carries everyone.",
+   "description": "The workhorse of the region. Seven seats, proper four wheel drive and legendary reliability in heat and sand. The default choice for large families, group trips, dune bashing, camping in Hatta and long intercity drives to Abu Dhabi or Oman where space, durability and running cost matter more than styling."
+  },
+  {
+   "slug": "ford-mustang-gt",
+   "make": "Ford",
+   "model": "Mustang GT",
+   "year": 2024,
+   "category": "Sports",
+   "body_style": "Convertible",
+   "transmission": "Automatic",
+   "fuel_type": "Petrol",
+   "seats": 4,
+   "doors": 2,
+   "luggage": 2,
+   "horsepower": 486,
+   "zero_to_hundred": 4.4,
+   "daily_rate": 690,
+   "deposit": 2000,
+   "rating": 4.5,
+   "rental_count": 319,
+   "total_units": 4,
+   "color": "Race Red",
+   "accent_hex": "#cf2027",
+   "art_style": "convertible",
+   "features": [
+    "V8 Engine",
+    "Soft Top Convertible",
+    "Track Apps",
+    "B&O Audio",
+    "Launch Control",
+    "Apple CarPlay"
+   ],
+   "tagline": "Affordable American muscle.",
+   "description": "A V8 convertible that delivers genuine noise and drama for a fraction of supercar money. Roof down cruising along the beach, loud exhaust and classic muscle car styling. The value option for renters who want a fun exciting weekend car, a memorable birthday drive or an open top experience on a moderate budget."
+  },
+  {
+   "slug": "nissan-patrol-platinum",
+   "make": "Nissan",
+   "model": "Patrol Platinum",
+   "year": 2023,
+   "category": "SUV",
+   "body_style": "SUV",
+   "transmission": "Automatic",
+   "fuel_type": "Petrol",
+   "seats": 7,
+   "doors": 5,
+   "luggage": 4,
+   "horsepower": 400,
+   "zero_to_hundred": 6.8,
+   "daily_rate": 650,
+   "deposit": 2000,
+   "rating": 4.6,
+   "rental_count": 388,
+   "total_units": 5,
+   "color": "Gun Metallic",
+   "accent_hex": "#6b7280",
+   "art_style": "suv",
+   "features": [
+    "7 Seats",
+    "4WD",
+    "Around View Monitor",
+    "Bose Audio",
+    "Rear Climate Control",
+    "Tow Package"
+   ],
+   "tagline": "The desert's favourite.",
+   "description": "A big comfortable V8 family SUV built for the Gulf. Cools fast in summer, seats seven adults and tows easily. Popular for extended family holidays, group airport runs, weekend desert camping and anyone needing maximum passenger and luggage capacity at a reasonable mid range daily price."
+  },
+  {
+   "slug": "tesla-model-y",
+   "make": "Tesla",
+   "model": "Model Y",
+   "year": 2025,
+   "category": "Electric",
+   "body_style": "SUV",
+   "transmission": "Automatic",
+   "fuel_type": "Electric",
+   "seats": 5,
+   "doors": 5,
+   "luggage": 4,
+   "horsepower": 384,
+   "zero_to_hundred": 5.0,
+   "daily_rate": 460,
+   "deposit": 1500,
+   "rating": 4.6,
+   "rental_count": 364,
+   "total_units": 6,
+   "color": "Pearl White",
+   "accent_hex": "#5b8def",
+   "art_style": "ev-sedan",
+   "features": [
+    "Autopilot",
+    "Huge Boot",
+    "Glass Roof",
+    "Supercharging",
+    "Heat Pump",
+    "Wireless Charging"
+   ],
+   "tagline": "Electric space, family sized.",
+   "description": "A practical electric crossover with a cavernous boot and a high seating position. Combines low running costs with family friendly space, making it a smart pick for small families, longer stays, airport trips with lots of luggage and renters who want an electric car but need more room than a saloon."
+  },
+  {
+   "slug": "tesla-model-3-lr",
+   "make": "Tesla",
+   "model": "Model 3 Long Range",
+   "year": 2025,
+   "category": "Electric",
+   "body_style": "Sedan",
+   "transmission": "Automatic",
+   "fuel_type": "Electric",
+   "seats": 5,
+   "doors": 4,
+   "luggage": 3,
+   "horsepower": 394,
+   "zero_to_hundred": 4.4,
+   "daily_rate": 420,
+   "deposit": 1500,
+   "rating": 4.7,
+   "rental_count": 502,
+   "total_units": 8,
+   "color": "Deep Blue Metallic",
+   "accent_hex": "#2f6df6",
+   "art_style": "ev-sedan",
+   "features": [
+    "Autopilot",
+    "629km Range",
+    "Glass Roof",
+    "Supercharging",
+    "Premium Audio",
+    "Sentry Mode"
+   ],
+   "tagline": "Zero fuel stops, zero fuss.",
+   "description": "Quick, quiet and cheap to run with no petrol costs at all. Excellent for cost conscious renters, tech enthusiasts, environmentally minded travellers and long monthly rentals where fuel savings compound. Instant torque makes it feel fast in city traffic while Autopilot eases motorway commuting."
+  },
+  {
+   "slug": "mini-cooper-s",
+   "make": "MINI",
+   "model": "Cooper S",
+   "year": 2024,
+   "category": "Compact",
+   "body_style": "Hatchback",
+   "transmission": "Automatic",
+   "fuel_type": "Petrol",
+   "seats": 4,
+   "doors": 3,
+   "luggage": 1,
+   "horsepower": 201,
+   "zero_to_hundred": 6.6,
+   "daily_rate": 310,
+   "deposit": 1200,
+   "rating": 4.6,
+   "rental_count": 298,
+   "total_units": 5,
+   "color": "Chili Red",
+   "accent_hex": "#d6373f",
+   "art_style": "hatchback",
+   "features": [
+    "Go Kart Handling",
+    "Harman Kardon Audio",
+    "Panoramic Roof",
+    "Apple CarPlay",
+    "Sport Mode",
+    "Ambient Lighting"
+   ],
+   "tagline": "Small car, big personality.",
+   "description": "A fun compact hatchback with sharp go kart handling and retro styling. Easy to park in tight mall garages but genuinely entertaining on a back road. Suits couples, solo travellers, city driving and renters who want character and a bit of fun without paying sports car prices or dealing with a large vehicle."
+  },
+  {
+   "slug": "toyota-corolla-hybrid",
+   "make": "Toyota",
+   "model": "Corolla Hybrid",
+   "year": 2024,
+   "category": "Economy",
+   "body_style": "Sedan",
+   "transmission": "Automatic",
+   "fuel_type": "Hybrid",
+   "seats": 5,
+   "doors": 4,
+   "luggage": 2,
+   "horsepower": 138,
+   "zero_to_hundred": 9.2,
+   "daily_rate": 135,
+   "deposit": 800,
+   "rating": 4.5,
+   "rental_count": 784,
+   "total_units": 12,
+   "color": "Silver Metallic",
+   "accent_hex": "#8e979f",
+   "art_style": "sedan",
+   "features": [
+    "Hybrid Economy",
+    "Apple CarPlay",
+    "Lane Assist",
+    "Reversing Camera",
+    "Cruise Control",
+    "Bluetooth"
+   ],
+   "tagline": "Cheap to run, easy to park.",
+   "description": "The sensible budget choice. Hybrid fuel economy, low daily rate and effortless city driving. Ideal for students, long stay visitors, daily commuting, ride hailing work and anyone who wants the cheapest reliable automatic car for getting around Dubai without worrying about fuel bills or parking size."
+  },
+  {
+   "slug": "nissan-sunny",
+   "make": "Nissan",
+   "model": "Sunny",
+   "year": 2024,
+   "category": "Economy",
+   "body_style": "Sedan",
+   "transmission": "Automatic",
+   "fuel_type": "Petrol",
+   "seats": 5,
+   "doors": 4,
+   "luggage": 2,
+   "horsepower": 99,
+   "zero_to_hundred": 11.5,
+   "daily_rate": 99,
+   "deposit": 700,
+   "rating": 4.2,
+   "rental_count": 912,
+   "total_units": 15,
+   "color": "Brilliant Silver",
+   "accent_hex": "#a6adb4",
+   "art_style": "sedan",
+   "features": [
+    "Bluetooth",
+    "Reversing Camera",
+    "USB Charging",
+    "Air Conditioning",
+    "Cruise Control",
+    "Automatic"
+   ],
+   "tagline": "The lowest daily rate we offer.",
+   "description": "Our most affordable car. Simple, economical and perfectly adequate for getting from A to B. The best value for tight budgets, short errands, first time renters, students and long monthly hires where the priority is the cheapest possible price rather than performance, badge or luxury features."
+  }
+ ],
+ "intents": {
+  "": {
+   "raw_text": "",
+   "budget_max": null,
+   "budget_strict": true,
+   "passengers": null,
+   "days": null,
+   "categories": [],
+   "features": [],
+   "occasions": [],
+   "wants_electric": false
+  },
+  "Something fast and flashy for my birthday, budget around 3000 a day": {
+   "raw_text": "Something fast and flashy for my birthday, budget around 3000 a day",
+   "budget_max": 3000.0,
+   "budget_strict": false,
+   "passengers": null,
+   "days": null,
+   "categories": [
+    "Supercar",
+    "Sports"
+   ],
+   "features": [],
+   "occasions": [
+    "celebration"
+   ],
+   "wants_electric": false
+  },
+  "Family of six going to the desert for a week": {
+   "raw_text": "Family of six going to the desert for a week",
+   "budget_max": null,
+   "budget_strict": true,
+   "passengers": 6,
+   "days": null,
+   "categories": [
+    "SUV"
+   ],
+   "features": [
+    "4WD"
+   ],
+   "occasions": [
+    "family",
+    "adventure"
+   ],
+   "wants_electric": false
+  },
+  "Executive car for airport transfers and client meetings": {
+   "raw_text": "Executive car for airport transfers and client meetings",
+   "budget_max": null,
+   "budget_strict": true,
+   "passengers": null,
+   "days": null,
+   "categories": [
+    "Luxury"
+   ],
+   "features": [],
+   "occasions": [
+    "corporate"
+   ],
+   "wants_electric": false
+  },
+  "Cheapest automatic I can rent for a month": {
+   "raw_text": "Cheapest automatic I can rent for a month",
+   "budget_max": null,
+   "budget_strict": true,
+   "passengers": null,
+   "days": null,
+   "categories": [
+    "Economy"
+   ],
+   "features": [],
+   "occasions": [
+    "commute"
+   ],
+   "wants_electric": false
+  },
+  "Open top convertible for a weekend along the coast": {
+   "raw_text": "Open top convertible for a weekend along the coast",
+   "budget_max": null,
+   "budget_strict": true,
+   "passengers": null,
+   "days": null,
+   "categories": [],
+   "features": [
+    "Convertible"
+   ],
+   "occasions": [],
+   "wants_electric": false
+  },
+  "Electric car, low running cost, 5 seats": {
+   "raw_text": "Electric car, low running cost, 5 seats",
+   "budget_max": null,
+   "budget_strict": true,
+   "passengers": 5,
+   "days": null,
+   "categories": [
+    "Electric"
+   ],
+   "features": [
+    "Supercharging"
+   ],
+   "occasions": [],
+   "wants_electric": true
+  },
+  "under 500 aed per day": {
+   "raw_text": "under 500 aed per day",
+   "budget_max": 500.0,
+   "budget_strict": true,
+   "passengers": null,
+   "days": null,
+   "categories": [],
+   "features": [],
+   "occasions": [],
+   "wants_electric": false
+  },
+  "under 3k": {
+   "raw_text": "under 3k",
+   "budget_max": 3000.0,
+   "budget_strict": true,
+   "passengers": null,
+   "days": null,
+   "categories": [],
+   "features": [],
+   "occasions": [],
+   "wants_electric": false
+  },
+  "around 3000": {
+   "raw_text": "around 3000",
+   "budget_max": 3000.0,
+   "budget_strict": false,
+   "passengers": null,
+   "days": null,
+   "categories": [],
+   "features": [],
+   "occasions": [],
+   "wants_electric": false
+  },
+  "less than 200": {
+   "raw_text": "less than 200",
+   "budget_max": 200.0,
+   "budget_strict": true,
+   "passengers": null,
+   "days": null,
+   "categories": [],
+   "features": [],
+   "occasions": [],
+   "wants_electric": false
+  },
+  "7 seater for the family": {
+   "raw_text": "7 seater for the family",
+   "budget_max": null,
+   "budget_strict": true,
+   "passengers": 7,
+   "days": null,
+   "categories": [
+    "SUV"
+   ],
+   "features": [
+    "7 Seats"
+   ],
+   "occasions": [
+    "family"
+   ],
+   "wants_electric": false
+  },
+  "group of 8 for a team offsite": {
+   "raw_text": "group of 8 for a team offsite",
+   "budget_max": null,
+   "budget_strict": true,
+   "passengers": 8,
+   "days": null,
+   "categories": [
+    "SUV",
+    "Van"
+   ],
+   "features": [],
+   "occasions": [
+    "family"
+   ],
+   "wants_electric": false
+  },
+  "party of eight": {
+   "raw_text": "party of eight",
+   "budget_max": null,
+   "budget_strict": true,
+   "passengers": 8,
+   "days": null,
+   "categories": [
+    "Van"
+   ],
+   "features": [],
+   "occasions": [],
+   "wants_electric": false
+  },
+  "two people, sporty coupe": {
+   "raw_text": "two people, sporty coupe",
+   "budget_max": null,
+   "budget_strict": true,
+   "passengers": 2,
+   "days": null,
+   "categories": [
+    "Sports"
+   ],
+   "features": [],
+   "occasions": [],
+   "wants_electric": false
+  },
+  "heading to the desert": {
+   "raw_text": "heading to the desert",
+   "budget_max": null,
+   "budget_strict": true,
+   "passengers": null,
+   "days": null,
+   "categories": [
+    "SUV"
+   ],
+   "features": [
+    "4WD"
+   ],
+   "occasions": [
+    "adventure"
+   ],
+   "wants_electric": false
+  },
+  "wedding limousine with massage seats": {
+   "raw_text": "wedding limousine with massage seats",
+   "budget_max": null,
+   "budget_strict": true,
+   "passengers": null,
+   "days": null,
+   "categories": [
+    "Luxury"
+   ],
+   "features": [
+    "Massage Seats"
+   ],
+   "occasions": [
+    "wedding"
+   ],
+   "wants_electric": false
+  },
+  "AED 1,250 a day, panoramic roof": {
+   "raw_text": "AED 1,250 a day, panoramic roof",
+   "budget_max": 1250.0,
+   "budget_strict": true,
+   "passengers": null,
+   "days": null,
+   "categories": [],
+   "features": [
+    "Panoramic Roof",
+    "Convertible"
+   ],
+   "occasions": [],
+   "wants_electric": false
+  },
+  "I need a van for twelve": {
+   "raw_text": "I need a van for twelve",
+   "budget_max": null,
+   "budget_strict": true,
+   "passengers": null,
+   "days": null,
+   "categories": [
+    "Van"
+   ],
+   "features": [],
+   "occasions": [],
+   "wants_electric": false
+  },
+  "tesla with autopilot and supercharging": {
+   "raw_text": "tesla with autopilot and supercharging",
+   "budget_max": null,
+   "budget_strict": true,
+   "passengers": null,
+   "days": null,
+   "categories": [
+    "Electric"
+   ],
+   "features": [
+    "Autopilot"
+   ],
+   "occasions": [],
+   "wants_electric": true
+  },
+  "cheap city car for commuting and parking": {
+   "raw_text": "cheap city car for commuting and parking",
+   "budget_max": null,
+   "budget_strict": true,
+   "passengers": null,
+   "days": null,
+   "categories": [
+    "Economy",
+    "Compact"
+   ],
+   "features": [],
+   "occasions": [
+    "commute"
+   ],
+   "wants_electric": false
+  },
+  "3 nights": {
+   "raw_text": "3 nights",
+   "budget_max": null,
+   "budget_strict": true,
+   "passengers": null,
+   "days": 3,
+   "categories": [],
+   "features": [],
+   "occasions": [],
+   "wants_electric": false
+  },
+  "2 weeks": {
+   "raw_text": "2 weeks",
+   "budget_max": null,
+   "budget_strict": true,
+   "passengers": null,
+   "days": 14,
+   "categories": [],
+   "features": [],
+   "occasions": [],
+   "wants_electric": false
+  },
+  "5 months": {
+   "raw_text": "5 months",
+   "budget_max": null,
+   "budget_strict": true,
+   "passengers": null,
+   "days": 90,
+   "categories": [],
+   "features": [],
+   "occasions": [
+    "commute"
+   ],
+   "wants_electric": false
+  }
+ },
+ "intents_with_overrides": [
+  {
+   "query": "budget around 3000",
+   "overrides": {
+    "budget_max": 900
+   },
+   "intent": {
+    "raw_text": "budget around 3000",
+    "budget_max": 900.0,
+    "budget_strict": false,
+    "passengers": null,
+    "days": null,
+    "categories": [],
+    "features": [],
+    "occasions": [],
+    "wants_electric": false
+   }
+  },
+  {
+   "query": "family of six",
+   "overrides": {
+    "passengers": 2
+   },
+   "intent": {
+    "raw_text": "family of six",
+    "budget_max": null,
+    "budget_strict": true,
+    "passengers": 2,
+    "days": null,
+    "categories": [
+     "SUV"
+    ],
+    "features": [],
+    "occasions": [
+     "family"
+    ],
+    "wants_electric": false
+   }
+  },
+  {
+   "query": "a week",
+   "overrides": {
+    "days": 14
+   },
+   "intent": {
+    "raw_text": "a week",
+    "budget_max": null,
+    "budget_strict": true,
+    "passengers": null,
+    "days": 14,
+    "categories": [],
+    "features": [],
+    "occasions": [],
+    "wants_electric": false
+   }
+  },
+  {
+   "query": "something fast",
+   "overrides": {
+    "category": "Economy"
+   },
+   "intent": {
+    "raw_text": "something fast",
+    "budget_max": null,
+    "budget_strict": true,
+    "passengers": null,
+    "days": null,
+    "categories": [
+     "Economy"
+    ],
+    "features": [],
+    "occasions": [],
+    "wants_electric": false
+   }
+  }
+ ],
+ "rankings": {
+  "": [
+   {
+    "slug": "toyota-corolla-hybrid",
+    "score": 0.41434699185103047,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.6982004498875282,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.7755776775604737
+    },
+    "reasons": [
+     "A solid all-round pick from our fleet"
+    ],
+    "percent": 41,
+    "rounded_score": 0.4143
+   },
+   {
+    "slug": "tesla-model-3-lr",
+    "score": 0.41411853087572137,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.6839540114971258,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8393913623282236
+    },
+    "reasons": [
+     "A solid all-round pick from our fleet"
+    ],
+    "percent": 41,
+    "rounded_score": 0.4141
+   },
+   {
+    "slug": "mini-cooper-s",
+    "score": 0.41193620817624177,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.6894526368407898,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.7693515066890442
+    },
+    "reasons": [
+     "A solid all-round pick from our fleet"
+    ],
+    "percent": 41,
+    "rounded_score": 0.4119
+   },
+   {
+    "slug": "tesla-model-y",
+    "score": 0.4106486980216759,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.681954511372157,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.7795923058471654
+    },
+    "reasons": [
+     "A solid all-round pick from our fleet"
+    ],
+    "percent": 41,
+    "rounded_score": 0.4106
+   },
+   {
+    "slug": "toyota-land-cruiser",
+    "score": 0.41006866725977364,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.66895776055986,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8303760945081448
+    },
+    "reasons": [
+     "A solid all-round pick from our fleet"
+    ],
+    "percent": 41,
+    "rounded_score": 0.4101
+   },
+   {
+    "slug": "nissan-sunny",
+    "score": 0.4086666666666667,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.7,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.6533333333333333
+    },
+    "reasons": [
+     "A solid all-round pick from our fleet"
+    ],
+    "percent": 41,
+    "rounded_score": 0.4087
+   }
+  ],
+  "Something fast and flashy for my birthday, budget around 3000 a day": [
+   {
+    "slug": "lamborghini-huracan-evo",
+    "score": 0.8385578899468246,
+    "signals": {
+     "semantic": 1.0,
+     "budget": 0.7659283383646487,
+     "capacity": 0.6,
+     "category": 1.0,
+     "features": 0.5,
+     "quality": 0.8747017747861765
+    },
+    "reasons": [
+     "Strong match on flashy, birthday, sport",
+     "Matches the supercar class you asked for",
+     "Rated 4.9/5 by renters"
+    ],
+    "percent": 84,
+    "rounded_score": 0.8386
+   },
+   {
+    "slug": "porsche-911-carrera",
+    "score": 0.7393297577354426,
+    "signals": {
+     "semantic": 0.5895423730848174,
+     "budget": 0.9329136703680087,
+     "capacity": 0.6,
+     "category": 1.0,
+     "features": 0.5,
+     "quality": 0.879721399965651
+    },
+    "reasons": [
+     "Strong match on sport, flashy, fast",
+     "Matches the sports class you asked for",
+     "Fits your budget with 45% to spare",
+     "Rated 4.9/5 by renters"
+    ],
+    "percent": 74,
+    "rounded_score": 0.7393
+   },
+   {
+    "slug": "bmw-m4-competition",
+    "score": 0.6871801894134976,
+    "signals": {
+     "semantic": 0.4851614269184298,
+     "budget": 0.8785937463389532,
+     "capacity": 0.6,
+     "category": 1.0,
+     "features": 0.5,
+     "quality": 0.8072561027976539
+    },
+    "reasons": [
+     "Strong match on sport, fast, flashy",
+     "Matches the sports class you asked for",
+     "Fits your budget with 62% to spare"
+    ],
+    "percent": 69,
+    "rounded_score": 0.6872
+   },
+   {
+    "slug": "ford-mustang-gt",
+    "score": 0.6590142313042884,
+    "signals": {
+     "semantic": 0.4558398748896694,
+     "budget": 0.818972956258192,
+     "capacity": 0.6,
+     "category": 1.0,
+     "features": 0.5,
+     "quality": 0.7295032867966922
+    },
+    "reasons": [
+     "Strong match on birthday, flashy, sport",
+     "Matches the sports class you asked for",
+     "Fits your budget with 77% to spare"
+    ],
+    "percent": 66,
+    "rounded_score": 0.659
+   },
+   {
+    "slug": "ferrari-portofino-m",
+    "score": 0.6501988376814032,
+    "signals": {
+     "semantic": 0.28921336634654304,
+     "budget": 0.999904050993156,
+     "capacity": 0.6,
+     "category": 1.0,
+     "features": 0.5,
+     "quality": 0.8177864177044194
+    },
+    "reasons": [
+     "Strong match on flashy, fast",
+     "Matches the supercar class you asked for",
+     "Uses your budget almost exactly",
+     "Rated 4.8/5 by renters"
+    ],
+    "percent": 65,
+    "rounded_score": 0.6502
+   },
+   {
+    "slug": "bentley-continental-gt",
+    "score": 0.5857100111236213,
+    "signals": {
+     "semantic": 0.28979258066421426,
+     "budget": 0.986295824562643,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8493907160550827
+    },
+    "reasons": [
+     "Strong match on celebration, flashy",
+     "Fits your budget with 20% to spare",
+     "Rated 4.9/5 by renters"
+    ],
+    "percent": 59,
+    "rounded_score": 0.5857
+   }
+  ],
+  "Family of six going to the desert for a week": [
+   {
+    "slug": "nissan-patrol-platinum",
+    "score": 0.8945327529907299,
+    "signals": {
+     "semantic": 1.0,
+     "budget": 0.6724568857785553,
+     "capacity": 0.9,
+     "category": 1.0,
+     "features": 1.0,
+     "quality": 0.7828620080775295
+    },
+    "reasons": [
+     "Strong match on family, desert, suv",
+     "Matches the suv class you asked for",
+     "Seats 7, room for your 6",
+     "Has 4WD"
+    ],
+    "percent": 89,
+    "rounded_score": 0.8945
+   },
+   {
+    "slug": "toyota-land-cruiser",
+    "score": 0.865032136921081,
+    "signals": {
+     "semantic": 0.9087160872391393,
+     "budget": 0.66895776055986,
+     "capacity": 0.9,
+     "category": 1.0,
+     "features": 1.0,
+     "quality": 0.8303760945081448
+    },
+    "reasons": [
+     "Strong match on family, desert, 4wd",
+     "Matches the suv class you asked for",
+     "Seats 7, room for your 6",
+     "Has 4WD"
+    ],
+    "percent": 87,
+    "rounded_score": 0.865
+   },
+   {
+    "slug": "mercedes-v-class",
+    "score": 0.599281384517497,
+    "signals": {
+     "semantic": 0.5072271424562304,
+     "budget": 0.6604598850287429,
+     "capacity": 0.9,
+     "category": 0.55,
+     "features": 0.15,
+     "quality": 0.7362756735096085
+    },
+    "reasons": [
+     "Strong match on family, 6, seat",
+     "Seats 8, room for your 6"
+    ],
+    "percent": 60,
+    "rounded_score": 0.5993
+   }
+  ],
+  "Executive car for airport transfers and client meetings": [
+   {
+    "slug": "rolls-royce-ghost",
+    "score": 0.7752442487909363,
+    "signals": {
+     "semantic": 1.0,
+     "budget": 0.5,
+     "capacity": 0.6,
+     "category": 1.0,
+     "features": 0.5,
+     "quality": 0.8848849758187249
+    },
+    "reasons": [
+     "Strong match on executive, airport, luxury",
+     "Matches the luxury class you asked for",
+     "Rated 5.0/5 by renters"
+    ],
+    "percent": 78,
+    "rounded_score": 0.7752
+   },
+   {
+    "slug": "mercedes-s500",
+    "score": 0.6449862596939943,
+    "signals": {
+     "semantic": 0.5202247773302608,
+     "budget": 0.642464383904024,
+     "capacity": 0.6,
+     "category": 1.0,
+     "features": 0.5,
+     "quality": 0.8583676652947937
+    },
+    "reasons": [
+     "Strong match on executive, airport, luxury",
+     "Matches the luxury class you asked for",
+     "Rated 4.8/5 by renters"
+    ],
+    "percent": 64,
+    "rounded_score": 0.645
+   },
+   {
+    "slug": "bentley-continental-gt",
+    "score": 0.48200505449905406,
+    "signals": {
+     "semantic": 0.08276652182828996,
+     "budget": 0.5849787553111723,
+     "capacity": 0.6,
+     "category": 1.0,
+     "features": 0.5,
+     "quality": 0.8493907160550827
+    },
+    "reasons": [
+     "Strong match on luxury",
+     "Matches the luxury class you asked for",
+     "Rated 4.9/5 by renters"
+    ],
+    "percent": 48,
+    "rounded_score": 0.482
+   },
+   {
+    "slug": "audi-q8-quattro",
+    "score": 0.4737322203464828,
+    "signals": {
+     "semantic": 0.200840204377999,
+     "budget": 0.6559610097475631,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8003181703709601
+    },
+    "reasons": [
+     "Strong match on executive, luxury"
+    ],
+    "percent": 47,
+    "rounded_score": 0.4737
+   },
+   {
+    "slug": "nissan-patrol-platinum",
+    "score": 0.44775556284084395,
+    "signals": {
+     "semantic": 0.11536120544151218,
+     "budget": 0.6724568857785553,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.7828620080775295
+    },
+    "reasons": [
+     "Strong match on airport"
+    ],
+    "percent": 45,
+    "rounded_score": 0.4478
+   },
+   {
+    "slug": "mercedes-v-class",
+    "score": 0.4380715378948769,
+    "signals": {
+     "semantic": 0.279257005330877,
+     "budget": 0.6604598850287429,
+     "capacity": 0.6,
+     "category": 0.12,
+     "features": 0.5,
+     "quality": 0.7362756735096085
+    },
+    "reasons": [
+     "Strong match on executive, airport, luxury"
+    ],
+    "percent": 44,
+    "rounded_score": 0.4381
+   }
+  ],
+  "Cheapest automatic I can rent for a month": [
+   {
+    "slug": "toyota-corolla-hybrid",
+    "score": 0.8173469918510304,
+    "signals": {
+     "semantic": 1.0,
+     "budget": 0.6982004498875282,
+     "capacity": 0.6,
+     "category": 1.0,
+     "features": 0.5,
+     "quality": 0.7755776775604737
+    },
+    "reasons": [
+     "Strong match on economy, urban, cheapest",
+     "Matches the economy class you asked for"
+    ],
+    "percent": 82,
+    "rounded_score": 0.8173
+   },
+   {
+    "slug": "nissan-sunny",
+    "score": 0.6471438944075497,
+    "signals": {
+     "semantic": 0.5161094933555386,
+     "budget": 0.7,
+     "capacity": 0.6,
+     "category": 1.0,
+     "features": 0.5,
+     "quality": 0.6533333333333333
+    },
+    "reasons": [
+     "Strong match on cheapest, economy, automatic",
+     "Matches the economy class you asked for"
+    ],
+    "percent": 65,
+    "rounded_score": 0.6471
+   },
+   {
+    "slug": "tesla-model-3-lr",
+    "score": 0.6461341307758227,
+    "signals": {
+     "semantic": 0.6823988232355923,
+     "budget": 0.6839540114971258,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8393913623282236
+    },
+    "reasons": [
+     "Strong match on urban, economy, automatic"
+    ],
+    "percent": 65,
+    "rounded_score": 0.6461
+   },
+   {
+    "slug": "mini-cooper-s",
+    "score": 0.495310834372652,
+    "signals": {
+     "semantic": 0.2452194888129711,
+     "budget": 0.6894526368407898,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.7693515066890442
+    },
+    "reasons": [
+     "Strong match on urban, automatic"
+    ],
+    "percent": 50,
+    "rounded_score": 0.4953
+   },
+   {
+    "slug": "tesla-model-y",
+    "score": 0.44662353016096434,
+    "signals": {
+     "semantic": 0.10580832982143648,
+     "budget": 0.681954511372157,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.7795923058471654
+    },
+    "reasons": [
+     "Strong match on automatic"
+    ],
+    "percent": 45,
+    "rounded_score": 0.4466
+   },
+   {
+    "slug": "ford-mustang-gt",
+    "score": 0.3788069813971742,
+    "signals": {
+     "semantic": 0.09888836617787905,
+     "budget": 0.6704573856535866,
+     "capacity": 0.6,
+     "category": 0.12,
+     "features": 0.5,
+     "quality": 0.7295032867966922
+    },
+    "reasons": [
+     "Strong match on automatic"
+    ],
+    "percent": 38,
+    "rounded_score": 0.3788
+   }
+  ],
+  "Open top convertible for a weekend along the coast": [
+   {
+    "slug": "ford-mustang-gt",
+    "score": 0.7803849368966955,
+    "signals": {
+     "semantic": 1.0,
+     "budget": 0.6704573856535866,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 1.0,
+     "quality": 0.7295032867966922
+    },
+    "reasons": [
+     "Strong match on convertible, top, along",
+     "Has Convertible"
+    ],
+    "percent": 78,
+    "rounded_score": 0.7804
+   },
+   {
+    "slug": "ferrari-portofino-m",
+    "score": 0.5924567840430403,
+    "signals": {
+     "semantic": 0.5140320949868671,
+     "budget": 0.5574856285928518,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 1.0,
+     "quality": 0.8177864177044194
+    },
+    "reasons": [
+     "Strong match on convertible, open, top",
+     "Has Convertible",
+     "Rated 4.8/5 by renters"
+    ],
+    "percent": 59,
+    "rounded_score": 0.5925
+   },
+   {
+    "slug": "range-rover-vogue",
+    "score": 0.4308724980463542,
+    "signals": {
+     "semantic": 0.15551695413097025,
+     "budget": 0.6324668832791802,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.15,
+     "quality": 0.85409363309642
+    },
+    "reasons": [
+     "Strong match on convertible, weekend",
+     "Rated 4.8/5 by renters"
+    ],
+    "percent": 43,
+    "rounded_score": 0.4309
+   },
+   {
+    "slug": "tesla-model-3-lr",
+    "score": 0.4174352701462001,
+    "signals": {
+     "semantic": 0.0818139390308198,
+     "budget": 0.6839540114971258,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.15,
+     "quality": 0.8393913623282236
+    },
+    "reasons": [
+     "Strong match on convertible"
+    ],
+    "percent": 42,
+    "rounded_score": 0.4174
+   },
+   {
+    "slug": "tesla-model-y",
+    "score": 0.4168693294147193,
+    "signals": {
+     "semantic": 0.09035479821483347,
+     "budget": 0.681954511372157,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.15,
+     "quality": 0.7795923058471654
+    },
+    "reasons": [
+     "Strong match on convertible"
+    ],
+    "percent": 42,
+    "rounded_score": 0.4169
+   },
+   {
+    "slug": "toyota-land-cruiser",
+    "score": 0.41469830482465186,
+    "signals": {
+     "semantic": 0.08567540460258297,
+     "budget": 0.66895776055986,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.15,
+     "quality": 0.8303760945081448
+    },
+    "reasons": [
+     "Strong match on convertible"
+    ],
+    "percent": 41,
+    "rounded_score": 0.4147
+   }
+  ],
+  "Electric car, low running cost, 5 seats": [
+   {
+    "slug": "tesla-model-y",
+    "score": 0.9126486980216761,
+    "signals": {
+     "semantic": 1.0,
+     "budget": 0.681954511372157,
+     "capacity": 1.0,
+     "category": 1.0,
+     "features": 1.0,
+     "quality": 0.7795923058471654
+    },
+    "reasons": [
+     "Strong match on electric, supercharg, charg",
+     "Matches the electric class you asked for",
+     "Seats exactly 5",
+     "Has Supercharging"
+    ],
+    "percent": 91,
+    "rounded_score": 0.9126
+   },
+   {
+    "slug": "tesla-model-3-lr",
+    "score": 0.7287460574651259,
+    "signals": {
+     "semantic": 0.4489044899688368,
+     "budget": 0.6839540114971258,
+     "capacity": 1.0,
+     "category": 1.0,
+     "features": 1.0,
+     "quality": 0.8393913623282236
+    },
+    "reasons": [
+     "Strong match on electric, supercharg, 5",
+     "Matches the electric class you asked for",
+     "Seats exactly 5",
+     "Has Supercharging"
+    ],
+    "percent": 73,
+    "rounded_score": 0.7287
+   },
+   {
+    "slug": "nissan-sunny",
+    "score": 0.5390485532445681,
+    "signals": {
+     "semantic": 0.26729966640559255,
+     "budget": 0.7,
+     "capacity": 1.0,
+     "category": 0.55,
+     "features": 0.15,
+     "quality": 0.6533333333333333
+    },
+    "reasons": [
+     "Strong match on charg, 5, seats",
+     "Seats exactly 5"
+    ],
+    "percent": 54,
+    "rounded_score": 0.539
+   },
+   {
+    "slug": "toyota-corolla-hybrid",
+    "score": 0.5126834032593263,
+    "signals": {
+     "semantic": 0.17304826884792898,
+     "budget": 0.6982004498875282,
+     "capacity": 1.0,
+     "category": 0.55,
+     "features": 0.15,
+     "quality": 0.7755776775604737
+    },
+    "reasons": [
+     "Strong match on 5, seats",
+     "Seats exactly 5"
+    ],
+    "percent": 51,
+    "rounded_score": 0.5127
+   },
+   {
+    "slug": "toyota-land-cruiser",
+    "score": 0.456207312345105,
+    "signals": {
+     "semantic": 0.24364307378038624,
+     "budget": 0.66895776055986,
+     "capacity": 0.9,
+     "category": 0.12,
+     "features": 0.15,
+     "quality": 0.8303760945081448
+    },
+    "reasons": [
+     "Strong match on running, seats, 5",
+     "Seats 7, room for your 5"
+    ],
+    "percent": 46,
+    "rounded_score": 0.4562
+   },
+   {
+    "slug": "range-rover-vogue",
+    "score": 0.4212277303331019,
+    "signals": {
+     "semantic": 0.11597351968022832,
+     "budget": 0.6324668832791802,
+     "capacity": 1.0,
+     "category": 0.12,
+     "features": 0.15,
+     "quality": 0.85409363309642
+    },
+    "reasons": [
+     "Strong match on 5, seats",
+     "Seats exactly 5",
+     "Rated 4.8/5 by renters"
+    ],
+    "percent": 42,
+    "rounded_score": 0.4212
+   }
+  ],
+  "under 500 aed per day": [
+   {
+    "slug": "tesla-model-3-lr",
+    "score": 0.48785835654425513,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.9912032851160166,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8393913623282236
+    },
+    "reasons": [
+     "Fits your budget with 16% to spare"
+    ],
+    "percent": 49,
+    "rounded_score": 0.4879
+   },
+   {
+    "slug": "tesla-model-y",
+    "score": 0.48644972322069124,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.9977921163680539,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.7795923058471654
+    },
+    "reasons": [
+     "Uses your budget almost exactly"
+    ],
+    "percent": 49,
+    "rounded_score": 0.4864
+   },
+   {
+    "slug": "mini-cooper-s",
+    "score": 0.47484738992570275,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.9515825607968773,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.7693515066890442
+    },
+    "reasons": [
+     "Fits your budget with 38% to spare"
+    ],
+    "percent": 47,
+    "rounded_score": 0.4748
+   },
+   {
+    "slug": "toyota-corolla-hybrid",
+    "score": 0.44723264877628705,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.8352240204094304,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.7755776775604737
+    },
+    "reasons": [
+     "Fits your budget with 73% to spare"
+    ],
+    "percent": 45,
+    "rounded_score": 0.4472
+   },
+   {
+    "slug": "nissan-sunny",
+    "score": 0.4340317242217339,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.8056877398127802,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.6533333333333333
+    },
+    "reasons": [
+     "Fits your budget with 80% to spare"
+    ],
+    "percent": 43,
+    "rounded_score": 0.434
+   }
+  ],
+  "under 3k": [
+   {
+    "slug": "ferrari-portofino-m",
+    "score": 0.4888662931235784,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.999904050993156,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8177864177044194
+    },
+    "reasons": [
+     "Uses your budget almost exactly",
+     "Rated 4.8/5 by renters"
+    ],
+    "percent": 49,
+    "rounded_score": 0.4889
+   },
+   {
+    "slug": "bentley-continental-gt",
+    "score": 0.48718053369778846,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.986295824562643,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8493907160550827
+    },
+    "reasons": [
+     "Fits your budget with 20% to spare",
+     "Rated 4.9/5 by renters"
+    ],
+    "percent": 49,
+    "rounded_score": 0.4872
+   },
+   {
+    "slug": "porsche-911-carrera",
+    "score": 0.47588535088660466,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.9329136703680087,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.879721399965651
+    },
+    "reasons": [
+     "Fits your budget with 45% to spare",
+     "Rated 4.9/5 by renters"
+    ],
+    "percent": 48,
+    "rounded_score": 0.4759
+   },
+   {
+    "slug": "range-rover-vogue",
+    "score": 0.46976210914144123,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.9127392811942511,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.85409363309642
+    },
+    "reasons": [
+     "Fits your budget with 52% to spare",
+     "Rated 4.8/5 by renters"
+    ],
+    "percent": 47,
+    "rounded_score": 0.4698
+   },
+   {
+    "slug": "mercedes-s500",
+    "score": 0.46462715129412574,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.8904532001224418,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8583676652947937
+    },
+    "reasons": [
+     "Fits your budget with 58% to spare",
+     "Rated 4.8/5 by renters"
+    ],
+    "percent": 46,
+    "rounded_score": 0.4646
+   },
+   {
+    "slug": "bmw-m4-competition",
+    "score": 0.4592253042612315,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.8785937463389532,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8072561027976539
+    },
+    "reasons": [
+     "Fits your budget with 62% to spare"
+    ],
+    "percent": 46,
+    "rounded_score": 0.4592
+   }
+  ],
+  "around 3000": [
+   {
+    "slug": "nissan-patrol-platinum",
+    "score": 0.7805398549491424,
+    "signals": {
+     "semantic": 0.9946027458963423,
+     "budget": 0.8134659205854559,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.7828620080775295
+    },
+    "reasons": [
+     "Strong match on around",
+     "Fits your budget with 78% to spare"
+    ],
+    "percent": 78,
+    "rounded_score": 0.7805
+   },
+   {
+    "slug": "toyota-corolla-hybrid",
+    "score": 0.7643250173325981,
+    "signals": {
+     "semantic": 1.0,
+     "budget": 0.7397755560607266,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.7755776775604737
+    },
+    "reasons": [
+     "Strong match on around",
+     "Fits your budget with 96% to spare"
+    ],
+    "percent": 76,
+    "rounded_score": 0.7643
+   },
+   {
+    "slug": "ferrari-portofino-m",
+    "score": 0.4888662931235784,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.999904050993156,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8177864177044194
+    },
+    "reasons": [
+     "Uses your budget almost exactly",
+     "Rated 4.8/5 by renters"
+    ],
+    "percent": 49,
+    "rounded_score": 0.4889
+   },
+   {
+    "slug": "bentley-continental-gt",
+    "score": 0.48718053369778846,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.986295824562643,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8493907160550827
+    },
+    "reasons": [
+     "Fits your budget with 20% to spare",
+     "Rated 4.9/5 by renters"
+    ],
+    "percent": 49,
+    "rounded_score": 0.4872
+   },
+   {
+    "slug": "porsche-911-carrera",
+    "score": 0.47588535088660466,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.9329136703680087,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.879721399965651
+    },
+    "reasons": [
+     "Fits your budget with 45% to spare",
+     "Rated 4.9/5 by renters"
+    ],
+    "percent": 48,
+    "rounded_score": 0.4759
+   },
+   {
+    "slug": "range-rover-vogue",
+    "score": 0.46976210914144123,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.9127392811942511,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.85409363309642
+    },
+    "reasons": [
+     "Fits your budget with 52% to spare",
+     "Rated 4.8/5 by renters"
+    ],
+    "percent": 47,
+    "rounded_score": 0.4698
+   }
+  ],
+  "less than 200": [
+   {
+    "slug": "toyota-corolla-hybrid",
+    "score": 0.4782106155533156,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.9642988819803832,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.7755776775604737
+    },
+    "reasons": [
+     "Fits your budget with 32% to spare"
+    ],
+    "percent": 48,
+    "rounded_score": 0.4782
+   },
+   {
+    "slug": "nissan-sunny",
+    "score": 0.4606095784784681,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.9164287992158395,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.6533333333333333
+    },
+    "reasons": [
+     "Fits your budget with 50% to spare"
+    ],
+    "percent": 46,
+    "rounded_score": 0.4606
+   }
+  ],
+  "7 seater for the family": [
+   {
+    "slug": "nissan-patrol-platinum",
+    "score": 0.9105327529907299,
+    "signals": {
+     "semantic": 1.0,
+     "budget": 0.6724568857785553,
+     "capacity": 1.0,
+     "category": 1.0,
+     "features": 1.0,
+     "quality": 0.7828620080775295
+    },
+    "reasons": [
+     "Strong match on 7, family, suv",
+     "Matches the suv class you asked for",
+     "Seats exactly 7",
+     "Has 7 Seats"
+    ],
+    "percent": 91,
+    "rounded_score": 0.9105
+   },
+   {
+    "slug": "toyota-land-cruiser",
+    "score": 0.8618799965464287,
+    "signals": {
+     "semantic": 0.8523862626078086,
+     "budget": 0.66895776055986,
+     "capacity": 1.0,
+     "category": 1.0,
+     "features": 1.0,
+     "quality": 0.8303760945081448
+    },
+    "reasons": [
+     "Strong match on 7, family, suv",
+     "Matches the suv class you asked for",
+     "Seats exactly 7",
+     "Has 7 Seats"
+    ],
+    "percent": 86,
+    "rounded_score": 0.8619
+   },
+   {
+    "slug": "mercedes-v-class",
+    "score": 0.4836528346047293,
+    "signals": {
+     "semantic": 0.16714317212456037,
+     "budget": 0.6604598850287429,
+     "capacity": 0.9,
+     "category": 0.55,
+     "features": 0.15,
+     "quality": 0.7362756735096085
+    },
+    "reasons": [
+     "Strong match on family, seater",
+     "Seats 8, room for your 7"
+    ],
+    "percent": 48,
+    "rounded_score": 0.4837
+   }
+  ],
+  "group of 8 for a team offsite": [
+   {
+    "slug": "mercedes-v-class",
+    "score": 0.8703241560823788,
+    "signals": {
+     "semantic": 1.0,
+     "budget": 0.6604598850287429,
+     "capacity": 1.0,
+     "category": 1.0,
+     "features": 0.5,
+     "quality": 0.7362756735096085
+    },
+    "reasons": [
+     "Strong match on 8, group, team",
+     "Matches the van class you asked for",
+     "Seats exactly 8"
+    ],
+    "percent": 87,
+    "rounded_score": 0.8703
+   }
+  ],
+  "party of eight": [
+   {
+    "slug": "mercedes-v-class",
+    "score": 0.8703241560823788,
+    "signals": {
+     "semantic": 1.0,
+     "budget": 0.6604598850287429,
+     "capacity": 1.0,
+     "category": 1.0,
+     "features": 0.5,
+     "quality": 0.7362756735096085
+    },
+    "reasons": [
+     "Strong match on 8, party, eight",
+     "Matches the van class you asked for",
+     "Seats exactly 8"
+    ],
+    "percent": 87,
+    "rounded_score": 0.8703
+   }
+  ],
+  "two people, sporty coupe": [
+   {
+    "slug": "bmw-m4-competition",
+    "score": 0.8547539573518298,
+    "signals": {
+     "semantic": 1.0,
+     "budget": 0.6474631342164459,
+     "capacity": 0.9,
+     "category": 1.0,
+     "features": 0.5,
+     "quality": 0.8072561027976539
+    },
+    "reasons": [
+     "Strong match on sporty, coupe, 2",
+     "Matches the sports class you asked for",
+     "Seats 4, room for your 2"
+    ],
+    "percent": 85,
+    "rounded_score": 0.8548
+   },
+   {
+    "slug": "porsche-911-carrera",
+    "score": 0.8428918290963247,
+    "signals": {
+     "semantic": 0.9720973742970626,
+     "budget": 0.6224693826543364,
+     "capacity": 0.9,
+     "category": 1.0,
+     "features": 0.5,
+     "quality": 0.879721399965651
+    },
+    "reasons": [
+     "Strong match on sporty, 2, coupe",
+     "Matches the sports class you asked for",
+     "Seats 4, room for your 2",
+     "Rated 4.9/5 by renters"
+    ],
+    "percent": 84,
+    "rounded_score": 0.8429
+   },
+   {
+    "slug": "lamborghini-huracan-evo",
+    "score": 0.7186414068380415,
+    "signals": {
+     "semantic": 0.8003206394820623,
+     "budget": 0.544988752811797,
+     "capacity": 1.0,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8747017747861765
+    },
+    "reasons": [
+     "Strong match on sporty, 2, coupe",
+     "Seats exactly 2",
+     "Rated 4.9/5 by renters"
+    ],
+    "percent": 72,
+    "rounded_score": 0.7186
+   },
+   {
+    "slug": "ford-mustang-gt",
+    "score": 0.6355884786134598,
+    "signals": {
+     "semantic": 0.35059865210813074,
+     "budget": 0.6704573856535866,
+     "capacity": 0.9,
+     "category": 1.0,
+     "features": 0.5,
+     "quality": 0.7295032867966922
+    },
+    "reasons": [
+     "Strong match on sporty, 2, people",
+     "Matches the sports class you asked for",
+     "Seats 4, room for your 2"
+    ],
+    "percent": 64,
+    "rounded_score": 0.6356
+   },
+   {
+    "slug": "ferrari-portofino-m",
+    "score": 0.5957659451373459,
+    "signals": {
+     "semantic": 0.48552962761717766,
+     "budget": 0.5574856285928518,
+     "capacity": 0.9,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8177864177044194
+    },
+    "reasons": [
+     "Strong match on two, 2, people",
+     "Seats 4, room for your 2",
+     "Rated 4.8/5 by renters"
+    ],
+    "percent": 60,
+    "rounded_score": 0.5958
+   },
+   {
+    "slug": "bentley-continental-gt",
+    "score": 0.5495993856887276,
+    "signals": {
+     "semantic": 0.3256910253273297,
+     "budget": 0.5849787553111723,
+     "capacity": 0.9,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8493907160550827
+    },
+    "reasons": [
+     "Strong match on 2, coupe, people",
+     "Seats 4, room for your 2",
+     "Rated 4.9/5 by renters"
+    ],
+    "percent": 55,
+    "rounded_score": 0.5496
+   }
+  ],
+  "heading to the desert": [
+   {
+    "slug": "nissan-patrol-platinum",
+    "score": 0.8465327529907298,
+    "signals": {
+     "semantic": 1.0,
+     "budget": 0.6724568857785553,
+     "capacity": 0.6,
+     "category": 1.0,
+     "features": 1.0,
+     "quality": 0.7828620080775295
+    },
+    "reasons": [
+     "Strong match on desert, suv, 4wd",
+     "Matches the suv class you asked for",
+     "Has 4WD"
+    ],
+    "percent": 85,
+    "rounded_score": 0.8465
+   },
+   {
+    "slug": "toyota-land-cruiser",
+    "score": 0.8296057931136035,
+    "signals": {
+     "semantic": 0.9456974289818525,
+     "budget": 0.66895776055986,
+     "capacity": 0.6,
+     "category": 1.0,
+     "features": 1.0,
+     "quality": 0.8303760945081448
+    },
+    "reasons": [
+     "Strong match on desert, 4wd, suv",
+     "Matches the suv class you asked for",
+     "Has 4WD"
+    ],
+    "percent": 83,
+    "rounded_score": 0.8296
+   },
+   {
+    "slug": "range-rover-vogue",
+    "score": 0.6934474200286737,
+    "signals": {
+     "semantic": 0.7425020187848512,
+     "budget": 0.6324668832791802,
+     "capacity": 0.6,
+     "category": 1.0,
+     "features": 0.15,
+     "quality": 0.85409363309642
+    },
+    "reasons": [
+     "Strong match on desert, suv",
+     "Matches the suv class you asked for",
+     "Rated 4.8/5 by renters"
+    ],
+    "percent": 69,
+    "rounded_score": 0.6934
+   },
+   {
+    "slug": "audi-q8-quattro",
+    "score": 0.5782412587517255,
+    "signals": {
+     "semantic": 0.3949844349816542,
+     "budget": 0.6559610097475631,
+     "capacity": 0.6,
+     "category": 1.0,
+     "features": 0.15,
+     "quality": 0.8003181703709601
+    },
+    "reasons": [
+     "Strong match on suv",
+     "Matches the suv class you asked for"
+    ],
+    "percent": 58,
+    "rounded_score": 0.5782
+   },
+   {
+    "slug": "tesla-model-y",
+    "score": 0.4230972077209997,
+    "signals": {
+     "semantic": 0.28573091088036406,
+     "budget": 0.681954511372157,
+     "capacity": 0.6,
+     "category": 0.12,
+     "features": 0.15,
+     "quality": 0.7795923058471654
+    },
+    "reasons": [
+     "Strong match on suv"
+    ],
+    "percent": 42,
+    "rounded_score": 0.4231
+   },
+   {
+    "slug": "bmw-m4-competition",
+    "score": 0.4127767456945031,
+    "signals": {
+     "semantic": 0.2756552598313923,
+     "budget": 0.6474631342164459,
+     "capacity": 0.6,
+     "category": 0.12,
+     "features": 0.15,
+     "quality": 0.8072561027976539
+    },
+    "reasons": [
+     "Strong match on heading"
+    ],
+    "percent": 41,
+    "rounded_score": 0.4128
+   }
+  ],
+  "wedding limousine with massage seats": [
+   {
+    "slug": "bentley-continental-gt",
+    "score": 0.8288644370774355,
+    "signals": {
+     "semantic": 1.0,
+     "budget": 0.5849787553111723,
+     "capacity": 0.6,
+     "category": 1.0,
+     "features": 1.0,
+     "quality": 0.8493907160550827
+    },
+    "reasons": [
+     "Strong match on wedding, massage, luxury",
+     "Matches the luxury class you asked for",
+     "Has Massage Seats",
+     "Rated 4.9/5 by renters"
+    ],
+    "percent": 83,
+    "rounded_score": 0.8289
+   },
+   {
+    "slug": "rolls-royce-ghost",
+    "score": 0.7139691745349339,
+    "signals": {
+     "semantic": 0.7168380168941105,
+     "budget": 0.5,
+     "capacity": 0.6,
+     "category": 1.0,
+     "features": 1.0,
+     "quality": 0.8848849758187249
+    },
+    "reasons": [
+     "Strong match on massage, limousine, seats",
+     "Matches the luxury class you asked for",
+     "Has Massage Seats",
+     "Rated 5.0/5 by renters"
+    ],
+    "percent": 71,
+    "rounded_score": 0.714
+   },
+   {
+    "slug": "mercedes-s500",
+    "score": 0.6770701246196296,
+    "signals": {
+     "semantic": 0.5116479094644827,
+     "budget": 0.642464383904024,
+     "capacity": 0.6,
+     "category": 1.0,
+     "features": 1.0,
+     "quality": 0.8583676652947937
+    },
+    "reasons": [
+     "Strong match on massage, seats, luxury",
+     "Matches the luxury class you asked for",
+     "Has Massage Seats",
+     "Rated 4.8/5 by renters"
+    ],
+    "percent": 68,
+    "rounded_score": 0.6771
+   },
+   {
+    "slug": "mercedes-v-class",
+    "score": 0.5033284958333738,
+    "signals": {
+     "semantic": 0.5432480580911623,
+     "budget": 0.6604598850287429,
+     "capacity": 0.6,
+     "category": 0.12,
+     "features": 0.15,
+     "quality": 0.7362756735096085
+    },
+    "reasons": [
+     "Strong match on wedding, seats, luxury"
+    ],
+    "percent": 50,
+    "rounded_score": 0.5033
+   },
+   {
+    "slug": "range-rover-vogue",
+    "score": 0.42541729142667495,
+    "signals": {
+     "semantic": 0.1394722287789727,
+     "budget": 0.6324668832791802,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.15,
+     "quality": 0.85409363309642
+    },
+    "reasons": [
+     "Strong match on luxury, seats",
+     "Rated 4.8/5 by renters"
+    ],
+    "percent": 43,
+    "rounded_score": 0.4254
+   },
+   {
+    "slug": "audi-q8-quattro",
+    "score": 0.41813016215281534,
+    "signals": {
+     "semantic": 0.10936356263191802,
+     "budget": 0.6559610097475631,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.15,
+     "quality": 0.8003181703709601
+    },
+    "reasons": [
+     "Strong match on luxury, seats"
+    ],
+    "percent": 42,
+    "rounded_score": 0.4181
+   }
+  ],
+  "AED 1,250 a day, panoramic roof": [
+   {
+    "slug": "mini-cooper-s",
+    "score": 0.7847887305535173,
+    "signals": {
+     "semantic": 1.0,
+     "budget": 0.8263381467461043,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.7693515066890442
+    },
+    "reasons": [
+     "Strong match on panoramic, 1, roof",
+     "Fits your budget with 75% to spare",
+     "Has Panoramic Roof"
+    ],
+    "percent": 78,
+    "rounded_score": 0.7848
+   },
+   {
+    "slug": "ford-mustang-gt",
+    "score": 0.6143366393057552,
+    "signals": {
+     "semantic": 0.4288980536057391,
+     "budget": 0.9334839030832054,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.7295032867966922
+    },
+    "reasons": [
+     "Strong match on roof",
+     "Fits your budget with 45% to spare",
+     "Has Convertible"
+    ],
+    "percent": 61,
+    "rounded_score": 0.6143
+   },
+   {
+    "slug": "mercedes-s500",
+    "score": 0.5205990886767491,
+    "signals": {
+     "semantic": 0.1593550159176746,
+     "budget": 1.0,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.15,
+     "quality": 0.8583676652947937
+    },
+    "reasons": [
+     "Uses your budget almost exactly",
+     "Rated 4.8/5 by renters"
+    ],
+    "percent": 52,
+    "rounded_score": 0.5206
+   },
+   {
+    "slug": "bmw-m4-competition",
+    "score": 0.5181215829481871,
+    "signals": {
+     "semantic": 0.1611431467057985,
+     "budget": 0.9977921163680539,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.15,
+     "quality": 0.8072561027976539
+    },
+    "reasons": [
+     "Uses your budget almost exactly"
+    ],
+    "percent": 52,
+    "rounded_score": 0.5181
+   },
+   {
+    "slug": "toyota-land-cruiser",
+    "score": 0.5126569432628609,
+    "signals": {
+     "semantic": 0.1823516349937437,
+     "budget": 0.9401607609982533,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.15,
+     "quality": 0.8303760945081448
+    },
+    "reasons": [
+     "Strong match on roof",
+     "Fits your budget with 42% to spare"
+    ],
+    "percent": 51,
+    "rounded_score": 0.5127
+   },
+   {
+    "slug": "tesla-model-y",
+    "score": 0.497383144482907,
+    "signals": {
+     "semantic": 0.192311262029429,
+     "budget": 0.8729904170855953,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.15,
+     "quality": 0.7795923058471654
+    },
+    "reasons": [
+     "Strong match on roof",
+     "Fits your budget with 63% to spare"
+    ],
+    "percent": 50,
+    "rounded_score": 0.4974
+   }
+  ],
+  "I need a van for twelve": [
+   {
+    "slug": "mercedes-v-class",
+    "score": 0.8063241560823787,
+    "signals": {
+     "semantic": 1.0,
+     "budget": 0.6604598850287429,
+     "capacity": 0.6,
+     "category": 1.0,
+     "features": 0.5,
+     "quality": 0.7362756735096085
+    },
+    "reasons": [
+     "Strong match on van",
+     "Matches the van class you asked for"
+    ],
+    "percent": 81,
+    "rounded_score": 0.8063
+   },
+   {
+    "slug": "toyota-land-cruiser",
+    "score": 0.41006866725977364,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.66895776055986,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8303760945081448
+    },
+    "reasons": [
+     "A solid all-round pick from our fleet"
+    ],
+    "percent": 41,
+    "rounded_score": 0.4101
+   },
+   {
+    "slug": "nissan-patrol-platinum",
+    "score": 0.4085327529907298,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.6724568857785553,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.7828620080775295
+    },
+    "reasons": [
+     "A solid all-round pick from our fleet"
+    ],
+    "percent": 41,
+    "rounded_score": 0.4085
+   },
+   {
+    "slug": "audi-q8-quattro",
+    "score": 0.40544655085796316,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.6559610097475631,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8003181703709601
+    },
+    "reasons": [
+     "A solid all-round pick from our fleet"
+    ],
+    "percent": 41,
+    "rounded_score": 0.4054
+   },
+   {
+    "slug": "range-rover-vogue",
+    "score": 0.40249673364182426,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.6324668832791802,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.85409363309642
+    },
+    "reasons": [
+     "Rated 4.8/5 by renters"
+    ],
+    "percent": 40,
+    "rounded_score": 0.4025
+   },
+   {
+    "slug": "toyota-corolla-hybrid",
+    "score": 0.35414699185103043,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.6982004498875282,
+     "capacity": 0.6,
+     "category": 0.12,
+     "features": 0.5,
+     "quality": 0.7755776775604737
+    },
+    "reasons": [
+     "A solid all-round pick from our fleet"
+    ],
+    "percent": 35,
+    "rounded_score": 0.3541
+   }
+  ],
+  "tesla with autopilot and supercharging": [
+   {
+    "slug": "tesla-model-y",
+    "score": 0.8486486980216761,
+    "signals": {
+     "semantic": 1.0,
+     "budget": 0.681954511372157,
+     "capacity": 0.6,
+     "category": 1.0,
+     "features": 1.0,
+     "quality": 0.7795923058471654
+    },
+    "reasons": [
+     "Strong match on electric, autopilot, tesla",
+     "Matches the electric class you asked for",
+     "Has Autopilot"
+    ],
+    "percent": 85,
+    "rounded_score": 0.8486
+   },
+   {
+    "slug": "tesla-model-3-lr",
+    "score": 0.7733787970828145,
+    "signals": {
+     "semantic": 0.7684125476679212,
+     "budget": 0.6839540114971258,
+     "capacity": 0.6,
+     "category": 1.0,
+     "features": 1.0,
+     "quality": 0.8393913623282236
+    },
+    "reasons": [
+     "Strong match on electric, autopilot, tesla",
+     "Matches the electric class you asked for",
+     "Has Autopilot"
+    ],
+    "percent": 77,
+    "rounded_score": 0.7734
+   },
+   {
+    "slug": "nissan-sunny",
+    "score": 0.42218524114973616,
+    "signals": {
+     "semantic": 0.11181933671491022,
+     "budget": 0.7,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.15,
+     "quality": 0.6533333333333333
+    },
+    "reasons": [
+     "Strong match on charg"
+    ],
+    "percent": 42,
+    "rounded_score": 0.4222
+   },
+   {
+    "slug": "toyota-corolla-hybrid",
+    "score": 0.3898469918510305,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.6982004498875282,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.15,
+     "quality": 0.7755776775604737
+    },
+    "reasons": [
+     "A solid all-round pick from our fleet"
+    ],
+    "percent": 39,
+    "rounded_score": 0.3898
+   },
+   {
+    "slug": "mini-cooper-s",
+    "score": 0.3874362081762418,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.6894526368407898,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.15,
+     "quality": 0.7693515066890442
+    },
+    "reasons": [
+     "A solid all-round pick from our fleet"
+    ],
+    "percent": 39,
+    "rounded_score": 0.3874
+   },
+   {
+    "slug": "mercedes-v-class",
+    "score": 0.37422550393662074,
+    "signals": {
+     "semantic": 0.1635333760418883,
+     "budget": 0.6604598850287429,
+     "capacity": 0.6,
+     "category": 0.12,
+     "features": 0.15,
+     "quality": 0.7362756735096085
+    },
+    "reasons": [
+     "Strong match on electric"
+    ],
+    "percent": 37,
+    "rounded_score": 0.3742
+   }
+  ],
+  "cheap city car for commuting and parking": [
+   {
+    "slug": "toyota-corolla-hybrid",
+    "score": 0.8173469918510304,
+    "signals": {
+     "semantic": 1.0,
+     "budget": 0.6982004498875282,
+     "capacity": 0.6,
+     "category": 1.0,
+     "features": 0.5,
+     "quality": 0.7755776775604737
+    },
+    "reasons": [
+     "Strong match on city, economy",
+     "Matches the economy class you asked for"
+    ],
+    "percent": 82,
+    "rounded_score": 0.8173
+   },
+   {
+    "slug": "tesla-model-3-lr",
+    "score": 0.7270189415386142,
+    "signals": {
+     "semantic": 0.9202953254790964,
+     "budget": 0.6839540114971258,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8393913623282236
+    },
+    "reasons": [
+     "Strong match on city, economy"
+    ],
+    "percent": 73,
+    "rounded_score": 0.727
+   },
+   {
+    "slug": "mini-cooper-s",
+    "score": 0.6745890002321097,
+    "signals": {
+     "semantic": 0.5872140942819644,
+     "budget": 0.6894526368407898,
+     "capacity": 0.6,
+     "category": 1.0,
+     "features": 0.5,
+     "quality": 0.7693515066890442
+    },
+    "reasons": [
+     "Strong match on compact, city",
+     "Matches the compact class you asked for"
+    ],
+    "percent": 67,
+    "rounded_score": 0.6746
+   },
+   {
+    "slug": "nissan-sunny",
+    "score": 0.5848797527464519,
+    "signals": {
+     "semantic": 0.33297966494054476,
+     "budget": 0.7,
+     "capacity": 0.6,
+     "category": 1.0,
+     "features": 0.5,
+     "quality": 0.6533333333333333
+    },
+    "reasons": [
+     "Strong match on economy",
+     "Matches the economy class you asked for"
+    ],
+    "percent": 58,
+    "rounded_score": 0.5849
+   },
+   {
+    "slug": "tesla-model-y",
+    "score": 0.4502218831674847,
+    "signals": {
+     "semantic": 0.1163917210170844,
+     "budget": 0.681954511372157,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.7795923058471654
+    },
+    "reasons": [
+     "A solid all-round pick from our fleet"
+    ],
+    "percent": 45,
+    "rounded_score": 0.4502
+   },
+   {
+    "slug": "ford-mustang-gt",
+    "score": 0.4167594786043292,
+    "signals": {
+     "semantic": 0.21051335796362886,
+     "budget": 0.6704573856535866,
+     "capacity": 0.6,
+     "category": 0.12,
+     "features": 0.5,
+     "quality": 0.7295032867966922
+    },
+    "reasons": [
+     "A solid all-round pick from our fleet"
+    ],
+    "percent": 42,
+    "rounded_score": 0.4168
+   }
+  ],
+  "3 nights": [
+   {
+    "slug": "bentley-continental-gt",
+    "score": 0.7308644370774355,
+    "signals": {
+     "semantic": 1.0,
+     "budget": 0.5849787553111723,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8493907160550827
+    },
+    "reasons": [
+     "Strong match on nights",
+     "Rated 4.9/5 by renters"
+    ],
+    "percent": 73,
+    "rounded_score": 0.7309
+   },
+   {
+    "slug": "tesla-model-3-lr",
+    "score": 0.7020771728707277,
+    "signals": {
+     "semantic": 0.8469371823382539,
+     "budget": 0.6839540114971258,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8393913623282236
+    },
+    "reasons": [
+     "Strong match on 3"
+    ],
+    "percent": 70,
+    "rounded_score": 0.7021
+   },
+   {
+    "slug": "mercedes-s500",
+    "score": 0.5787134838515317,
+    "signals": {
+     "semantic": 0.5105989660289005,
+     "budget": 0.642464383904024,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8583676652947937
+    },
+    "reasons": [
+     "Strong match on 3",
+     "Rated 4.8/5 by renters"
+    ],
+    "percent": 58,
+    "rounded_score": 0.5787
+   },
+   {
+    "slug": "mini-cooper-s",
+    "score": 0.5784184268104033,
+    "signals": {
+     "semantic": 0.48965358421812194,
+     "budget": 0.6894526368407898,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.7693515066890442
+    },
+    "reasons": [
+     "Strong match on 3"
+    ],
+    "percent": 58,
+    "rounded_score": 0.5784
+   },
+   {
+    "slug": "rolls-royce-ghost",
+    "score": 0.5473222320398335,
+    "signals": {
+     "semantic": 0.5149352448496981,
+     "budget": 0.5,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8848849758187249
+    },
+    "reasons": [
+     "Strong match on 3",
+     "Rated 5.0/5 by renters"
+    ],
+    "percent": 55,
+    "rounded_score": 0.5473
+   },
+   {
+    "slug": "toyota-corolla-hybrid",
+    "score": 0.41434699185103047,
+    "signals": {
+     "semantic": 0.0,
+     "budget": 0.6982004498875282,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.7755776775604737
+    },
+    "reasons": [
+     "A solid all-round pick from our fleet"
+    ],
+    "percent": 41,
+    "rounded_score": 0.4143
+   }
+  ],
+  "2 weeks": [
+   {
+    "slug": "porsche-911-carrera",
+    "score": 0.7413787218353233,
+    "signals": {
+     "semantic": 1.0,
+     "budget": 0.6224693826543364,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.879721399965651
+    },
+    "reasons": [
+     "Strong match on 2",
+     "Rated 4.9/5 by renters"
+    ],
+    "percent": 74,
+    "rounded_score": 0.7414
+   },
+   {
+    "slug": "ford-mustang-gt",
+    "score": 0.7375493954917631,
+    "signals": {
+     "semantic": 0.9769542899854936,
+     "budget": 0.6704573856535866,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.7295032867966922
+    },
+    "reasons": [
+     "Strong match on 2"
+    ],
+    "percent": 74,
+    "rounded_score": 0.7375
+   },
+   {
+    "slug": "bmw-m4-competition",
+    "score": 0.7359339310398525,
+    "signals": {
+     "semantic": 0.9769999226118319,
+     "budget": 0.6474631342164459,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8072561027976539
+    },
+    "reasons": [
+     "Strong match on 2"
+    ],
+    "percent": 74,
+    "rounded_score": 0.7359
+   },
+   {
+    "slug": "bentley-continental-gt",
+    "score": 0.7226898801098969,
+    "signals": {
+     "semantic": 0.9759571853895921,
+     "budget": 0.5849787553111723,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8493907160550827
+    },
+    "reasons": [
+     "Strong match on 2",
+     "Rated 4.9/5 by renters"
+    ],
+    "percent": 72,
+    "rounded_score": 0.7227
+   },
+   {
+    "slug": "ferrari-portofino-m",
+    "score": 0.7075356260797724,
+    "signals": {
+     "semantic": 0.9554404539184319,
+     "budget": 0.5574856285928518,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8177864177044194
+    },
+    "reasons": [
+     "Strong match on 2",
+     "Rated 4.8/5 by renters"
+    ],
+    "percent": 71,
+    "rounded_score": 0.7075
+   },
+   {
+    "slug": "lamborghini-huracan-evo",
+    "score": 0.6907547885237776,
+    "signals": {
+     "semantic": 0.9065364679695219,
+     "budget": 0.544988752811797,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8747017747861765
+    },
+    "reasons": [
+     "Strong match on 2",
+     "Rated 4.9/5 by renters"
+    ],
+    "percent": 69,
+    "rounded_score": 0.6908
+   }
+  ],
+  "5 months": [
+   {
+    "slug": "toyota-corolla-hybrid",
+    "score": 0.7543469918510305,
+    "signals": {
+     "semantic": 1.0,
+     "budget": 0.6982004498875282,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.7755776775604737
+    },
+    "reasons": [
+     "Strong match on urban, 5"
+    ],
+    "percent": 75,
+    "rounded_score": 0.7543
+   },
+   {
+    "slug": "tesla-model-3-lr",
+    "score": 0.7404582628382762,
+    "signals": {
+     "semantic": 0.9598227410663376,
+     "budget": 0.6839540114971258,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8393913623282236
+    },
+    "reasons": [
+     "Strong match on urban, 5"
+    ],
+    "percent": 74,
+    "rounded_score": 0.7405
+   },
+   {
+    "slug": "mini-cooper-s",
+    "score": 0.5437151885613657,
+    "signals": {
+     "semantic": 0.3875852364268352,
+     "budget": 0.6894526368407898,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.7693515066890442
+    },
+    "reasons": [
+     "Strong match on urban"
+    ],
+    "percent": 54,
+    "rounded_score": 0.5437
+   },
+   {
+    "slug": "tesla-model-y",
+    "score": 0.4925912670881639,
+    "signals": {
+     "semantic": 0.2410075560779058,
+     "budget": 0.681954511372157,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.7795923058471654
+    },
+    "reasons": [
+     "Strong match on 5"
+    ],
+    "percent": 49,
+    "rounded_score": 0.4926
+   },
+   {
+    "slug": "range-rover-vogue",
+    "score": 0.4814265559128694,
+    "signals": {
+     "semantic": 0.23214653609130945,
+     "budget": 0.6324668832791802,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.85409363309642
+    },
+    "reasons": [
+     "Strong match on 5",
+     "Rated 4.8/5 by renters"
+    ],
+    "percent": 48,
+    "rounded_score": 0.4814
+   },
+   {
+    "slug": "audi-q8-quattro",
+    "score": 0.4789453216385731,
+    "signals": {
+     "semantic": 0.21617285523708796,
+     "budget": 0.6559610097475631,
+     "capacity": 0.6,
+     "category": 0.55,
+     "features": 0.5,
+     "quality": 0.8003181703709601
+    },
+    "reasons": [
+     "Strong match on 5"
+    ],
+    "percent": 48,
+    "rounded_score": 0.4789
+   }
+  ]
+ },
+ "profile_text": {
+  "rolls-royce-ghost": "Rolls-Royce Ghost Luxury Sedan Petrol Automatic English White Silence, engineered. The definitive chauffeur driven limousine. Whisper quiet cabin, starlight headliner and rear seats that recline. This is the car for weddings, executive airport transfers, corporate VIP guests, red carpet arrivals and formal business events where arriving with understated prestige and total comfort matters more than outright speed. Starlight Headliner Rear Executive Seats Massage Seats Chauffeur Partition Bespoke Audio Champagne Cooler 5 seats 4 doors 3 luggage",
+  "lamborghini-huracan-evo": "Lamborghini Huracan EVO Supercar Coupe Petrol Automatic Arancio Borealis The loudest way to arrive anywhere. A naturally aspirated V10 supercar built for weekend drives down Jumeirah Beach Road and photo stops at the Burj Al Arab. Extreme performance, exotic styling, razor sharp handling and a soundtrack that turns heads. Ideal for special occasions, birthdays, luxury photoshoots, content creation and anyone who wants a fast flashy exotic sports car experience rather than practical transport. Launch Control Carbon Ceramic Brakes Apple CarPlay Sport Exhaust Lifting System Alcantara Interior 2 seats 2 doors 1 luggage",
+  "ferrari-portofino-m": "Ferrari Portofino M Supercar Convertible Petrol Automatic Rosso Corsa Drop the roof, keep the drama. A convertible grand tourer that folds its hardtop in fourteen seconds. Fast and glamorous but far more usable than a hard core supercar, with two small rear seats and real luggage space. Perfect for open top coastal cruising, romantic evenings, anniversaries and couples who want an exotic car they can actually drive comfortably for a few hours. Retractable Hardtop Magnaride Suspension Bluetooth Heated Seats Reversing Camera Carbon Fibre Trim 4 seats 2 doors 2 luggage",
+  "bentley-continental-gt": "Bentley Continental GT Luxury Coupe Petrol Automatic Glacier White Grand touring, perfected. A grand tourer that crosses continents in hand stitched comfort. Enormous effortless torque paired with a cabin of quilted leather and machined metal. Chosen for milestone celebrations, luxury road trips, elegant wedding cars and clients who want prestige and craftsmanship rather than aggressive supercar styling. Rotating Display Naim Audio Diamond Quilted Leather All Wheel Drive Massage Seats Night Vision 4 seats 2 doors 2 luggage",
+  "porsche-911-carrera": "Porsche 911 Carrera S Sports Coupe Petrol Automatic GT Silver The everyday exotic. The sports car you can genuinely use every day. Precise steering, rear engine balance and build quality that shrugs off long distance driving. Suits renters who want serious performance and prestige but also comfort, reliability and enough practicality for a weekend away or a long desert highway road trip. Sport Chrono PASM Suspension Bose Audio Lane Keep Assist Wireless CarPlay Sport Seats Plus 4 seats 2 doors 2 luggage",
+  "range-rover-vogue": "Land Rover Range Rover Vogue SUV SUV Petrol Automatic Santorini Black Command every surface. Commanding luxury SUV with genuine off road ability and a cabin that isolates you from everything outside. Handles desert tracks, school runs and hotel valets with equal confidence. A favourite for families, desert safari trips, golf weekends and anyone who wants a high driving position with premium comfort and space. Air Suspension Terrain Response Meridian Audio Panoramic Roof Heated Rear Seats 360 Camera 5 seats 5 doors 4 luggage",
+  "mercedes-s500": "Mercedes-Benz S 500 L Luxury Sedan Petrol Automatic Obsidian Black The executive standard. The benchmark executive saloon for business travel. Long wheelbase rear legroom, massaging seats and an air suspension that erases road noise on the Sheikh Zayed Road. The sensible professional choice for corporate clients, consultants, airport pickups and multi day business trips where comfort, discretion and a quiet cabin for calls matter most. Burmester 3D Audio Rear Entertainment Massage Seats Ambient Lighting Adaptive Cruise Wireless CarPlay 5 seats 4 doors 3 luggage",
+  "bmw-m4-competition": "BMW M4 Competition Sports Coupe Petrol Automatic Isle of Man Green Track focus, street legal. A twin turbo straight six coupe that bridges daily usability and genuine performance. Quick, aggressive and engaging to drive, but with a usable boot and rear seats. A strong pick for driving enthusiasts, track day spectators and younger renters who want something fast and sporty without full supercar running costs. M Sport Exhaust Carbon Bucket Seats Head Up Display Drift Analyser Harman Kardon Audio Apple CarPlay 4 seats 2 doors 2 luggage",
+  "audi-q8-quattro": "Audi Q8 55 TFSI SUV SUV Petrol Automatic Navarra Blue Sharp suit, big boots. A coupe styled premium SUV that mixes sporty road manners with family practicality. Quattro all wheel drive, a sharp digital cockpit and a modern understated design. Good for business travellers with luggage, small families wanting something stylish, and renters after a premium SUV that is less imposing than a full size off roader. Quattro AWD Virtual Cockpit Bang & Olufsen Audio Adaptive Air Suspension Matrix LED 360 Camera 5 seats 5 doors 4 luggage",
+  "mercedes-v-class": "Mercedes-Benz V-Class Avantgarde Van MPV Diesel Automatic Cavansite Blue Move the whole team. An eight seat luxury people mover with conference style seating and a huge luggage bay. Built for corporate group transfers, conference delegations, large family arrivals, wedding party transport and tour groups who need everyone plus all the suitcases in one comfortable air conditioned vehicle. 8 Seats Conference Seating Rear Climate Electric Sliding Doors Large Luggage Bay USB-C Ports 8 seats 5 doors 6 luggage",
+  "toyota-land-cruiser": "Toyota Land Cruiser 300 SUV SUV Petrol Automatic Pearl White Goes anywhere, carries everyone. The workhorse of the region. Seven seats, proper four wheel drive and legendary reliability in heat and sand. The default choice for large families, group trips, dune bashing, camping in Hatta and long intercity drives to Abu Dhabi or Oman where space, durability and running cost matter more than styling. 7 Seats 4WD Low Range Roof Rails Cooled Seats Apple CarPlay Cruise Control 7 seats 5 doors 4 luggage",
+  "ford-mustang-gt": "Ford Mustang GT Sports Convertible Petrol Automatic Race Red Affordable American muscle. A V8 convertible that delivers genuine noise and drama for a fraction of supercar money. Roof down cruising along the beach, loud exhaust and classic muscle car styling. The value option for renters who want a fun exciting weekend car, a memorable birthday drive or an open top experience on a moderate budget. V8 Engine Soft Top Convertible Track Apps B&O Audio Launch Control Apple CarPlay 4 seats 2 doors 2 luggage",
+  "nissan-patrol-platinum": "Nissan Patrol Platinum SUV SUV Petrol Automatic Gun Metallic The desert's favourite. A big comfortable V8 family SUV built for the Gulf. Cools fast in summer, seats seven adults and tows easily. Popular for extended family holidays, group airport runs, weekend desert camping and anyone needing maximum passenger and luggage capacity at a reasonable mid range daily price. 7 Seats 4WD Around View Monitor Bose Audio Rear Climate Control Tow Package 7 seats 5 doors 4 luggage",
+  "tesla-model-y": "Tesla Model Y Electric SUV Electric Automatic Pearl White Electric space, family sized. A practical electric crossover with a cavernous boot and a high seating position. Combines low running costs with family friendly space, making it a smart pick for small families, longer stays, airport trips with lots of luggage and renters who want an electric car but need more room than a saloon. Autopilot Huge Boot Glass Roof Supercharging Heat Pump Wireless Charging 5 seats 5 doors 4 luggage",
+  "tesla-model-3-lr": "Tesla Model 3 Long Range Electric Sedan Electric Automatic Deep Blue Metallic Zero fuel stops, zero fuss. Quick, quiet and cheap to run with no petrol costs at all. Excellent for cost conscious renters, tech enthusiasts, environmentally minded travellers and long monthly rentals where fuel savings compound. Instant torque makes it feel fast in city traffic while Autopilot eases motorway commuting. Autopilot 629km Range Glass Roof Supercharging Premium Audio Sentry Mode 5 seats 4 doors 3 luggage",
+  "mini-cooper-s": "MINI Cooper S Compact Hatchback Petrol Automatic Chili Red Small car, big personality. A fun compact hatchback with sharp go kart handling and retro styling. Easy to park in tight mall garages but genuinely entertaining on a back road. Suits couples, solo travellers, city driving and renters who want character and a bit of fun without paying sports car prices or dealing with a large vehicle. Go Kart Handling Harman Kardon Audio Panoramic Roof Apple CarPlay Sport Mode Ambient Lighting 4 seats 3 doors 1 luggage",
+  "toyota-corolla-hybrid": "Toyota Corolla Hybrid Economy Sedan Hybrid Automatic Silver Metallic Cheap to run, easy to park. The sensible budget choice. Hybrid fuel economy, low daily rate and effortless city driving. Ideal for students, long stay visitors, daily commuting, ride hailing work and anyone who wants the cheapest reliable automatic car for getting around Dubai without worrying about fuel bills or parking size. Hybrid Economy Apple CarPlay Lane Assist Reversing Camera Cruise Control Bluetooth 5 seats 4 doors 2 luggage",
+  "nissan-sunny": "Nissan Sunny Economy Sedan Petrol Automatic Brilliant Silver The lowest daily rate we offer. Our most affordable car. Simple, economical and perfectly adequate for getting from A to B. The best value for tight budgets, short errands, first time renters, students and long monthly hires where the priority is the cheapest possible price rather than performance, badge or luxury features. Bluetooth Reversing Camera USB Charging Air Conditioning Cruise Control Automatic 5 seats 4 doors 2 luggage"
+ }
+}

@@ -13,12 +13,22 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
 
+# Serverless platforms (Vercel, Lambda) mount the deployment read-only; /tmp is
+# the only writable path. The fleet is re-seeded per cold start there, so the
+# catalogue is always correct and bookings live as long as the instance does.
+ON_SERVERLESS = bool(os.environ.get("VERCEL") or os.environ.get("AWS_LAMBDA_FUNCTION_NAME"))
+WRITABLE_DIR = Path("/tmp") if ON_SERVERLESS else BASE_DIR
+
+
+def _db_path(filename: str) -> str:
+    return os.environ.get("DATABASE_PATH") or str(WRITABLE_DIR / filename)
+
 
 class BaseConfig:
     """Settings shared by every environment."""
 
     SECRET_KEY = os.environ.get("SECRET_KEY", "dev-only-change-me")
-    DATABASE_PATH = os.environ.get("DATABASE_PATH", str(BASE_DIR / "velocity.db"))
+    DATABASE_PATH = _db_path("velocity.db")
 
     JSON_SORT_KEYS = False
     TEMPLATES_AUTO_RELOAD = True
@@ -74,5 +84,6 @@ _CONFIGS = {
 
 def get_config(name: str | None = None) -> type[BaseConfig]:
     """Return the config class for ``name`` (defaults to FLASK_ENV)."""
-    key = (name or os.environ.get("FLASK_ENV") or "development").lower()
-    return _CONFIGS.get(key, DevelopmentConfig)
+    default = "production" if ON_SERVERLESS else "development"
+    key = (name or os.environ.get("FLASK_ENV") or default).lower()
+    return _CONFIGS.get(key, _CONFIGS[default])
